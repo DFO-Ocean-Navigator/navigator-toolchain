@@ -1,4 +1,4 @@
-#!/home/buildadm/miniconda/3/ubuntu/16.04/amd64/envs/admin/bin/perl
+#!/usr/bin/env perl
 # Copyright 2002-2018 The OpenSSL Project Authors. All Rights Reserved.
 # Copyright (c) 2002 The OpenTSA Project. All rights reserved.
 #

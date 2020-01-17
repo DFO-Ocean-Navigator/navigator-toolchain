@@ -21,3 +21,12 @@
 +defaults::tk-8.6.8-hbc83047_0
 +defaults::zlib-1.2.11-h7b6447c_3
 # update specs: ['git']
+==> 2020-01-17 06:12:31 <==
+# cmd: /home/buildadm/miniconda/3/ubuntu/16.04/amd64/bin/conda install -c conda-forge git-lfs
+# conda version: 4.7.12
+-defaults::ca-certificates-2019.11.27-0
+-defaults::openssl-1.1.1d-h7b6447c_3
++conda-forge::ca-certificates-2019.11.28-hecc5488_0
++conda-forge::git-lfs-2.9.2-0
++conda-forge::openssl-1.1.1d-h516909a_0
+# update specs: ['git-lfs']
