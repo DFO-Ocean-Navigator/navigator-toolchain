@@ -1,0 +1,119 @@
+{
+  "build": "py36_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/home/buildadm/miniconda/3/ubuntu/16.04/amd64/pkgs/pycodestyle-2.5.0-py36_0",
+  "features": "",
+  "files": [
+    "bin/pycodestyle",
+    "lib/python3.6/site-packages/__pycache__/pycodestyle.cpython-36.pyc",
+    "lib/python3.6/site-packages/pycodestyle-2.5.0-py3.6.egg-info/PKG-INFO",
+    "lib/python3.6/site-packages/pycodestyle-2.5.0-py3.6.egg-info/SOURCES.txt",
+    "lib/python3.6/site-packages/pycodestyle-2.5.0-py3.6.egg-info/dependency_links.txt",
+    "lib/python3.6/site-packages/pycodestyle-2.5.0-py3.6.egg-info/entry_points.txt",
+    "lib/python3.6/site-packages/pycodestyle-2.5.0-py3.6.egg-info/namespace_packages.txt",
+    "lib/python3.6/site-packages/pycodestyle-2.5.0-py3.6.egg-info/not-zip-safe",
+    "lib/python3.6/site-packages/pycodestyle-2.5.0-py3.6.egg-info/top_level.txt",
+    "lib/python3.6/site-packages/pycodestyle.py"
+  ],
+  "fn": "pycodestyle-2.5.0-py36_0.conda",
+  "legacy_bz2_md5": "ac4332be7f738ab3188c55cdb0ce80af",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/buildadm/miniconda/3/ubuntu/16.04/amd64/pkgs/pycodestyle-2.5.0-py36_0",
+    "type": 1
+  },
+  "md5": "8591db11144e9f18791d8df5dc6bb328",
+  "name": "pycodestyle",
+  "package_tarball_full_path": "/home/buildadm/miniconda/3/ubuntu/16.04/amd64/pkgs/pycodestyle-2.5.0-py36_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/pycodestyle",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "63b22348bae3d8a2e69404e48cc4697d01c2efd3f351d16b070273b15374f1fc",
+        "sha256_in_prefix": "41e3330e7016cd13c6635a8e50645c7a8f12e99e4cf3fba9beaa370259b911e1",
+        "size_in_bytes": 243
+      },
+      {
+        "_path": "lib/python3.6/site-packages/__pycache__/pycodestyle.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "3459efd4718e8c1005643d43d064293456850b8723b6c8afa673de826389dc1f",
+        "sha256_in_prefix": "3459efd4718e8c1005643d43d064293456850b8723b6c8afa673de826389dc1f",
+        "size_in_bytes": 71262
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pycodestyle-2.5.0-py3.6.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "d9040c9de5c6dd82d53571bb8b3cbe36777ba2252e28d7d45eb371c20561de31",
+        "sha256_in_prefix": "d9040c9de5c6dd82d53571bb8b3cbe36777ba2252e28d7d45eb371c20561de31",
+        "size_in_bytes": 36552
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pycodestyle-2.5.0-py3.6.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "d71c7657705fbe844ce63d118bce147b9359ad8d067bbb9931a500b1b93c1352",
+        "sha256_in_prefix": "d71c7657705fbe844ce63d118bce147b9359ad8d067bbb9931a500b1b93c1352",
+        "size_in_bytes": 1235
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pycodestyle-2.5.0-py3.6.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pycodestyle-2.5.0-py3.6.egg-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "e8953fed2029a42f773014908b5fd0c43c04414ca0e9c80aef569bf6afc7c5ca",
+        "sha256_in_prefix": "e8953fed2029a42f773014908b5fd0c43c04414ca0e9c80aef569bf6afc7c5ca",
+        "size_in_bytes": 51
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pycodestyle-2.5.0-py3.6.egg-info/namespace_packages.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pycodestyle-2.5.0-py3.6.egg-info/not-zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pycodestyle-2.5.0-py3.6.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "ac76c81225e6bec274d7a98570b55c17f77e74a80fdd575f381e8259b8af66e8",
+        "sha256_in_prefix": "ac76c81225e6bec274d7a98570b55c17f77e74a80fdd575f381e8259b8af66e8",
+        "size_in_bytes": 12
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pycodestyle.py",
+        "path_type": "hardlink",
+        "sha256": "be36c0a1b41687a5a0bebb00bb85ed184ef6d62b6341ab0576a39f0c3e96c0d6",
+        "sha256_in_prefix": "be36c0a1b41687a5a0bebb00bb85ed184ef6d62b6341ab0576a39f0c3e96c0d6",
+        "size_in_bytes": 100217
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "71aed53b9c2c6ac10ecc9975845327fd6e1325a7b67f4ba70f461c6037bc28e0",
+  "size": 63102,
+  "subdir": "linux-64",
+  "timestamp": 1549328766162,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/pycodestyle-2.5.0-py36_0.conda",
+  "version": "2.5.0"
+}
