@@ -37,3 +37,17 @@
 +defaults::conda-4.7.12-py37_0
 # update specs: ['conda', 'python=3.7']
 
+==> 2020-03-20 21:16:44 <==
+# cmd: /home/buildadm/miniconda/3/amd64/bin/conda install -c conda-forge distro
+# conda version: 4.7.12
+-defaults::ca-certificates-2019.10.16-0
+-defaults::certifi-2019.9.11-py37_0
+-defaults::conda-4.7.12-py37_0
+-defaults::openssl-1.1.1d-h7b6447c_3
++conda-forge::ca-certificates-2019.11.28-hecc5488_0
++conda-forge::certifi-2019.11.28-py37hc8dfbb8_1
++conda-forge::conda-4.8.3-py37hc8dfbb8_1
++conda-forge::distro-1.4.0-py_0
++conda-forge::openssl-1.1.1e-h516909a_0
++conda-forge::python_abi-3.7-1_cp37m
+# update specs: ['distro']
