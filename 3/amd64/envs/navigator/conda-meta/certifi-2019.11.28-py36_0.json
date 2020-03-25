@@ -1,10 +1,9 @@
 {
+  "arch": "x86_64",
   "build": "py36_0",
   "build_number": 0,
-  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
-  "constrains": [
-    "python_abi * *_cp36m"
-  ],
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
   "depends": [
     "python >=3.6,<3.7.0a0"
   ],
@@ -25,15 +24,15 @@
     "lib/python3.6/site-packages/certifi/cacert.pem",
     "lib/python3.6/site-packages/certifi/core.py"
   ],
-  "fn": "certifi-2019.11.28-py36_0.tar.bz2",
+  "fn": "certifi-2019.11.28-py36_0.conda",
   "license": "ISC",
   "link": {
     "source": "/home/buildadm/miniconda/3/amd64/pkgs/certifi-2019.11.28-py36_0",
     "type": 1
   },
-  "md5": "2eb656b96a93117306090ae23b9267d6",
+  "md5": "b9785b5c712a93498f6753ed0b73d0c3",
   "name": "certifi",
-  "package_tarball_full_path": "/home/buildadm/miniconda/3/amd64/pkgs/certifi-2019.11.28-py36_0.tar.bz2",
+  "package_tarball_full_path": "/home/buildadm/miniconda/3/amd64/pkgs/certifi-2019.11.28-py36_0.conda",
   "paths_data": {
     "paths": [
       {
@@ -130,12 +129,13 @@
     ],
     "paths_version": 1
   },
-  "requested_spec": "None",
-  "sha256": "9562fdb9e982fb629166470ceb72fe90496207ea96e945c9829c1d4d774213d2",
-  "size": 152292,
+  "platform": "linux",
+  "requested_spec": "defaults/linux-64::certifi==2019.11.28=py36_0",
+  "sha256": "eb4116fc73c2766f0958f9b372fde5eb7b630fe7677f115ba4b2c64946446d41",
+  "size": 156500,
   "subdir": "linux-64",
-  "timestamp": 1574941622928,
+  "timestamp": 1575390251400,
   "track_features": "",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/certifi-2019.11.28-py36_0.tar.bz2",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/certifi-2019.11.28-py36_0.conda",
   "version": "2019.11.28"
 }
