@@ -5,7 +5,7 @@
 file:///home/buildadm/pkgs/_libgcc_mutex-0.1-main.tar.bz2
 file:///home/buildadm/pkgs/libgfortran-3.0.0-1.tar.bz2
 file:///home/buildadm/pkgs/openjdk-8.0.152-h46b5887_1.tar.bz2
-https://repo.anaconda.com/pkgs/main/linux-64/ca-certificates-2020.1.1-0.conda
+https://conda.anaconda.org/anaconda/linux-64/ca-certificates-2020.1.1-0.tar.bz2
 file:///home/buildadm/pkgs/icu-58.2-0.tar.bz2
 file:///home/buildadm/pkgs/intel-openmp-2019.4-243.conda
 file:///home/buildadm/pkgs/libffi-3.2.1-3.tar.bz2
@@ -32,7 +32,7 @@ file:///home/buildadm/pkgs/lz4-c-1.8.3-he1b5a44_1001.tar.bz2
 file:///home/buildadm/pkgs/mkl-2019.4-243.conda
 file:///home/buildadm/pkgs/ncurses-6.1-hf484d3e_1002.tar.bz2
 file:///home/buildadm/pkgs/openblas-0.3.3-h9ac9557_1001.tar.bz2
-file:///home/buildadm/pkgs/openssl-1.1.1-h7b6447c_0.tar.bz2
+https://conda.anaconda.org/anaconda/linux-64/openssl-1.1.1-h7b6447c_0.tar.bz2
 file:///home/buildadm/pkgs/pcre-8.41-hf484d3e_1003.tar.bz2
 file:///home/buildadm/pkgs/pixman-0.34.0-h14c3975_1003.tar.bz2
 file:///home/buildadm/pkgs/proj4-5.2.0-he1b5a44_1003.tar.bz2
@@ -85,7 +85,7 @@ file:///home/buildadm/pkgs/xorg-libxrender-0.9.10-h516909a_1002.tar.bz2
 file:///home/buildadm/pkgs/asn1crypto-0.24.0-py36_1003.tar.bz2
 file:///home/buildadm/pkgs/cachetools-2.0.1-py_0.tar.bz2
 file:///home/buildadm/pkgs/cairo-1.16.0-ha4e643d_1000.tar.bz2
-https://repo.anaconda.com/pkgs/main/linux-64/certifi-2019.11.28-py36_1.tar.bz2
+https://conda.anaconda.org/anaconda/linux-64/certifi-2019.11.28-py36_1.tar.bz2
 file:///home/buildadm/pkgs/chardet-3.0.4-py36_1003.tar.bz2
 file:///home/buildadm/pkgs/click-7.0-py_0.tar.bz2
 file:///home/buildadm/pkgs/cloudpickle-1.2.0-py_0.tar.bz2
@@ -125,7 +125,7 @@ file:///home/buildadm/pkgs/toolz-0.9.0-py_1.tar.bz2
 file:///home/buildadm/pkgs/tornado-6.0.2-py36h516909a_0.tar.bz2
 file:///home/buildadm/pkgs/uwsgi-2.0.18-py36h4472670_1.tar.bz2
 file:///home/buildadm/pkgs/werkzeug-0.14.1-py_0.tar.bz2
-https://conda.anaconda.org/conda-forge/noarch/xlrd-1.2.0-py_0.tar.bz2
+https://conda.anaconda.org/anaconda/linux-64/xlrd-1.2.0-py36_0.tar.bz2
 file:///home/buildadm/pkgs/babel-2.7.0-py_0.tar.bz2
 file:///home/buildadm/pkgs/cffi-1.11.5-py36_0.tar.bz2
 file:///home/buildadm/pkgs/cftime-1.0.1-py36h3010b51_1001.tar.bz2

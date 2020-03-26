@@ -1,7 +1,7 @@
 {
   "build": "py36_1",
   "build_number": 1,
-  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "channel": "https://conda.anaconda.org/anaconda/linux-64",
   "constrains": [],
   "depends": [
     "python >=3.6,<3.7.0a0"
@@ -134,6 +134,6 @@
   "subdir": "linux-64",
   "timestamp": 1584971938832,
   "track_features": "",
-  "url": "https://repo.anaconda.com/pkgs/main/linux-64/certifi-2019.11.28-py36_1.tar.bz2",
+  "url": "https://conda.anaconda.org/anaconda/linux-64/certifi-2019.11.28-py36_1.tar.bz2",
   "version": "2019.11.28"
 }

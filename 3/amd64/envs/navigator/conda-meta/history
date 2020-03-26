@@ -566,3 +566,15 @@
 +defaults/linux-64::certifi-2019.11.28-py36_1
 +defaults/linux-64::libgcc-7.2.0-h69d50b8_2
 # update specs: ['mysqlclient']
+==> 2020-03-26 12:23:50 <==
+# cmd: /home/buildadm/miniconda/3/amd64/bin/conda install -c anaconda xlrd
+# conda version: 4.8.3
+-<unknown>/linux-64::openssl-1.1.1-h7b6447c_0
+-conda-forge/noarch::xlrd-1.2.0-py_0
+-defaults/linux-64::ca-certificates-2020.1.1-0
+-defaults/linux-64::certifi-2019.11.28-py36_1
++anaconda/linux-64::ca-certificates-2020.1.1-0
++anaconda/linux-64::certifi-2019.11.28-py36_1
++anaconda/linux-64::openssl-1.1.1-h7b6447c_0
++anaconda/linux-64::xlrd-1.2.0-py36_0
+# update specs: ['xlrd']
