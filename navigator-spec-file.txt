@@ -5,7 +5,7 @@
 file:///home/buildadm/pkgs/_libgcc_mutex-0.1-main.tar.bz2
 file:///home/buildadm/pkgs/libgfortran-3.0.0-1.tar.bz2
 file:///home/buildadm/pkgs/openjdk-8.0.152-h46b5887_1.tar.bz2
-https://conda.anaconda.org/anaconda/linux-64/ca-certificates-2020.1.1-0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64/ca-certificates-2020.1.1-0.conda
 file:///home/buildadm/pkgs/icu-58.2-0.tar.bz2
 file:///home/buildadm/pkgs/intel-openmp-2019.4-243.conda
 file:///home/buildadm/pkgs/libffi-3.2.1-3.tar.bz2
@@ -24,7 +24,6 @@ file:///home/buildadm/pkgs/hdf5-1.10.4-nompi_h3c11f04_1106.tar.bz2
 file:///home/buildadm/pkgs/jansson-2.11-h516909a_1001.tar.bz2
 file:///home/buildadm/pkgs/jpeg-9c-h14c3975_1001.tar.bz2
 file:///home/buildadm/pkgs/json-c-0.13.1-h14c3975_1001.tar.bz2
-https://repo.anaconda.com/pkgs/main/linux-64/libgcc-7.2.0-h69d50b8_2.conda
 file:///home/buildadm/pkgs/libiconv-1.15-h516909a_1005.tar.bz2
 file:///home/buildadm/pkgs/libpng-1.6.37-hed695b0_0.tar.bz2
 file:///home/buildadm/pkgs/libuuid-2.32.1-h14c3975_1000.tar.bz2
@@ -32,7 +31,7 @@ file:///home/buildadm/pkgs/lz4-c-1.8.3-he1b5a44_1001.tar.bz2
 file:///home/buildadm/pkgs/mkl-2019.4-243.conda
 file:///home/buildadm/pkgs/ncurses-6.1-hf484d3e_1002.tar.bz2
 file:///home/buildadm/pkgs/openblas-0.3.3-h9ac9557_1001.tar.bz2
-https://conda.anaconda.org/anaconda/linux-64/openssl-1.1.1-h7b6447c_0.tar.bz2
+file:///home/buildadm/pkgs/openssl-1.1.1-h7b6447c_0.tar.bz2
 file:///home/buildadm/pkgs/pcre-8.41-hf484d3e_1003.tar.bz2
 file:///home/buildadm/pkgs/pixman-0.34.0-h14c3975_1003.tar.bz2
 file:///home/buildadm/pkgs/proj4-5.2.0-he1b5a44_1003.tar.bz2
@@ -59,7 +58,7 @@ file:///home/buildadm/pkgs/libedit-3.1.20170329-hf8c457e_1001.tar.bz2
 file:///home/buildadm/pkgs/libssh2-1.8.2-h22169c7_2.tar.bz2
 file:///home/buildadm/pkgs/libxcb-1.13-h14c3975_1002.tar.bz2
 file:///home/buildadm/pkgs/libxml2-2.9.9-h13577e0_0.tar.bz2
-https://conda.anaconda.org/bioconda/linux-64/mysql-connector-c-6.1.6-2.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64/mysql-connector-c-6.1.11-h597af5e_1.conda
 file:///home/buildadm/pkgs/readline-7.0-hf8c457e_1001.tar.bz2
 file:///home/buildadm/pkgs/xorg-libsm-1.2.3-h84519dc_1000.tar.bz2
 file:///home/buildadm/pkgs/zstd-1.4.0-h3b9ef0a_0.tar.bz2
@@ -85,7 +84,7 @@ file:///home/buildadm/pkgs/xorg-libxrender-0.9.10-h516909a_1002.tar.bz2
 file:///home/buildadm/pkgs/asn1crypto-0.24.0-py36_1003.tar.bz2
 file:///home/buildadm/pkgs/cachetools-2.0.1-py_0.tar.bz2
 file:///home/buildadm/pkgs/cairo-1.16.0-ha4e643d_1000.tar.bz2
-https://conda.anaconda.org/anaconda/linux-64/certifi-2019.11.28-py36_1.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64/certifi-2019.11.28-py36_0.conda
 file:///home/buildadm/pkgs/chardet-3.0.4-py36_1003.tar.bz2
 file:///home/buildadm/pkgs/click-7.0-py_0.tar.bz2
 file:///home/buildadm/pkgs/cloudpickle-1.2.0-py_0.tar.bz2
@@ -103,7 +102,7 @@ file:///home/buildadm/pkgs/locket-0.2.0-py_2.tar.bz2
 file:///home/buildadm/pkgs/lxml-4.2.2-py36_0.tar.bz2
 file:///home/buildadm/pkgs/markupsafe-1.0-py36_0.tar.bz2
 file:///home/buildadm/pkgs/msgpack-python-0.6.1-py36h6bb024c_0.tar.bz2
-https://conda.anaconda.org/bioconda/linux-64/mysqlclient-1.3.10-py36_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64/mysqlclient-1.4.6-py36he6710b0_0.conda
 file:///home/buildadm/pkgs/numpy-1.16.2-py36_blas_openblash1522bff_0.tar.bz2
 file:///home/buildadm/pkgs/olefile-0.46-py_0.tar.bz2
 file:///home/buildadm/pkgs/ply-3.11-py_1.tar.bz2
@@ -113,19 +112,18 @@ file:///home/buildadm/pkgs/pycparser-2.19-py36_1.tar.bz2
 file:///home/buildadm/pkgs/pyparsing-2.4.0-py_0.tar.bz2
 file:///home/buildadm/pkgs/pyshp-2.1.0-py_0.tar.bz2
 file:///home/buildadm/pkgs/pysocks-1.7.0-py36_0.conda
-https://conda.anaconda.org/conda-forge/linux-64/python_abi-3.6-1_cp36m.tar.bz2
 file:///home/buildadm/pkgs/pytz-2019.1-py_0.tar.bz2
 file:///home/buildadm/pkgs/pyyaml-5.1.1-py36h516909a_0.tar.bz2
 file:///home/buildadm/pkgs/qt-5.9.7-h52cfd70_2.tar.bz2
 file:///home/buildadm/pkgs/sip-4.19.8-py36hf484d3e_1000.tar.bz2
 file:///home/buildadm/pkgs/six-1.12.0-py36_1000.tar.bz2
 file:///home/buildadm/pkgs/sortedcontainers-2.1.0-py_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/linux-64/sqlalchemy-1.3.13-py36h7b6447c_0.conda
 file:///home/buildadm/pkgs/tblib-1.4.0-py_0.tar.bz2
 file:///home/buildadm/pkgs/toolz-0.9.0-py_1.tar.bz2
 file:///home/buildadm/pkgs/tornado-6.0.2-py36h516909a_0.tar.bz2
 file:///home/buildadm/pkgs/uwsgi-2.0.18-py36h4472670_1.tar.bz2
 file:///home/buildadm/pkgs/werkzeug-0.14.1-py_0.tar.bz2
-https://conda.anaconda.org/anaconda/linux-64/xlrd-1.2.0-py36_0.tar.bz2
 file:///home/buildadm/pkgs/babel-2.7.0-py_0.tar.bz2
 file:///home/buildadm/pkgs/cffi-1.11.5-py36_0.tar.bz2
 file:///home/buildadm/pkgs/cftime-1.0.1-py36h3010b51_1001.tar.bz2
@@ -148,7 +146,6 @@ file:///home/buildadm/pkgs/scipy-1.1.0-py36_blas_openblash1522bff_1202.tar.bz2
 file:///home/buildadm/pkgs/seawater-3.3.4-py_1.tar.bz2
 file:///home/buildadm/pkgs/setuptools-41.0.1-py36_0.conda
 file:///home/buildadm/pkgs/shapely-1.6.4-py36h2afed24_1004.tar.bz2
-https://conda.anaconda.org/conda-forge/linux-64/sqlalchemy-1.3.15-py36h8c4c3a4_1.tar.bz2
 file:///home/buildadm/pkgs/traitlets-4.3.2-py36_1000.tar.bz2
 file:///home/buildadm/pkgs/zict-0.1.4-py_0.tar.bz2
 file:///home/buildadm/pkgs/cryptography-2.7-py36h72c5cf5_0.tar.bz2
@@ -178,7 +175,7 @@ file:///home/buildadm/pkgs/cmocean-2.0-py_0.tar.bz2
 file:///home/buildadm/pkgs/dask-1.2.2-py_3.tar.bz2
 file:///home/buildadm/pkgs/flask-babel-0.11.2-py_1.tar.bz2
 file:///home/buildadm/pkgs/flask-compress-1.4.0-py_0.tar.bz2
-https://conda.anaconda.org/conda-forge/noarch/flask-sqlalchemy-2.4.0-py_0.tar.bz2
+https://repo.anaconda.com/pkgs/main/noarch/flask-sqlalchemy-2.4.1-py_0.tar.bz2
 file:///home/buildadm/pkgs/urllib3-1.24.3-py36_0.tar.bz2
 file:///home/buildadm/pkgs/requests-2.22.0-py36_0.conda
 file:///home/buildadm/pkgs/owslib-0.17.1-py_0.tar.bz2
