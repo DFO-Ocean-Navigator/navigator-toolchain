@@ -31,10 +31,10 @@ case $1 in
     echo -n "/home/buildadm/miniconda/3/amd64/envs/navigator "
      ;;
     --hgversion)
-    echo -n "352 "
+    echo -n "357 "
      ;;
 	--version)
-    echo -n "1.4.10 "
+    echo -n "1.4.12 "
      ;;
     --cflags)
     echo -n "-I/home/buildadm/miniconda/3/amd64/envs/navigator/include "
@@ -49,13 +49,13 @@ case $1 in
       echo -n "/home/buildadm/miniconda/3/amd64/envs/navigator/include "
       ;;
 	--hdfincludes)
-      echo -n "/home/buildadm/miniconda/3/amd64/envs/navigator/include "
+      echo -n " /home/buildadm/miniconda/3/amd64/envs/navigator/include "
       ;;
 	--hdfcflags)
-      echo -n "-I/home/buildadm/miniconda/3/amd64/envs/navigator/include "
+      echo -n " -I/home/buildadm/miniconda/3/amd64/envs/navigator/include "
       ;;
 	--hdflibs)
-      echo -n " -L/home/buildadm/miniconda/3/amd64/envs/navigator/lib -lhdf5_cpp -lhdf5 -lrt -lpthread -lz -ldl -lm "
+      echo -n " -L/home/buildadm/miniconda/3/amd64/envs/navigator/lib -L/tmp/build/80754af9/kealib_1582227270370/_build_env/x86_64-conda_cos6-linux-gnu/sysroot/usr/lib -lhdf5_cpp -lhdf5 -lrt -lpthread -lz -ldl -lm "
       ;;
   esac
   shift

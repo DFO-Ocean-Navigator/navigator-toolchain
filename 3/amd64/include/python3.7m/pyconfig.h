@@ -541,9 +541,9 @@
 #define HAVE_LANGINFO_H 1
 
 /* Defined to enable large file support when an off_t is bigger than a long
-   and long long is available and at least as big as an off_t. You may need to
-   add some flags for configuration and compilation to enable this mode. (For
-   Solaris and Linux, the necessary defines are already defined.) */
+   and long long is at least as big as an off_t. You may need to add some
+   flags for configuration and compilation to enable this mode. (For Solaris
+   and Linux, the necessary defines are already defined.) */
 /* #undef HAVE_LARGEFILE_SUPPORT */
 
 /* Define to 1 if you have the 'lchflags' function. */
@@ -964,7 +964,7 @@
 /* Define to 1 if you have the <stdlib.h> header file. */
 #define HAVE_STDLIB_H 1
 
-/* Has stdatomic.h with atomic_int */
+/* Has stdatomic.h with atomic_int and atomic_uintptr_t */
 #define HAVE_STD_ATOMIC 1
 
 /* Define to 1 if you have the `strdup' function. */
@@ -1220,13 +1220,13 @@
 /* #undef HAVE_UUID_ENC_BE */
 
 /* Define if uuid_generate_time_safe() exists. */
-/* #undef HAVE_UUID_GENERATE_TIME_SAFE */
+#define HAVE_UUID_GENERATE_TIME_SAFE 1
 
 /* Define to 1 if you have the <uuid.h> header file. */
 /* #undef HAVE_UUID_H */
 
 /* Define to 1 if you have the <uuid/uuid.h> header file. */
-/* #undef HAVE_UUID_UUID_H */
+#define HAVE_UUID_UUID_H 1
 
 /* Define to 1 if you have the `wait3' function. */
 #define HAVE_WAIT3 1
@@ -1447,6 +1447,10 @@
 
 /* Define if WINDOW in curses.h offers a field _flags. */
 #define WINDOW_HAS_FLAGS 1
+
+/* Define if you want build the _decimal module using a coroutine-local rather
+   than a thread-local context */
+#define WITH_DECIMAL_CONTEXTVAR 1
 
 /* Define if you want documentation strings in extension modules */
 #define WITH_DOC_STRINGS 1

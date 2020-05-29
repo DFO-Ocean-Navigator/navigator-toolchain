@@ -1,0 +1,247 @@
+{
+  "build": "hd30922c_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "expat",
+    "libgcc-ng >=7.2.0"
+  ],
+  "extracted_package_dir": "/home/buildadm/miniconda/3/amd64/pkgs/udunits2-2.2.25-hd30922c_1",
+  "features": "",
+  "files": [
+    "bin/udunits2",
+    "include/converter.h",
+    "include/udunits.h",
+    "include/udunits2.h",
+    "lib/libudunits2.a",
+    "lib/libudunits2.la",
+    "lib/libudunits2.so",
+    "lib/libudunits2.so.0",
+    "lib/libudunits2.so.0.1.0",
+    "share/doc/udunits/CHANGE_LOG",
+    "share/doc/udunits/COPYRIGHT",
+    "share/doc/udunits/README",
+    "share/doc/udunits/udunits2-accepted.xml",
+    "share/doc/udunits/udunits2-base.xml",
+    "share/doc/udunits/udunits2-common.xml",
+    "share/doc/udunits/udunits2-derived.xml",
+    "share/doc/udunits/udunits2-prefixes.xml",
+    "share/doc/udunits/udunits2.xml",
+    "share/info/udunits2.info",
+    "share/info/udunits2lib.info",
+    "share/info/udunits2prog.info",
+    "share/udunits/udunits2-accepted.xml",
+    "share/udunits/udunits2-base.xml",
+    "share/udunits/udunits2-common.xml",
+    "share/udunits/udunits2-derived.xml",
+    "share/udunits/udunits2-prefixes.xml",
+    "share/udunits/udunits2.xml"
+  ],
+  "fn": "udunits2-2.2.25-hd30922c_1.conda",
+  "legacy_bz2_md5": "1525535a72f488ff852f8f7bfb9e1f3b",
+  "license": "UCAR OSI approved",
+  "link": {
+    "source": "/home/buildadm/miniconda/3/amd64/pkgs/udunits2-2.2.25-hd30922c_1",
+    "type": 1
+  },
+  "md5": "e15a91ac8d3343ac8c6f36a616d532f0",
+  "name": "udunits2",
+  "package_tarball_full_path": "/home/buildadm/miniconda/3/amd64/pkgs/udunits2-2.2.25-hd30922c_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/udunits2",
+        "path_type": "hardlink",
+        "sha256": "689e47a59c85f0f7e1e2b0697f6062816ff3d79c64c3608529cbc4d78be1fdcf",
+        "sha256_in_prefix": "689e47a59c85f0f7e1e2b0697f6062816ff3d79c64c3608529cbc4d78be1fdcf",
+        "size_in_bytes": 26520
+      },
+      {
+        "_path": "include/converter.h",
+        "path_type": "hardlink",
+        "sha256": "d47ecbae6c46404b0d62af4c376333a9f9eb390586a5d329be38031fcc3f218a",
+        "sha256_in_prefix": "d47ecbae6c46404b0d62af4c376333a9f9eb390586a5d329be38031fcc3f218a",
+        "size_in_bytes": 5895
+      },
+      {
+        "_path": "include/udunits.h",
+        "path_type": "hardlink",
+        "sha256": "ca791e83143b03c040d15fbdfc9eae4c33e5993eb3f6cc8ab2a45a7a09975553",
+        "sha256_in_prefix": "ca791e83143b03c040d15fbdfc9eae4c33e5993eb3f6cc8ab2a45a7a09975553",
+        "size_in_bytes": 5195
+      },
+      {
+        "_path": "include/udunits2.h",
+        "path_type": "hardlink",
+        "sha256": "8d01405e264322f1f740c6f1b6f2652f02152c319e50156f12385cebd5d0c24f",
+        "sha256_in_prefix": "8d01405e264322f1f740c6f1b6f2652f02152c319e50156f12385cebd5d0c24f",
+        "size_in_bytes": 39992
+      },
+      {
+        "_path": "lib/libudunits2.a",
+        "path_type": "hardlink",
+        "sha256": "b100f16f76d04445d08474b0a3eb545298f96472ce9db41faddb024f8ca28125",
+        "sha256_in_prefix": "b100f16f76d04445d08474b0a3eb545298f96472ce9db41faddb024f8ca28125",
+        "size_in_bytes": 243744
+      },
+      {
+        "_path": "lib/libudunits2.la",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "7ec5b7adaa500e63c6ffd79e51504e18da5a39717a993bc5fe40e3a190871144",
+        "sha256_in_prefix": "3c042407d67d45ffb6dff59c3b26d46a3c6de2854b14de8bcef93eaf3d5120e5",
+        "size_in_bytes": 1063
+      },
+      {
+        "_path": "lib/libudunits2.so",
+        "path_type": "softlink",
+        "sha256": "79992209f6593c42a22fc6949b6582860f388b8ae45bc1e4dfab708f8cad25fc",
+        "size_in_bytes": 153888
+      },
+      {
+        "_path": "lib/libudunits2.so.0",
+        "path_type": "softlink",
+        "sha256": "79992209f6593c42a22fc6949b6582860f388b8ae45bc1e4dfab708f8cad25fc",
+        "size_in_bytes": 153888
+      },
+      {
+        "_path": "lib/libudunits2.so.0.1.0",
+        "path_type": "hardlink",
+        "sha256": "79992209f6593c42a22fc6949b6582860f388b8ae45bc1e4dfab708f8cad25fc",
+        "sha256_in_prefix": "79992209f6593c42a22fc6949b6582860f388b8ae45bc1e4dfab708f8cad25fc",
+        "size_in_bytes": 153888
+      },
+      {
+        "_path": "share/doc/udunits/CHANGE_LOG",
+        "path_type": "hardlink",
+        "sha256": "860722f4466e7d0a494a5be3d87b541a31755c88c3343eeb5b63a1581fafe5d9",
+        "sha256_in_prefix": "860722f4466e7d0a494a5be3d87b541a31755c88c3343eeb5b63a1581fafe5d9",
+        "size_in_bytes": 15067
+      },
+      {
+        "_path": "share/doc/udunits/COPYRIGHT",
+        "path_type": "hardlink",
+        "sha256": "fdbc952e38cca091be8ab257ae3770f05fa9ef4f86199bb6e66374e236083185",
+        "sha256_in_prefix": "fdbc952e38cca091be8ab257ae3770f05fa9ef4f86199bb6e66374e236083185",
+        "size_in_bytes": 1948
+      },
+      {
+        "_path": "share/doc/udunits/README",
+        "path_type": "hardlink",
+        "sha256": "b924b4c039c76ae92abfff223cf2402ac1ebec538c3cf7ce6520736cd3c0fb95",
+        "sha256_in_prefix": "b924b4c039c76ae92abfff223cf2402ac1ebec538c3cf7ce6520736cd3c0fb95",
+        "size_in_bytes": 503
+      },
+      {
+        "_path": "share/doc/udunits/udunits2-accepted.xml",
+        "path_type": "softlink",
+        "sha256": "e0df13fccdb3de4d7dc2cd52cdc5e070c93533e85ba51b0eb5e80aafba8c1a4a",
+        "size_in_bytes": 11617
+      },
+      {
+        "_path": "share/doc/udunits/udunits2-base.xml",
+        "path_type": "softlink",
+        "sha256": "049a66782ef90bfd373314adcfdaaf2895dee573916c18e6168e023b031afbf0",
+        "size_in_bytes": 2772
+      },
+      {
+        "_path": "share/doc/udunits/udunits2-common.xml",
+        "path_type": "softlink",
+        "sha256": "91c2d059a82b53e8c94c10d764ec963908a2094b9646bd1cb53fcc85f69cbeb1",
+        "size_in_bytes": 85768
+      },
+      {
+        "_path": "share/doc/udunits/udunits2-derived.xml",
+        "path_type": "softlink",
+        "sha256": "c6c05976bcf26393badafdc4cde655242978bac425d427e1771f3dfd78fb4159",
+        "size_in_bytes": 8594
+      },
+      {
+        "_path": "share/doc/udunits/udunits2-prefixes.xml",
+        "path_type": "softlink",
+        "sha256": "87f12d41e6c9057e8b552ff2b4c347740385809c4c61e58d4d51c916d0b4183b",
+        "size_in_bytes": 2304
+      },
+      {
+        "_path": "share/doc/udunits/udunits2.xml",
+        "path_type": "softlink",
+        "sha256": "ea752dbd70383237521f749a6aa530fc3c4d4b9dc7c0a8990a1aa2bd1800bcca",
+        "size_in_bytes": 519
+      },
+      {
+        "_path": "share/info/udunits2.info",
+        "path_type": "hardlink",
+        "sha256": "80d55623da5e5fc4322c1fe88967685f6191ecdb1e4e8f33bf889bc11c74a475",
+        "sha256_in_prefix": "80d55623da5e5fc4322c1fe88967685f6191ecdb1e4e8f33bf889bc11c74a475",
+        "size_in_bytes": 16972
+      },
+      {
+        "_path": "share/info/udunits2lib.info",
+        "path_type": "hardlink",
+        "sha256": "82ca1df82596d7d3a360f3f10080a0a99b7d6b92e3a3be6c283c1b484ad77b1d",
+        "sha256_in_prefix": "82ca1df82596d7d3a360f3f10080a0a99b7d6b92e3a3be6c283c1b484ad77b1d",
+        "size_in_bytes": 82892
+      },
+      {
+        "_path": "share/info/udunits2prog.info",
+        "path_type": "hardlink",
+        "sha256": "7d4e40d83ac80901713ea62a387608bc994ca6b2aaa9dd957455fe8a63917094",
+        "sha256_in_prefix": "7d4e40d83ac80901713ea62a387608bc994ca6b2aaa9dd957455fe8a63917094",
+        "size_in_bytes": 7874
+      },
+      {
+        "_path": "share/udunits/udunits2-accepted.xml",
+        "path_type": "hardlink",
+        "sha256": "e0df13fccdb3de4d7dc2cd52cdc5e070c93533e85ba51b0eb5e80aafba8c1a4a",
+        "sha256_in_prefix": "e0df13fccdb3de4d7dc2cd52cdc5e070c93533e85ba51b0eb5e80aafba8c1a4a",
+        "size_in_bytes": 11617
+      },
+      {
+        "_path": "share/udunits/udunits2-base.xml",
+        "path_type": "hardlink",
+        "sha256": "049a66782ef90bfd373314adcfdaaf2895dee573916c18e6168e023b031afbf0",
+        "sha256_in_prefix": "049a66782ef90bfd373314adcfdaaf2895dee573916c18e6168e023b031afbf0",
+        "size_in_bytes": 2772
+      },
+      {
+        "_path": "share/udunits/udunits2-common.xml",
+        "path_type": "hardlink",
+        "sha256": "91c2d059a82b53e8c94c10d764ec963908a2094b9646bd1cb53fcc85f69cbeb1",
+        "sha256_in_prefix": "91c2d059a82b53e8c94c10d764ec963908a2094b9646bd1cb53fcc85f69cbeb1",
+        "size_in_bytes": 85768
+      },
+      {
+        "_path": "share/udunits/udunits2-derived.xml",
+        "path_type": "hardlink",
+        "sha256": "c6c05976bcf26393badafdc4cde655242978bac425d427e1771f3dfd78fb4159",
+        "sha256_in_prefix": "c6c05976bcf26393badafdc4cde655242978bac425d427e1771f3dfd78fb4159",
+        "size_in_bytes": 8594
+      },
+      {
+        "_path": "share/udunits/udunits2-prefixes.xml",
+        "path_type": "hardlink",
+        "sha256": "87f12d41e6c9057e8b552ff2b4c347740385809c4c61e58d4d51c916d0b4183b",
+        "sha256_in_prefix": "87f12d41e6c9057e8b552ff2b4c347740385809c4c61e58d4d51c916d0b4183b",
+        "size_in_bytes": 2304
+      },
+      {
+        "_path": "share/udunits/udunits2.xml",
+        "path_type": "hardlink",
+        "sha256": "ea752dbd70383237521f749a6aa530fc3c4d4b9dc7c0a8990a1aa2bd1800bcca",
+        "sha256_in_prefix": "ea752dbd70383237521f749a6aa530fc3c4d4b9dc7c0a8990a1aa2bd1800bcca",
+        "size_in_bytes": 519
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d0341636f06b1ca003f47a28e0a797543e53ca68fa37cf019c9ee572970bd4e0",
+  "size": 146560,
+  "subdir": "linux-64",
+  "timestamp": 1507908864208,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/udunits2-2.2.25-hd30922c_1.conda",
+  "version": "2.2.25"
+}

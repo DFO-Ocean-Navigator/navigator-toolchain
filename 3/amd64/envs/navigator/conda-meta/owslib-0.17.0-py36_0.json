@@ -1,0 +1,1017 @@
+{
+  "build": "py36_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "lxml",
+    "pyproj",
+    "python >=3.6,<3.7.0a0",
+    "python-dateutil >=1.5",
+    "pytz",
+    "requests >=1.0"
+  ],
+  "extracted_package_dir": "/home/buildadm/miniconda/3/amd64/pkgs/owslib-0.17.0-py36_0",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/OWSLib-0.17.0-py3.6.egg-info/PKG-INFO",
+    "lib/python3.6/site-packages/OWSLib-0.17.0-py3.6.egg-info/SOURCES.txt",
+    "lib/python3.6/site-packages/OWSLib-0.17.0-py3.6.egg-info/dependency_links.txt",
+    "lib/python3.6/site-packages/OWSLib-0.17.0-py3.6.egg-info/installed-files.txt",
+    "lib/python3.6/site-packages/OWSLib-0.17.0-py3.6.egg-info/requires.txt",
+    "lib/python3.6/site-packages/OWSLib-0.17.0-py3.6.egg-info/top_level.txt",
+    "lib/python3.6/site-packages/owslib/__init__.py",
+    "lib/python3.6/site-packages/owslib/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/__pycache__/crs.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/__pycache__/csw.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/__pycache__/dif.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/__pycache__/etree.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/__pycache__/fes.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/__pycache__/fgdc.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/__pycache__/gm03.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/__pycache__/interfaces.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/__pycache__/iso.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/__pycache__/iso_che.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/__pycache__/namespaces.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/__pycache__/ows.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/__pycache__/sos.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/__pycache__/tms.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/__pycache__/util.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/__pycache__/wcs.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/__pycache__/wfs.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/__pycache__/wmc.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/__pycache__/wms.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/__pycache__/wmts.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/__pycache__/wps.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/coverage/__init__.py",
+    "lib/python3.6/site-packages/owslib/coverage/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/coverage/__pycache__/wcs100.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/coverage/__pycache__/wcs110.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/coverage/__pycache__/wcs111.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/coverage/__pycache__/wcs200.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/coverage/__pycache__/wcs201.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/coverage/__pycache__/wcsBase.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/coverage/__pycache__/wcsdecoder.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/coverage/wcs100.py",
+    "lib/python3.6/site-packages/owslib/coverage/wcs110.py",
+    "lib/python3.6/site-packages/owslib/coverage/wcs111.py",
+    "lib/python3.6/site-packages/owslib/coverage/wcs200.py",
+    "lib/python3.6/site-packages/owslib/coverage/wcs201.py",
+    "lib/python3.6/site-packages/owslib/coverage/wcsBase.py",
+    "lib/python3.6/site-packages/owslib/coverage/wcsdecoder.py",
+    "lib/python3.6/site-packages/owslib/crs.py",
+    "lib/python3.6/site-packages/owslib/csw.py",
+    "lib/python3.6/site-packages/owslib/dif.py",
+    "lib/python3.6/site-packages/owslib/etree.py",
+    "lib/python3.6/site-packages/owslib/feature/__init__.py",
+    "lib/python3.6/site-packages/owslib/feature/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/feature/__pycache__/common.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/feature/__pycache__/schema.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/feature/__pycache__/wfs100.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/feature/__pycache__/wfs110.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/feature/__pycache__/wfs200.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/feature/common.py",
+    "lib/python3.6/site-packages/owslib/feature/schema.py",
+    "lib/python3.6/site-packages/owslib/feature/wfs100.py",
+    "lib/python3.6/site-packages/owslib/feature/wfs110.py",
+    "lib/python3.6/site-packages/owslib/feature/wfs200.py",
+    "lib/python3.6/site-packages/owslib/fes.py",
+    "lib/python3.6/site-packages/owslib/fgdc.py",
+    "lib/python3.6/site-packages/owslib/gm03.py",
+    "lib/python3.6/site-packages/owslib/interfaces.py",
+    "lib/python3.6/site-packages/owslib/iso.py",
+    "lib/python3.6/site-packages/owslib/iso_che.py",
+    "lib/python3.6/site-packages/owslib/map/__init__.py",
+    "lib/python3.6/site-packages/owslib/map/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/map/__pycache__/common.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/map/__pycache__/wms111.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/map/__pycache__/wms130.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/map/common.py",
+    "lib/python3.6/site-packages/owslib/map/wms111.py",
+    "lib/python3.6/site-packages/owslib/map/wms130.py",
+    "lib/python3.6/site-packages/owslib/namespaces.py",
+    "lib/python3.6/site-packages/owslib/ows.py",
+    "lib/python3.6/site-packages/owslib/owscontext/__init__.py",
+    "lib/python3.6/site-packages/owslib/owscontext/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/owscontext/__pycache__/atom.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/owscontext/__pycache__/common.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/owscontext/__pycache__/core.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/owscontext/__pycache__/geojson.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/owscontext/atom.py",
+    "lib/python3.6/site-packages/owslib/owscontext/common.py",
+    "lib/python3.6/site-packages/owslib/owscontext/core.py",
+    "lib/python3.6/site-packages/owslib/owscontext/geojson.py",
+    "lib/python3.6/site-packages/owslib/sos.py",
+    "lib/python3.6/site-packages/owslib/swe/__init__.py",
+    "lib/python3.6/site-packages/owslib/swe/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/swe/__pycache__/common.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/swe/common.py",
+    "lib/python3.6/site-packages/owslib/swe/observation/__init__.py",
+    "lib/python3.6/site-packages/owslib/swe/observation/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/swe/observation/__pycache__/om.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/swe/observation/__pycache__/sos100.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/swe/observation/__pycache__/sos200.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/swe/observation/__pycache__/waterml2.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/swe/observation/om.py",
+    "lib/python3.6/site-packages/owslib/swe/observation/sos100.py",
+    "lib/python3.6/site-packages/owslib/swe/observation/sos200.py",
+    "lib/python3.6/site-packages/owslib/swe/observation/waterml2.py",
+    "lib/python3.6/site-packages/owslib/swe/sensor/__init__.py",
+    "lib/python3.6/site-packages/owslib/swe/sensor/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/swe/sensor/__pycache__/sml.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/swe/sensor/sml.py",
+    "lib/python3.6/site-packages/owslib/tms.py",
+    "lib/python3.6/site-packages/owslib/util.py",
+    "lib/python3.6/site-packages/owslib/waterml/__init__.py",
+    "lib/python3.6/site-packages/owslib/waterml/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/waterml/__pycache__/wml.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/waterml/__pycache__/wml10.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/waterml/__pycache__/wml11.cpython-36.pyc",
+    "lib/python3.6/site-packages/owslib/waterml/wml.py",
+    "lib/python3.6/site-packages/owslib/waterml/wml10.py",
+    "lib/python3.6/site-packages/owslib/waterml/wml11.py",
+    "lib/python3.6/site-packages/owslib/wcs.py",
+    "lib/python3.6/site-packages/owslib/wfs.py",
+    "lib/python3.6/site-packages/owslib/wmc.py",
+    "lib/python3.6/site-packages/owslib/wms.py",
+    "lib/python3.6/site-packages/owslib/wmts.py",
+    "lib/python3.6/site-packages/owslib/wps.py"
+  ],
+  "fn": "owslib-0.17.0-py36_0.conda",
+  "legacy_bz2_md5": "72e87425032a7b17ca92445649fd985f",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/home/buildadm/miniconda/3/amd64/pkgs/owslib-0.17.0-py36_0",
+    "type": 1
+  },
+  "md5": "4e7f630e1459a41e9606eb91db18dd66",
+  "name": "owslib",
+  "package_tarball_full_path": "/home/buildadm/miniconda/3/amd64/pkgs/owslib-0.17.0-py36_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.6/site-packages/OWSLib-0.17.0-py3.6.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "550bda0bafc5b6de70e3b702308d8f5288d513b4d905e670e800cbd8d015b824",
+        "sha256_in_prefix": "550bda0bafc5b6de70e3b702308d8f5288d513b4d905e670e800cbd8d015b824",
+        "size_in_bytes": 6549
+      },
+      {
+        "_path": "lib/python3.6/site-packages/OWSLib-0.17.0-py3.6.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "2a95a479ff9b86f296c68488fbdfb0ff5f27eb127bad50ee69988d1e980eac72",
+        "sha256_in_prefix": "2a95a479ff9b86f296c68488fbdfb0ff5f27eb127bad50ee69988d1e980eac72",
+        "size_in_bytes": 1584
+      },
+      {
+        "_path": "lib/python3.6/site-packages/OWSLib-0.17.0-py3.6.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.6/site-packages/OWSLib-0.17.0-py3.6.egg-info/installed-files.txt",
+        "path_type": "hardlink",
+        "sha256": "e8f4874ce1315a39c732c2879a7cfafa3f7a7d0cbfcadfb2ee331187e808176d",
+        "sha256_in_prefix": "e8f4874ce1315a39c732c2879a7cfafa3f7a7d0cbfcadfb2ee331187e808176d",
+        "size_in_bytes": 4389
+      },
+      {
+        "_path": "lib/python3.6/site-packages/OWSLib-0.17.0-py3.6.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "f24608bae5e336ba5ff903b2dfc7f08f8ffc3565e7d60114594c6a03924528c7",
+        "sha256_in_prefix": "f24608bae5e336ba5ff903b2dfc7f08f8ffc3565e7d60114594c6a03924528c7",
+        "size_in_bytes": 47
+      },
+      {
+        "_path": "lib/python3.6/site-packages/OWSLib-0.17.0-py3.6.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "cad1d41fae8c4cd629ba0288ce6122bec01dba7195189f9074621300cb765629",
+        "sha256_in_prefix": "cad1d41fae8c4cd629ba0288ce6122bec01dba7195189f9074621300cb765629",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7e61a945b888bf7abd45dfe813302190378791a40d4556d51e5f90d1919280f8",
+        "sha256_in_prefix": "7e61a945b888bf7abd45dfe813302190378791a40d4556d51e5f90d1919280f8",
+        "size_in_bytes": 91
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "4ef9fe5195160e9c760da49ceb01beb2bf75768f2a938512435f3cfff9d0d777",
+        "sha256_in_prefix": "4ef9fe5195160e9c760da49ceb01beb2bf75768f2a938512435f3cfff9d0d777",
+        "size_in_bytes": 250
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/__pycache__/crs.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "43fe0cfdc741c79b019e16547b1b9b2f3d4dc11cc3f7a8b3c3c0bebf4ccbf4f4",
+        "sha256_in_prefix": "43fe0cfdc741c79b019e16547b1b9b2f3d4dc11cc3f7a8b3c3c0bebf4ccbf4f4",
+        "size_in_bytes": 21984
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/__pycache__/csw.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "dddaa4ece6c62fd29f7622f4ba67f9f5cfce623e19f1f9532d3e50b33df4cac9",
+        "sha256_in_prefix": "dddaa4ece6c62fd29f7622f4ba67f9f5cfce623e19f1f9532d3e50b33df4cac9",
+        "size_in_bytes": 24043
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/__pycache__/dif.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "5af740978cee98e03d7d60199cc0a726de966070195556d15a4e302cfef9ba27",
+        "sha256_in_prefix": "5af740978cee98e03d7d60199cc0a726de966070195556d15a4e302cfef9ba27",
+        "size_in_bytes": 15587
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/__pycache__/etree.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "1a91dd13bc531cae077405aa6ddd504bc5e4b97b840b2fac0f1f06f061a8ea55",
+        "sha256_in_prefix": "1a91dd13bc531cae077405aa6ddd504bc5e4b97b840b2fac0f1f06f061a8ea55",
+        "size_in_bytes": 1176
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/__pycache__/fes.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "7a49820c77630821bcf6534be3e8b82a2735d00e43d324e46097566440b6f400",
+        "sha256_in_prefix": "7a49820c77630821bcf6534be3e8b82a2735d00e43d324e46097566440b6f400",
+        "size_in_bytes": 17619
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/__pycache__/fgdc.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "693bdb877f70f3772f986e16a37110353e5124b87044b301a6660245fd4a4b8c",
+        "sha256_in_prefix": "693bdb877f70f3772f986e16a37110353e5124b87044b301a6660245fd4a4b8c",
+        "size_in_bytes": 9679
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/__pycache__/gm03.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "2ea133f74aaf89e580739e04769b7889bba90f14978a27cb73c2d99d6eb9e2f2",
+        "sha256_in_prefix": "2ea133f74aaf89e580739e04769b7889bba90f14978a27cb73c2d99d6eb9e2f2",
+        "size_in_bytes": 34748
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/__pycache__/interfaces.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "5f18287b41102ef8a9ce2170a7c3cc02887f9df6e62a3268a3cf0b7d7c2ce310",
+        "sha256_in_prefix": "5f18287b41102ef8a9ce2170a7c3cc02887f9df6e62a3268a3cf0b7d7c2ce310",
+        "size_in_bytes": 8408
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/__pycache__/iso.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "d9f6d1942255f3b0864ccbdfcf22a530982d2f2da53ffcca92bf530434cb94d5",
+        "sha256_in_prefix": "d9f6d1942255f3b0864ccbdfcf22a530982d2f2da53ffcca92bf530434cb94d5",
+        "size_in_bytes": 32674
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/__pycache__/iso_che.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "3fb0eceb6338f45046d47dc5d8645a9227be669bbb1d3d1bd910fb3b2e24bfdc",
+        "sha256_in_prefix": "3fb0eceb6338f45046d47dc5d8645a9227be669bbb1d3d1bd910fb3b2e24bfdc",
+        "size_in_bytes": 27812
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/__pycache__/namespaces.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "359feaa540cfc17fe2ebd258e5678fe4ebb692d746370e8f9db41aadaed10ec6",
+        "sha256_in_prefix": "359feaa540cfc17fe2ebd258e5678fe4ebb692d746370e8f9db41aadaed10ec6",
+        "size_in_bytes": 4973
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/__pycache__/ows.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "e7e634ee07301970dfb96ba505a6e48fac8c8f41a294f2591da0ecefb4445b1e",
+        "sha256_in_prefix": "e7e634ee07301970dfb96ba505a6e48fac8c8f41a294f2591da0ecefb4445b1e",
+        "size_in_bytes": 10847
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/__pycache__/sos.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "7d352779827b9cb44c6a3fc3fb0dbc591aa82f13746f0df5e34d437f615b21a4",
+        "sha256_in_prefix": "7d352779827b9cb44c6a3fc3fb0dbc591aa82f13746f0df5e34d437f615b21a4",
+        "size_in_bytes": 1157
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/__pycache__/tms.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "c3fe80e3ce7c3635a5b3848cb96af4b44b67de6e53734f4530675adae21d2491",
+        "sha256_in_prefix": "c3fe80e3ce7c3635a5b3848cb96af4b44b67de6e53734f4530675adae21d2491",
+        "size_in_bytes": 9846
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/__pycache__/util.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "bd8b18c8be784043f8cb2e1f02128d67a8c2a6d43983b41fef053579125ba541",
+        "sha256_in_prefix": "bd8b18c8be784043f8cb2e1f02128d67a8c2a6d43983b41fef053579125ba541",
+        "size_in_bytes": 20286
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/__pycache__/wcs.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "07c17d0a34c6e69a0d6a9ad0136001093a773bcebd38b20623da80fe78aa79f2",
+        "sha256_in_prefix": "07c17d0a34c6e69a0d6a9ad0136001093a773bcebd38b20623da80fe78aa79f2",
+        "size_in_bytes": 1366
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/__pycache__/wfs.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "4c85078043a7560b459ec18a6d97be7412be8a4c00cd704ae312b0a1167c43ee",
+        "sha256_in_prefix": "4c85078043a7560b459ec18a6d97be7412be8a4c00cd704ae312b0a1167c43ee",
+        "size_in_bytes": 1525
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/__pycache__/wmc.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "cd0bbd200f56c13878e8ab256f153f34487afa884b3ae79e6f4c426ef582db49",
+        "sha256_in_prefix": "cd0bbd200f56c13878e8ab256f153f34487afa884b3ae79e6f4c426ef582db49",
+        "size_in_bytes": 5137
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/__pycache__/wms.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "f3fd6c3f202dcf77a1a97b96dd9577c8477402e8a6aeb7f80ce5961254484799",
+        "sha256_in_prefix": "f3fd6c3f202dcf77a1a97b96dd9577c8477402e8a6aeb7f80ce5961254484799",
+        "size_in_bytes": 1474
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/__pycache__/wmts.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "32a349eee205650a50a21bbb7754549375174b720d104cf54d55cb21a056f1bd",
+        "sha256_in_prefix": "32a349eee205650a50a21bbb7754549375174b720d104cf54d55cb21a056f1bd",
+        "size_in_bytes": 25440
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/__pycache__/wps.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "b56d8bf32abe99eb7309179717cf4385c7d777f492836f7e356be9561c0f3bd0",
+        "sha256_in_prefix": "b56d8bf32abe99eb7309179717cf4385c7d777f492836f7e356be9561c0f3bd0",
+        "size_in_bytes": 48583
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/coverage/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8b0d29bd4ef4d52471ee1b624523b49ccdcb84eb006cbf3e5720bd7057b0bca6",
+        "sha256_in_prefix": "8b0d29bd4ef4d52471ee1b624523b49ccdcb84eb006cbf3e5720bd7057b0bca6",
+        "size_in_bytes": 68
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/coverage/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "4ee922ac20f494fcfb8ad45ad7539ded7c9d6a79e0b4ba83db0bdfbdaacb7238",
+        "sha256_in_prefix": "4ee922ac20f494fcfb8ad45ad7539ded7c9d6a79e0b4ba83db0bdfbdaacb7238",
+        "size_in_bytes": 232
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/coverage/__pycache__/wcs100.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "6ae0e48bc5820748c041343b154cbcc6a21b9ec4c441f77012df9cb41eb10b6d",
+        "sha256_in_prefix": "6ae0e48bc5820748c041343b154cbcc6a21b9ec4c441f77012df9cb41eb10b6d",
+        "size_in_bytes": 15524
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/coverage/__pycache__/wcs110.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "585c418fb1e0d22fdb4860ddcd59ea4555dbd32f98c0d484ce8959babd4a8b62",
+        "sha256_in_prefix": "585c418fb1e0d22fdb4860ddcd59ea4555dbd32f98c0d484ce8959babd4a8b62",
+        "size_in_bytes": 12605
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/coverage/__pycache__/wcs111.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "8efde936e3580fb66adbf1db87a2bbbb03fa16146db9fbcdafd182bc7d097ea3",
+        "sha256_in_prefix": "8efde936e3580fb66adbf1db87a2bbbb03fa16146db9fbcdafd182bc7d097ea3",
+        "size_in_bytes": 1156
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/coverage/__pycache__/wcs200.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "8e8557e5ce5acbd6de8d291b25ed66e8a686e0b688a11cb0957446ffef2b35d3",
+        "sha256_in_prefix": "8e8557e5ce5acbd6de8d291b25ed66e8a686e0b688a11cb0957446ffef2b35d3",
+        "size_in_bytes": 15040
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/coverage/__pycache__/wcs201.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "40ffcb6c96bf4bd39348df94854556ae71826cfac7671b185d227d5d1794e6d9",
+        "sha256_in_prefix": "40ffcb6c96bf4bd39348df94854556ae71826cfac7671b185d227d5d1794e6d9",
+        "size_in_bytes": 15040
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/coverage/__pycache__/wcsBase.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "3c740650304be1fc203c17253b93f91457157b0c1bd44a7f2abf99684ceaa0a0",
+        "sha256_in_prefix": "3c740650304be1fc203c17253b93f91457157b0c1bd44a7f2abf99684ceaa0a0",
+        "size_in_bytes": 6787
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/coverage/__pycache__/wcsdecoder.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "2f5d357ddbfa91609ba56c4d9dce04403d9e2bb98699e726e0a354947cbfe99f",
+        "sha256_in_prefix": "2f5d357ddbfa91609ba56c4d9dce04403d9e2bb98699e726e0a354947cbfe99f",
+        "size_in_bytes": 2753
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/coverage/wcs100.py",
+        "path_type": "hardlink",
+        "sha256": "61db801df2bcb19a72551fc5f8fe7a51ae0dc8b6add0c6605bbc11a250776663",
+        "sha256_in_prefix": "61db801df2bcb19a72551fc5f8fe7a51ae0dc8b6add0c6605bbc11a250776663",
+        "size_in_bytes": 19029
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/coverage/wcs110.py",
+        "path_type": "hardlink",
+        "sha256": "b1afc4382aa090a21d1189f5a281bbaecbec6d921a7a1b97e8009339310a288a",
+        "sha256_in_prefix": "b1afc4382aa090a21d1189f5a281bbaecbec6d921a7a1b97e8009339310a288a",
+        "size_in_bytes": 18650
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/coverage/wcs111.py",
+        "path_type": "hardlink",
+        "sha256": "02a98c792488eaa024ae8a8ea936823dd973833df12cfaced542090dc0222c34",
+        "sha256_in_prefix": "02a98c792488eaa024ae8a8ea936823dd973833df12cfaced542090dc0222c34",
+        "size_in_bytes": 881
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/coverage/wcs200.py",
+        "path_type": "hardlink",
+        "sha256": "73c36231591ded69849ea196579b062cd593a1c413b79b094e729cd14e34a9a0",
+        "sha256_in_prefix": "73c36231591ded69849ea196579b062cd593a1c413b79b094e729cd14e34a9a0",
+        "size_in_bytes": 18942
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/coverage/wcs201.py",
+        "path_type": "hardlink",
+        "sha256": "0eddc8d53111efcba787892464a32742ec028fdcb868a99b83693dad7794ea25",
+        "sha256_in_prefix": "0eddc8d53111efcba787892464a32742ec028fdcb868a99b83693dad7794ea25",
+        "size_in_bytes": 18942
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/coverage/wcsBase.py",
+        "path_type": "hardlink",
+        "sha256": "e031c63f744d8927bee79630bb9da06cf5f7dd022d3df0e3d3896c7d5ed3320d",
+        "sha256_in_prefix": "e031c63f744d8927bee79630bb9da06cf5f7dd022d3df0e3d3896c7d5ed3320d",
+        "size_in_bytes": 6732
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/coverage/wcsdecoder.py",
+        "path_type": "hardlink",
+        "sha256": "1afffee0a2292c7e130b7d0d642512eb45d6fcc72ff459ff3a2596876c2ee5ad",
+        "sha256_in_prefix": "1afffee0a2292c7e130b7d0d642512eb45d6fcc72ff459ff3a2596876c2ee5ad",
+        "size_in_bytes": 3909
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/crs.py",
+        "path_type": "hardlink",
+        "sha256": "56c0d37894a02ffae585c86ec02d1a736b807a65fb7ad83fc3c27207153da93d",
+        "sha256_in_prefix": "56c0d37894a02ffae585c86ec02d1a736b807a65fb7ad83fc3c27207153da93d",
+        "size_in_bytes": 22207
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/csw.py",
+        "path_type": "hardlink",
+        "sha256": "1f115cf46d3c323086abe991be555ad69740f7585fcd54630caf0ad63c675ca4",
+        "sha256_in_prefix": "1f115cf46d3c323086abe991be555ad69740f7585fcd54630caf0ad63c675ca4",
+        "size_in_bytes": 36954
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/dif.py",
+        "path_type": "hardlink",
+        "sha256": "44d20e01a7681e5320c751ced30fa318444fe310345eb412894f404ed4a158f6",
+        "sha256_in_prefix": "44d20e01a7681e5320c751ced30fa318444fe310345eb412894f404ed4a158f6",
+        "size_in_bytes": 19593
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/etree.py",
+        "path_type": "hardlink",
+        "sha256": "1e784601f873615769d3cc3bd69023aea743623a24fe465ad4a66dbde69f5a60",
+        "sha256_in_prefix": "1e784601f873615769d3cc3bd69023aea743623a24fe465ad4a66dbde69f5a60",
+        "size_in_bytes": 1249
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/feature/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "c99c0dc369d73556cabfa50024736f3914bb5bc2b38a247d42f31b7bc6fa4e21",
+        "sha256_in_prefix": "c99c0dc369d73556cabfa50024736f3914bb5bc2b38a247d42f31b7bc6fa4e21",
+        "size_in_bytes": 6643
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/feature/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "ffb1fb6fe7aea590c556b08335a0571205e3e814113946a01b2fc8e0f1d15c2c",
+        "sha256_in_prefix": "ffb1fb6fe7aea590c556b08335a0571205e3e814113946a01b2fc8e0f1d15c2c",
+        "size_in_bytes": 5280
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/feature/__pycache__/common.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "a69f5bb0abcb00ff719205f741a028c597959de50f9d07e3d5edd34657339532",
+        "sha256_in_prefix": "a69f5bb0abcb00ff719205f741a028c597959de50f9d07e3d5edd34657339532",
+        "size_in_bytes": 3009
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/feature/__pycache__/schema.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "2c7b849f7755937df1dd156a28988111c7f2bce0d50dd15a9c7909ba540c411a",
+        "sha256_in_prefix": "2c7b849f7755937df1dd156a28988111c7f2bce0d50dd15a9c7909ba540c411a",
+        "size_in_bytes": 3670
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/feature/__pycache__/wfs100.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "122775f330117579cdffb0e891bcf35b896dddb32d5bba0875d179cd2aaec5bc",
+        "sha256_in_prefix": "122775f330117579cdffb0e891bcf35b896dddb32d5bba0875d179cd2aaec5bc",
+        "size_in_bytes": 13517
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/feature/__pycache__/wfs110.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "9b863b472015b59731293d747e36fd019a35c27eeba32fe4cae59ff4f7acc851",
+        "sha256_in_prefix": "9b863b472015b59731293d747e36fd019a35c27eeba32fe4cae59ff4f7acc851",
+        "size_in_bytes": 11611
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/feature/__pycache__/wfs200.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "87cb212e920f86758cf7d08519ba5d1c292dbaeda0c724e8cc932387ec7217f8",
+        "sha256_in_prefix": "87cb212e920f86758cf7d08519ba5d1c292dbaeda0c724e8cc932387ec7217f8",
+        "size_in_bytes": 14894
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/feature/common.py",
+        "path_type": "hardlink",
+        "sha256": "25fc6990f0afa1538075256474d5ef8822d146e7edd343bb8b1f4ef7b4d74b41",
+        "sha256_in_prefix": "25fc6990f0afa1538075256474d5ef8822d146e7edd343bb8b1f4ef7b4d74b41",
+        "size_in_bytes": 2219
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/feature/schema.py",
+        "path_type": "hardlink",
+        "sha256": "1b7e2e8664cd6950875548d7a80b053472bd9ec98a767b18b79a49b043028c7b",
+        "sha256_in_prefix": "1b7e2e8664cd6950875548d7a80b053472bd9ec98a767b18b79a49b043028c7b",
+        "size_in_bytes": 4507
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/feature/wfs100.py",
+        "path_type": "hardlink",
+        "sha256": "8ee72dce2f2be6c66d4b5524dce8c130d0a7030fdc174b2c52a05a06c256645e",
+        "sha256_in_prefix": "8ee72dce2f2be6c66d4b5524dce8c130d0a7030fdc174b2c52a05a06c256645e",
+        "size_in_bytes": 15540
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/feature/wfs110.py",
+        "path_type": "hardlink",
+        "sha256": "066215ba4acf69010f9040ceda7b502bdba7c52b46b6409ef71215d1b1751e59",
+        "sha256_in_prefix": "066215ba4acf69010f9040ceda7b502bdba7c52b46b6409ef71215d1b1751e59",
+        "size_in_bytes": 14965
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/feature/wfs200.py",
+        "path_type": "hardlink",
+        "sha256": "8d21d798e75248cde3839a760bcfff478bcddf57c17e34e1793e378d242f13d9",
+        "sha256_in_prefix": "8d21d798e75248cde3839a760bcfff478bcddf57c17e34e1793e378d242f13d9",
+        "size_in_bytes": 19361
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/fes.py",
+        "path_type": "hardlink",
+        "sha256": "fbcb4e2340a0f082cfe1e541a5899e84c869c49c9bd36cd79038b07c4e6a7c27",
+        "sha256_in_prefix": "fbcb4e2340a0f082cfe1e541a5899e84c869c49c9bd36cd79038b07c4e6a7c27",
+        "size_in_bytes": 16894
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/fgdc.py",
+        "path_type": "hardlink",
+        "sha256": "395c70cf8237ba2f2bc71aad9566917d61fdc6a195655cb6b5d3010fba891256",
+        "sha256_in_prefix": "395c70cf8237ba2f2bc71aad9566917d61fdc6a195655cb6b5d3010fba891256",
+        "size_in_bytes": 10447
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/gm03.py",
+        "path_type": "hardlink",
+        "sha256": "5366c6476f423d48d823e4142c6331db131031012a22173eeba0cb3b644b6a38",
+        "sha256_in_prefix": "5366c6476f423d48d823e4142c6331db131031012a22173eeba0cb3b644b6a38",
+        "size_in_bytes": 39096
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/interfaces.py",
+        "path_type": "hardlink",
+        "sha256": "df0af0102b5de1d6a3709c80440549f703a284d72bffa440701c7ff1ecedbaa8",
+        "sha256_in_prefix": "df0af0102b5de1d6a3709c80440549f703a284d72bffa440701c7ff1ecedbaa8",
+        "size_in_bytes": 6066
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/iso.py",
+        "path_type": "hardlink",
+        "sha256": "080c019b7d0887148de93f157e0c5889a9797b4a5102a906a7f1b10e1380ad2b",
+        "sha256_in_prefix": "080c019b7d0887148de93f157e0c5889a9797b4a5102a906a7f1b10e1380ad2b",
+        "size_in_bytes": 51236
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/iso_che.py",
+        "path_type": "hardlink",
+        "sha256": "8cd2f619ee90956cd01cd41cbf14641ecc28135c15e1dd1ebefbc79812066603",
+        "sha256_in_prefix": "8cd2f619ee90956cd01cd41cbf14641ecc28135c15e1dd1ebefbc79812066603",
+        "size_in_bytes": 43328
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/map/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "258f35baa57b3bffc077d88203264d4d40ffbfac2732eda9cf75d7cd1e6784a5",
+        "sha256_in_prefix": "258f35baa57b3bffc077d88203264d4d40ffbfac2732eda9cf75d7cd1e6784a5",
+        "size_in_bytes": 98
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/map/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "9809ce90213e57a9bc8fbcfdfb48036686daf77ff89b774938e4e6ffd844868b",
+        "sha256_in_prefix": "9809ce90213e57a9bc8fbcfdfb48036686daf77ff89b774938e4e6ffd844868b",
+        "size_in_bytes": 227
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/map/__pycache__/common.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "04bb1088c1f611c02af47ddc9ac03625a045f934834932df71b3f82297b71021",
+        "sha256_in_prefix": "04bb1088c1f611c02af47ddc9ac03625a045f934834932df71b3f82297b71021",
+        "size_in_bytes": 3187
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/map/__pycache__/wms111.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "473171aa9fbe38f1b65d4d5efdc52e07808b3feccc907fb1ce8edf06695bef45",
+        "sha256_in_prefix": "473171aa9fbe38f1b65d4d5efdc52e07808b3feccc907fb1ce8edf06695bef45",
+        "size_in_bytes": 17905
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/map/__pycache__/wms130.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "ae3417aae8ebfd0bdab8ff55f18af83568ccef90262b6e5c2f376024368fc298",
+        "sha256_in_prefix": "ae3417aae8ebfd0bdab8ff55f18af83568ccef90262b6e5c2f376024368fc298",
+        "size_in_bytes": 19105
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/map/common.py",
+        "path_type": "hardlink",
+        "sha256": "d71b1218eb456b9a1720f1d20037aa685bd1e0a6a16ed1f02a1f68c5c27e8e28",
+        "sha256_in_prefix": "d71b1218eb456b9a1720f1d20037aa685bd1e0a6a16ed1f02a1f68c5c27e8e28",
+        "size_in_bytes": 3136
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/map/wms111.py",
+        "path_type": "hardlink",
+        "sha256": "c5f4ecfa17b48296a979aafd464d3ef397148437f32848216a621bdee882bf45",
+        "sha256_in_prefix": "c5f4ecfa17b48296a979aafd464d3ef397148437f32848216a621bdee882bf45",
+        "size_in_bytes": 25539
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/map/wms130.py",
+        "path_type": "hardlink",
+        "sha256": "65f44260761e24ff2df3697946c2d38843ca77e8033e5b22b07b7cd17039820f",
+        "sha256_in_prefix": "65f44260761e24ff2df3697946c2d38843ca77e8033e5b22b07b7cd17039820f",
+        "size_in_bytes": 30753
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/namespaces.py",
+        "path_type": "hardlink",
+        "sha256": "d743596cf32368652db89e8be0757f1b9f8607cbf551d7f113ab6d4b927a0f0f",
+        "sha256_in_prefix": "d743596cf32368652db89e8be0757f1b9f8607cbf551d7f113ab6d4b927a0f0f",
+        "size_in_bytes": 5809
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/ows.py",
+        "path_type": "hardlink",
+        "sha256": "3e3a16de72b0db4e264b3ad6afab79895e9b70ff7af83c694c86124e434ec6e9",
+        "sha256_in_prefix": "3e3a16de72b0db4e264b3ad6afab79895e9b70ff7af83c694c86124e434ec6e9",
+        "size_in_bytes": 12071
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/owscontext/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "efaaf69c403448f25162238e29c7e3ef815623b0125e631fa7a3def94a4573aa",
+        "sha256_in_prefix": "efaaf69c403448f25162238e29c7e3ef815623b0125e631fa7a3def94a4573aa",
+        "size_in_bytes": 394
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/owscontext/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "46d3c49d9a2d4544da32cbdb7f8dd1dcd9d3421aafe76d6803e69cce76ff454c",
+        "sha256_in_prefix": "46d3c49d9a2d4544da32cbdb7f8dd1dcd9d3421aafe76d6803e69cce76ff454c",
+        "size_in_bytes": 342
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/owscontext/__pycache__/atom.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "eeeecd401c05cc9233f827ce7903195c57887c96f5d5a7c1320db1f1f10ae459",
+        "sha256_in_prefix": "eeeecd401c05cc9233f827ce7903195c57887c96f5d5a7c1320db1f1f10ae459",
+        "size_in_bytes": 21254
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/owscontext/__pycache__/common.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "6de67c1e01870ba441430b53c3f6a79710ca8506ca917ac69ec7c306b568578d",
+        "sha256_in_prefix": "6de67c1e01870ba441430b53c3f6a79710ca8506ca917ac69ec7c306b568578d",
+        "size_in_bytes": 6097
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/owscontext/__pycache__/core.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "92b5b57b66d01bb5d720345e61940eba2ee0a8bd562886871da55d1b014f2f51",
+        "sha256_in_prefix": "92b5b57b66d01bb5d720345e61940eba2ee0a8bd562886871da55d1b014f2f51",
+        "size_in_bytes": 29246
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/owscontext/__pycache__/geojson.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "c07f3ce5c2dbaa7a4e95251e2eea227ba0206384f6989d4ed376c1f0ba0da99c",
+        "sha256_in_prefix": "c07f3ce5c2dbaa7a4e95251e2eea227ba0206384f6989d4ed376c1f0ba0da99c",
+        "size_in_bytes": 1811
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/owscontext/atom.py",
+        "path_type": "hardlink",
+        "sha256": "d23cd542c29354281b8cd5f63478a9689fe2f83e4d7b541c5a52d5fc9db5eafd",
+        "sha256_in_prefix": "d23cd542c29354281b8cd5f63478a9689fe2f83e4d7b541c5a52d5fc9db5eafd",
+        "size_in_bytes": 37505
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/owscontext/common.py",
+        "path_type": "hardlink",
+        "sha256": "97f3afbac0b39c94922d64da13723937b65c4197da41846c8ef237d2d911dd41",
+        "sha256_in_prefix": "97f3afbac0b39c94922d64da13723937b65c4197da41846c8ef237d2d911dd41",
+        "size_in_bytes": 7023
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/owscontext/core.py",
+        "path_type": "hardlink",
+        "sha256": "27f89878c9db76c8775fb654adda2929dc297f209e0d79ee03cbc5276205b90c",
+        "sha256_in_prefix": "27f89878c9db76c8775fb654adda2929dc297f209e0d79ee03cbc5276205b90c",
+        "size_in_bytes": 30984
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/owscontext/geojson.py",
+        "path_type": "hardlink",
+        "sha256": "e2413bba4ec3d07f7c2e29f2a75f6844ff70c836087d6e30647507870bb114d1",
+        "sha256_in_prefix": "e2413bba4ec3d07f7c2e29f2a75f6844ff70c836087d6e30647507870bb114d1",
+        "size_in_bytes": 1607
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/sos.py",
+        "path_type": "hardlink",
+        "sha256": "e14793f9eff9bcc344100d7d675884d026a288c1951c0d27658715f5708f3093",
+        "sha256_in_prefix": "e14793f9eff9bcc344100d7d675884d026a288c1951c0d27658715f5708f3093",
+        "size_in_bytes": 1541
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/swe/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8b0d29bd4ef4d52471ee1b624523b49ccdcb84eb006cbf3e5720bd7057b0bca6",
+        "sha256_in_prefix": "8b0d29bd4ef4d52471ee1b624523b49ccdcb84eb006cbf3e5720bd7057b0bca6",
+        "size_in_bytes": 68
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/swe/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "b2735638d7639ffddfe90e6d7bfd87d930dca7c396482228961e5b085244c3a7",
+        "sha256_in_prefix": "b2735638d7639ffddfe90e6d7bfd87d930dca7c396482228961e5b085244c3a7",
+        "size_in_bytes": 227
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/swe/__pycache__/common.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "3e27ef1c591819b819f916af5c393d71d3b5615edd8b5b82791e9b3fb962c04c",
+        "sha256_in_prefix": "3e27ef1c591819b819f916af5c393d71d3b5615edd8b5b82791e9b3fb962c04c",
+        "size_in_bytes": 21734
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/swe/common.py",
+        "path_type": "hardlink",
+        "sha256": "e38c0d08a92a50d5d081c667180d19ebc3c82b375789994637d585aafc119f2f",
+        "sha256_in_prefix": "e38c0d08a92a50d5d081c667180d19ebc3c82b375789994637d585aafc119f2f",
+        "size_in_bytes": 18697
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/swe/observation/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8b0d29bd4ef4d52471ee1b624523b49ccdcb84eb006cbf3e5720bd7057b0bca6",
+        "sha256_in_prefix": "8b0d29bd4ef4d52471ee1b624523b49ccdcb84eb006cbf3e5720bd7057b0bca6",
+        "size_in_bytes": 68
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/swe/observation/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "a6e0ba87cf719700b887f89cf44c5b6cddf818260e90d2c4200cbba227e6d3ae",
+        "sha256_in_prefix": "a6e0ba87cf719700b887f89cf44c5b6cddf818260e90d2c4200cbba227e6d3ae",
+        "size_in_bytes": 239
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/swe/observation/__pycache__/om.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "1180ba97191b6aa0d62548e65830e4190eb84def7fdecb76173f6b55a36e8ad2",
+        "sha256_in_prefix": "1180ba97191b6aa0d62548e65830e4190eb84def7fdecb76173f6b55a36e8ad2",
+        "size_in_bytes": 4398
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/swe/observation/__pycache__/sos100.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "86bf3844a00228a4b162205010f8ff7a6d2fcc0031f4dc3bdc685db11589d532",
+        "sha256_in_prefix": "86bf3844a00228a4b162205010f8ff7a6d2fcc0031f4dc3bdc685db11589d532",
+        "size_in_bytes": 10687
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/swe/observation/__pycache__/sos200.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "8c04302ece4982ac94ef93fb09bc72b559c0046465b1b2bf63ffc0d6ecfb9b84",
+        "sha256_in_prefix": "8c04302ece4982ac94ef93fb09bc72b559c0046465b1b2bf63ffc0d6ecfb9b84",
+        "size_in_bytes": 12936
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/swe/observation/__pycache__/waterml2.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "68fe187f7578890095e803e0cdc2f1d44ea6784e19ff7b3d44db4937d7c8fdec",
+        "sha256_in_prefix": "68fe187f7578890095e803e0cdc2f1d44ea6784e19ff7b3d44db4937d7c8fdec",
+        "size_in_bytes": 6399
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/swe/observation/om.py",
+        "path_type": "hardlink",
+        "sha256": "478988bbf4e5693afcc5a820bfa1209279c9d51dca89a8b65cd813527b719b3e",
+        "sha256_in_prefix": "478988bbf4e5693afcc5a820bfa1209279c9d51dca89a8b65cd813527b719b3e",
+        "size_in_bytes": 3941
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/swe/observation/sos100.py",
+        "path_type": "hardlink",
+        "sha256": "f579049711312986b201a762e1cd7b81ad060104f5fffbbbd2e641b2cdb5c626",
+        "sha256_in_prefix": "f579049711312986b201a762e1cd7b81ad060104f5fffbbbd2e641b2cdb5c626",
+        "size_in_bytes": 13160
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/swe/observation/sos200.py",
+        "path_type": "hardlink",
+        "sha256": "509067e99fbdaa4a9726384a77c7b05f84f3119a6306b6346ecae6ed52d5b1ce",
+        "sha256_in_prefix": "509067e99fbdaa4a9726384a77c7b05f84f3119a6306b6346ecae6ed52d5b1ce",
+        "size_in_bytes": 15256
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/swe/observation/waterml2.py",
+        "path_type": "hardlink",
+        "sha256": "be9cfd7bd1094678c874ab6f4f21312467c86427268b30224c9629589793adbd",
+        "sha256_in_prefix": "be9cfd7bd1094678c874ab6f4f21312467c86427268b30224c9629589793adbd",
+        "size_in_bytes": 5221
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/swe/sensor/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8b0d29bd4ef4d52471ee1b624523b49ccdcb84eb006cbf3e5720bd7057b0bca6",
+        "sha256_in_prefix": "8b0d29bd4ef4d52471ee1b624523b49ccdcb84eb006cbf3e5720bd7057b0bca6",
+        "size_in_bytes": 68
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/swe/sensor/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "22127a5a04650af547585d8cd3fe175de57a3e58a498a1f765bd3aca7be50d07",
+        "sha256_in_prefix": "22127a5a04650af547585d8cd3fe175de57a3e58a498a1f765bd3aca7be50d07",
+        "size_in_bytes": 234
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/swe/sensor/__pycache__/sml.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "5eb52160eed5a9b925a6ba6b1a83145a58eae300617654d4a787e759f655f02d",
+        "sha256_in_prefix": "5eb52160eed5a9b925a6ba6b1a83145a58eae300617654d4a787e759f655f02d",
+        "size_in_bytes": 18113
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/swe/sensor/sml.py",
+        "path_type": "hardlink",
+        "sha256": "18eb31000e50e0a2a32010dc65b7a244804111083df8aa3ed3b800da665da162",
+        "sha256_in_prefix": "18eb31000e50e0a2a32010dc65b7a244804111083df8aa3ed3b800da665da162",
+        "size_in_bytes": 14826
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/tms.py",
+        "path_type": "hardlink",
+        "sha256": "592dba2fca73a316e625b1ed4f5ea64397677425a76e60e9181db2baa0210955",
+        "sha256_in_prefix": "592dba2fca73a316e625b1ed4f5ea64397677425a76e60e9181db2baa0210955",
+        "size_in_bytes": 11982
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/util.py",
+        "path_type": "hardlink",
+        "sha256": "36f08a489ce4bf8c4d87856b1568d0aafb6f5fe231428e7cdda0a7e60dbe09c5",
+        "sha256_in_prefix": "36f08a489ce4bf8c4d87856b1568d0aafb6f5fe231428e7cdda0a7e60dbe09c5",
+        "size_in_bytes": 21825
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/waterml/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8b0d29bd4ef4d52471ee1b624523b49ccdcb84eb006cbf3e5720bd7057b0bca6",
+        "sha256_in_prefix": "8b0d29bd4ef4d52471ee1b624523b49ccdcb84eb006cbf3e5720bd7057b0bca6",
+        "size_in_bytes": 68
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/waterml/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "4e95c2b6032c3fb2d896898dbb57ea4854160fedd56a583e1377922ecb2622f6",
+        "sha256_in_prefix": "4e95c2b6032c3fb2d896898dbb57ea4854160fedd56a583e1377922ecb2622f6",
+        "size_in_bytes": 231
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/waterml/__pycache__/wml.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "e77668273e0293351e9c24f9ac5addd4fe44db6b76064f62b0c4b45f46d2cb4e",
+        "sha256_in_prefix": "e77668273e0293351e9c24f9ac5addd4fe44db6b76064f62b0c4b45f46d2cb4e",
+        "size_in_bytes": 38955
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/waterml/__pycache__/wml10.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "468d4cf2bbba661354856608061633cfca753db72b255e42aff3815561e5a556",
+        "sha256_in_prefix": "468d4cf2bbba661354856608061633cfca753db72b255e42aff3815561e5a556",
+        "size_in_bytes": 1419
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/waterml/__pycache__/wml11.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "63a8a54209c6c96e22cc440ffe4cc19c74510bbf76f7b743b739bddc907dcf29",
+        "sha256_in_prefix": "63a8a54209c6c96e22cc440ffe4cc19c74510bbf76f7b743b739bddc907dcf29",
+        "size_in_bytes": 1419
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/waterml/wml.py",
+        "path_type": "hardlink",
+        "sha256": "3effa9744d1653ce24edc84185933fb252dc1884c7581e14055f26f347d90f44",
+        "sha256_in_prefix": "3effa9744d1653ce24edc84185933fb252dc1884c7581e14055f26f347d90f44",
+        "size_in_bytes": 32978
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/waterml/wml10.py",
+        "path_type": "hardlink",
+        "sha256": "ea4fb86964700ccdb10ce27cc57c0a35b570ac076f2292dad31cf72417f1e187",
+        "sha256_in_prefix": "ea4fb86964700ccdb10ce27cc57c0a35b570ac076f2292dad31cf72417f1e187",
+        "size_in_bytes": 1156
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/waterml/wml11.py",
+        "path_type": "hardlink",
+        "sha256": "1421529e6c1a9b5293059422bea96a75004858492a799b5160b1432f010b9531",
+        "sha256_in_prefix": "1421529e6c1a9b5293059422bea96a75004858492a799b5160b1432f010b9531",
+        "size_in_bytes": 1156
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/wcs.py",
+        "path_type": "hardlink",
+        "sha256": "68a8f2a13ebb8039d5d3cd32e28081d4ac67474a3c135cb18301e0b9a8010450",
+        "sha256_in_prefix": "68a8f2a13ebb8039d5d3cd32e28081d4ac67474a3c135cb18301e0b9a8010450",
+        "size_in_bytes": 1897
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/wfs.py",
+        "path_type": "hardlink",
+        "sha256": "9246fb50f2e3c2af45e234bd92f44264e4b18154de615e698b8f649d77d9dffb",
+        "sha256_in_prefix": "9246fb50f2e3c2af45e234bd92f44264e4b18154de615e698b8f649d77d9dffb",
+        "size_in_bytes": 2341
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/wmc.py",
+        "path_type": "hardlink",
+        "sha256": "364d5429f2205611aeaeed4568527559291eae08aa4acbcb34ce9641a93a084b",
+        "sha256_in_prefix": "364d5429f2205611aeaeed4568527559291eae08aa4acbcb34ce9641a93a084b",
+        "size_in_bytes": 6723
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/wms.py",
+        "path_type": "hardlink",
+        "sha256": "77c3cb825357bcb7e5c90e862e8b092d671538e34fdc294ee3f9954f4740e4b9",
+        "sha256_in_prefix": "77c3cb825357bcb7e5c90e862e8b092d671538e34fdc294ee3f9954f4740e4b9",
+        "size_in_bytes": 2261
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/wmts.py",
+        "path_type": "hardlink",
+        "sha256": "594eba47eface361ed70a9ce2af992d914209da4a206dce413b31847a72ad630",
+        "sha256_in_prefix": "594eba47eface361ed70a9ce2af992d914209da4a206dce413b31847a72ad630",
+        "size_in_bytes": 32986
+      },
+      {
+        "_path": "lib/python3.6/site-packages/owslib/wps.py",
+        "path_type": "hardlink",
+        "sha256": "c781cbdf3e13c1bd42e5ea03547442be1cd045281e3289a0f9fdf03a777ba23b",
+        "sha256_in_prefix": "c781cbdf3e13c1bd42e5ea03547442be1cd045281e3289a0f9fdf03a777ba23b",
+        "size_in_bytes": 77293
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "138fe79b7d72259e2f76d884d272d8a51f8958fe7785f8d53db7bf51226c7236",
+  "size": 256611,
+  "subdir": "linux-64",
+  "timestamp": 1539655681616,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/owslib-0.17.0-py36_0.conda",
+  "version": "0.17.0"
+}

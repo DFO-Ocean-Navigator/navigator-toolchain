@@ -27,10 +27,10 @@ MODLIBS=        $(LOCALMODLIBS) $(BASEMODLIBS)
 
 # === Variables set by configure
 VERSION=	3.6
-srcdir=		/tmp/build/80754af9/python_1546130271559/work
-VPATH=		/tmp/build/80754af9/python_1546130271559/work
-abs_srcdir=	/tmp/build/80754af9/python_1546130271559/work
-abs_builddir=	/tmp/build/80754af9/python_1546130271559/work/build-static
+srcdir=		/tmp/build/80754af9/python_1585002248360/work
+VPATH=		/tmp/build/80754af9/python_1585002248360/work
+abs_srcdir=	/tmp/build/80754af9/python_1585002248360/work
+abs_builddir=	/tmp/build/80754af9/python_1585002248360/work/build-static
 
 
 CC=		x86_64-conda_cos6-linux-gnu-gcc -pthread
@@ -80,7 +80,7 @@ MAKESETUP=      $(srcdir)/Modules/makesetup
 OPT=		-DNDEBUG -fwrapv -O2 -Wall
 BASECFLAGS=	 -Wno-unused-result -Wsign-compare
 BASECPPFLAGS=	-IObjects -IInclude -IPython
-CONFIGURE_CFLAGS=	-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -pipe  -fdebug-prefix-map=${SRC_DIR}=/usr/local/src/conda/${PKG_NAME}-${PKG_VERSION} -fdebug-prefix-map=${PREFIX}=/usr/local/src/conda-prefix    
+CONFIGURE_CFLAGS=	-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/buildadm/miniconda/3/amd64/envs/navigator/include -fdebug-prefix-map=/tmp/build/80754af9/python_1585002248360/work=/usr/local/src/conda/python-3.6.10 -fdebug-prefix-map=/home/buildadm/miniconda/3/amd64/envs/navigator=/usr/local/src/conda-prefix    
 # CFLAGS_NODIST is used for building the interpreter and stdlib C extensions.
 # Use it when a compiler flag should _not_ be part of the distutils CFLAGS
 # once Python is installed (Issue #21121).
@@ -89,8 +89,8 @@ CONFIGURE_CFLAGS_NODIST=     -g -std=c99 -Wextra -Wno-unused-result -Wno-unused-
 # Use it when a linker flag should _not_ be part of the distutils LDFLAGS
 # once Python is installed (bpo-35257)
 CONFIGURE_LDFLAGS_NODIST=     -g
-CONFIGURE_CPPFLAGS=	-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -I/home/buildadm/miniconda/3/amd64/envs/navigator/include
-CONFIGURE_LDFLAGS=	-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,-rpath,/home/buildadm/miniconda/3/amd64/envs/navigator/lib -L/home/buildadm/miniconda/3/amd64/envs/navigator/lib
+CONFIGURE_CPPFLAGS=	-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/buildadm/miniconda/3/amd64/envs/navigator/include -I/home/buildadm/miniconda/3/amd64/envs/navigator/include
+CONFIGURE_LDFLAGS=	-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/buildadm/miniconda/3/amd64/envs/navigator/lib -Wl,-rpath-link,/home/buildadm/miniconda/3/amd64/envs/navigator/lib -L/home/buildadm/miniconda/3/amd64/envs/navigator/lib
 # Avoid assigning CFLAGS, LDFLAGS, etc. so users can use them on the
 # command line to append to these values without stomping the pre-set
 # values.
@@ -195,7 +195,7 @@ EXEMODE=	755
 FILEMODE=	644
 
 # configure script arguments
-CONFIG_ARGS=	 '--prefix=/home/buildadm/miniconda/3/amd64/envs/navigator' '--build=x86_64-conda_cos6-linux-gnu' '--host=x86_64-conda_cos6-linux-gnu' '--enable-ipv6' '--with-ensurepip=no' '--with-computed-gotos' '--with-system-ffi' '--enable-loadable-sqlite-extensions' '--with-tcltk-includes=-I/home/buildadm/miniconda/3/amd64/envs/navigator/include' '--with-tcltk-libs=-L/home/buildadm/miniconda/3/amd64/envs/navigator/lib -ltcl8.6 -ltk8.6' '--enable-optimizations' '--with-lto' '--disable-shared' 'build_alias=x86_64-conda_cos6-linux-gnu' 'host_alias=x86_64-conda_cos6-linux-gnu' 'CC=x86_64-conda_cos6-linux-gnu-gcc' 'CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -pipe  -fdebug-prefix-map=${SRC_DIR}=/usr/local/src/conda/${PKG_NAME}-${PKG_VERSION} -fdebug-prefix-map=${PREFIX}=/usr/local/src/conda-prefix    ' 'LDFLAGS=-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,-rpath,/home/buildadm/miniconda/3/amd64/envs/navigator/lib -L/home/buildadm/miniconda/3/amd64/envs/navigator/lib' 'CPPFLAGS=-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -I/home/buildadm/miniconda/3/amd64/envs/navigator/include' 'CPP=/tmp/build/80754af9/python_1546130271559/_build_env/bin/x86_64-conda_cos6-linux-gnu-cpp' 'PKG_CONFIG_PATH=/home/buildadm/miniconda/3/amd64/envs/navigator/lib/pkgconfig'
+CONFIG_ARGS=	 '--prefix=/home/buildadm/miniconda/3/amd64/envs/navigator' '--build=x86_64-conda_cos6-linux-gnu' '--host=x86_64-conda_cos6-linux-gnu' '--enable-ipv6' '--with-ensurepip=no' '--with-computed-gotos' '--with-system-ffi' '--enable-loadable-sqlite-extensions' '--with-tcltk-includes=-I/home/buildadm/miniconda/3/amd64/envs/navigator/include' '--with-tcltk-libs=-L/home/buildadm/miniconda/3/amd64/envs/navigator/lib -ltcl8.6 -ltk8.6' '--enable-optimizations' '--with-lto' '--disable-shared' 'build_alias=x86_64-conda_cos6-linux-gnu' 'host_alias=x86_64-conda_cos6-linux-gnu' 'CC=x86_64-conda_cos6-linux-gnu-gcc' 'CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/buildadm/miniconda/3/amd64/envs/navigator/include -fdebug-prefix-map=/tmp/build/80754af9/python_1585002248360/work=/usr/local/src/conda/python-3.6.10 -fdebug-prefix-map=/home/buildadm/miniconda/3/amd64/envs/navigator=/usr/local/src/conda-prefix    ' 'LDFLAGS=-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/buildadm/miniconda/3/amd64/envs/navigator/lib -Wl,-rpath-link,/home/buildadm/miniconda/3/amd64/envs/navigator/lib -L/home/buildadm/miniconda/3/amd64/envs/navigator/lib' 'CPPFLAGS=-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/buildadm/miniconda/3/amd64/envs/navigator/include -I/home/buildadm/miniconda/3/amd64/envs/navigator/include' 'CPP=/tmp/build/80754af9/python_1585002248360/_build_env/bin/x86_64-conda_cos6-linux-gnu-cpp' 'PKG_CONFIG_PATH=/home/buildadm/miniconda/3/amd64/envs/navigator/lib/pkgconfig'
 
 
 # Subdirectories with code

@@ -1,7 +1,7 @@
 {
   "build": "py_0",
   "build_number": 0,
-  "channel": "<unknown>",
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
   "constrains": [],
   "depends": [
     "python"
@@ -18,16 +18,17 @@
     "lib/python3.6/site-packages/shapefile.py",
     "lib/python3.6/site-packages/__pycache__/shapefile.cpython-36.pyc"
   ],
-  "fn": "pyshp-2.1.0-py_0.tar.bz2",
+  "fn": "pyshp-2.1.0-py_0.conda",
+  "legacy_bz2_md5": "7ecfdfa85c6862242e7bbf7375a02f02",
   "license": "MIT",
   "link": {
     "source": "/home/buildadm/miniconda/3/amd64/pkgs/pyshp-2.1.0-py_0",
     "type": 1
   },
-  "md5": "7ecfdfa85c6862242e7bbf7375a02f02",
+  "md5": "5b273c069ccf12c73d5bf829ae06d35c",
   "name": "pyshp",
   "noarch": "python",
-  "package_tarball_full_path": "/home/buildadm/miniconda/3/amd64/pkgs/pyshp-2.1.0-py_0.tar.bz2",
+  "package_tarball_full_path": "/home/buildadm/miniconda/3/amd64/pkgs/pyshp-2.1.0-py_0.conda",
   "package_type": "noarch_python",
   "paths_data": {
     "paths": [
@@ -87,12 +88,12 @@
     ],
     "paths_version": 1
   },
-  "requested_spec": "pyshp[url=file:///home/buildadm/pkgs/pyshp-2.1.0-py_0.tar.bz2]",
-  "sha256": "0168236d850883fe616be816858f48deed4ef0442a53c35ce328cc9a99b59898",
-  "size": 34869,
+  "requested_spec": "None",
+  "sha256": "a5ce08344e64077c2cc4744c40823897da3dddc35a9cb2e0309f0ea03214d148",
+  "size": 35997,
   "subdir": "noarch",
   "timestamp": 1556071091426,
   "track_features": "",
-  "url": "file:///home/buildadm/pkgs/pyshp-2.1.0-py_0.tar.bz2",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/pyshp-2.1.0-py_0.conda",
   "version": "2.1.0"
 }

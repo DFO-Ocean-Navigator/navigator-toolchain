@@ -25,7 +25,7 @@
 #
 
 # Configurable parameters set by autoconf
-version_string="Kerberos 5 release 1.16.1"
+version_string="Kerberos 5 release 1.17.1"
 
 prefix=/home/buildadm/miniconda/3/amd64/envs/index-tool
 exec_prefix=${prefix}
@@ -33,14 +33,14 @@ includedir=${prefix}/include
 libdir=${exec_prefix}/lib
 CC_LINK='$(CC) $(PROG_LIBPATH) $(PROG_RPATH_FLAGS) $(CFLAGS) $(LDFLAGS)'
 KDB5_DB_LIB=
-LDFLAGS='-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,-rpath,/home/buildadm/miniconda/3/amd64/envs/index-tool/lib -L/home/buildadm/miniconda/3/amd64/envs/index-tool/lib -L/home/buildadm/miniconda/3/amd64/envs/index-tool/lib -Wl,--disable-new-dtags'
+LDFLAGS='-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/buildadm/miniconda/3/amd64/envs/index-tool/lib -Wl,-rpath-link,/home/buildadm/miniconda/3/amd64/envs/index-tool/lib -L/home/buildadm/miniconda/3/amd64/envs/index-tool/lib -L/home/buildadm/miniconda/3/amd64/envs/index-tool/lib -Wl,--disable-new-dtags'
 RPATH_FLAG='-Wl,--enable-new-dtags -Wl,-rpath -Wl,'
 PROG_RPATH_FLAGS='$(RPATH_FLAG)$(PROG_RPATH)'
 PTHREAD_CFLAGS='-pthread'
 DL_LIB='-ldl'
 DEFCCNAME='FILE:/tmp/krb5cc_%{uid}'
 DEFKTNAME='FILE:/etc/krb5.keytab'
-DEFCKTNAME='FILE:/home/buildadm/miniconda/3/amd64/envs/index-tool/var/krb5/user/%{euid}/client.keytab'
+DEFCKTNAME='FILE:/opt/conda/var/krb5/user/%{euid}/client.keytab'
 
 LIBS='-lcrypto -lresolv '
 GEN_LIB=

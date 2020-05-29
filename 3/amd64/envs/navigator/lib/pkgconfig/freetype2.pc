@@ -6,7 +6,7 @@ includedir=/home/buildadm/miniconda/3/amd64/envs/navigator/include
 Name: FreeType 2
 URL: https://freetype.org
 Description: A free, high-quality, and portable font engine.
-Version: 23.0.17
+Version: 22.1.16
 Requires:
 Requires.private: 
 Libs: -L${libdir} -lfreetype

@@ -5,8 +5,8 @@ includedir=${prefix}/include
 
 
 Name: libxslt
-Version: 1.1.32
+Version: 1.1.33
 Description: XSLT library version 2.
 Requires: libxml-2.0
-Libs: -L${libdir} -lxslt -L/home/buildadm/miniconda/3/amd64/envs/navigator/lib -lxml2 -L/home/buildadm/miniconda/3/amd64/envs/navigator/lib -lz -L/home/buildadm/miniconda/3/amd64/envs/navigator/lib -llzma -L/home/buildadm/miniconda/3/amd64/envs/navigator/lib -liconv -L/home/buildadm/miniconda/3/amd64/envs/navigator/lib -licui18n -licuuc -licudata -lm -ldl -lm  -lrt
+Libs: -L${libdir} -lxslt -L/home/buildadm/miniconda/3/amd64/envs/navigator/lib -lxml2 -L/home/buildadm/miniconda/3/amd64/envs/navigator/lib -L/home/buildadm/miniconda/3/amd64/envs/navigator/lib -L/home/buildadm/miniconda/3/amd64/envs/navigator/lib -L/home/buildadm/miniconda/3/amd64/envs/navigator/lib -licui18n -licuuc -licudata -lm -ldl -lm  -lrt
 Cflags: -I${includedir}

@@ -59,8 +59,6 @@ typedef struct _GstAggregatorPadPrivate GstAggregatorPadPrivate;
  * @segment: last segment received.
  *
  * The implementation the GstPad to use with #GstAggregator
- *
- * Since: 1.14
  */
 struct _GstAggregatorPad
 {
@@ -85,7 +83,6 @@ struct _GstAggregatorPad
  *               Called before input buffers are queued in the pad, return %TRUE
  *               if the buffer should be skipped.
  *
- * Since: 1.14
  */
 struct _GstAggregatorPadClass
 {
@@ -115,9 +112,6 @@ GST_BASE_API
 gboolean    gst_aggregator_pad_drop_buffer  (GstAggregatorPad *  pad);
 
 GST_BASE_API
-gboolean    gst_aggregator_pad_has_buffer   (GstAggregatorPad * pad);
-
-GST_BASE_API
 gboolean    gst_aggregator_pad_is_eos       (GstAggregatorPad *  pad);
 
 /*********************
@@ -140,8 +134,6 @@ gboolean    gst_aggregator_pad_is_eos       (GstAggregatorPad *  pad);
  * @segment: the output segment
  *
  * Aggregator base class object structure.
- *
- * Since: 1.14
  */
 struct _GstAggregator
 {
@@ -238,8 +230,6 @@ struct _GstAggregator
  *
  * Basically, a simple implementation will override @aggregate, and call
  * _finish_buffer from inside that function.
- *
- * Since: 1.14
  */
 struct _GstAggregatorClass {
   GstElementClass   parent_class;
@@ -286,11 +276,6 @@ struct _GstAggregatorClass {
                                         GstPadTemplate * templ,
                                         const gchar    * req_name,
                                         const GstCaps  * caps);
-
-  /**
-   * GstAggregatorClass::update_src_caps:
-   * @ret: (out) (allow-none):
-   */
   GstFlowReturn     (*update_src_caps) (GstAggregator *  self,
                                         GstCaps       *  caps,
                                         GstCaps       ** ret);

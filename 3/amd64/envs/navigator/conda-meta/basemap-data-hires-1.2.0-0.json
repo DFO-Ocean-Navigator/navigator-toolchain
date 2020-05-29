@@ -1,8 +1,7 @@
 {
-  "arch": "x86_64",
   "build": "0",
   "build_number": 0,
-  "channel": "<unknown>",
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
   "constrains": [],
   "depends": [
     "basemap >1.0.7"
@@ -40,6 +39,7 @@
     "share/basemap/statesmeta_i.dat"
   ],
   "fn": "basemap-data-hires-1.2.0-0.conda",
+  "legacy_bz2_md5": "d081ba4625e4dde97ce44f25f0ce94e4",
   "license": "GPL-2.0",
   "link": {
     "source": "/home/buildadm/miniconda/3/amd64/pkgs/basemap-data-hires-1.2.0-0",
@@ -249,13 +249,12 @@
     ],
     "paths_version": 1
   },
-  "platform": "linux",
-  "requested_spec": "basemap-data-hires[url=file:///home/buildadm/pkgs/basemap-data-hires-1.2.0-0.conda]",
+  "requested_spec": "None",
   "sha256": "bbe0c01fcdc943f579b4153fc14b071ffde833c9e03fc17b1913c692a7cf28a5",
   "size": 87917168,
   "subdir": "linux-64",
   "timestamp": 1539184858018,
   "track_features": "",
-  "url": "file:///home/buildadm/pkgs/basemap-data-hires-1.2.0-0.conda",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/basemap-data-hires-1.2.0-0.conda",
   "version": "1.2.0"
 }

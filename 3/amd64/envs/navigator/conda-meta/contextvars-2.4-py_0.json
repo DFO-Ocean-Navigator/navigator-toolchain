@@ -1,0 +1,101 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "immutables >=0.9",
+    "python >=3,<3.7"
+  ],
+  "extracted_package_dir": "/home/buildadm/miniconda/3/amd64/pkgs/contextvars-2.4-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/contextvars-2.4.dist-info/INSTALLER",
+    "lib/python3.6/site-packages/contextvars-2.4.dist-info/LICENSE",
+    "lib/python3.6/site-packages/contextvars-2.4.dist-info/METADATA",
+    "lib/python3.6/site-packages/contextvars-2.4.dist-info/RECORD",
+    "lib/python3.6/site-packages/contextvars-2.4.dist-info/WHEEL",
+    "lib/python3.6/site-packages/contextvars-2.4.dist-info/top_level.txt",
+    "lib/python3.6/site-packages/contextvars/__init__.py",
+    "lib/python3.6/site-packages/contextvars/__pycache__/__init__.cpython-36.pyc"
+  ],
+  "fn": "contextvars-2.4-py_0.conda",
+  "legacy_bz2_md5": "5d0db95b48525177db3c3f7d0058345e",
+  "license": "Apache",
+  "license_family": "APACHE",
+  "link": {
+    "source": "/home/buildadm/miniconda/3/amd64/pkgs/contextvars-2.4-py_0",
+    "type": 1
+  },
+  "md5": "0319a44ccc6307312c01796d0268ba3a",
+  "name": "contextvars",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/buildadm/miniconda/3/amd64/pkgs/contextvars-2.4-py_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/contextvars-2.4.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/contextvars-2.4.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "345d681f653494674852fed7b4958e27ac1d7a699daca244db764c491c24aa61",
+        "sha256_in_prefix": "345d681f653494674852fed7b4958e27ac1d7a699daca244db764c491c24aa61",
+        "size_in_bytes": 11438
+      },
+      {
+        "_path": "site-packages/contextvars-2.4.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "b69d643e6a4e4abccaa3bcd59ca0c84cc658aa5c07f8ab499a824d29e2cbf16a",
+        "sha256_in_prefix": "b69d643e6a4e4abccaa3bcd59ca0c84cc658aa5c07f8ab499a824d29e2cbf16a",
+        "size_in_bytes": 2590
+      },
+      {
+        "_path": "site-packages/contextvars-2.4.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "730d8b4b06c61dc5daa9c12d541d9cf216ccc89b48241a5d8a669e345e8a49b5",
+        "sha256_in_prefix": "730d8b4b06c61dc5daa9c12d541d9cf216ccc89b48241a5d8a669e345e8a49b5",
+        "size_in_bytes": 624
+      },
+      {
+        "_path": "site-packages/contextvars-2.4.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "8389ccb3b77e5e5f7ec42f57a2f52bb031c65edf854f4135ed8aa8f760c47ef6",
+        "sha256_in_prefix": "8389ccb3b77e5e5f7ec42f57a2f52bb031c65edf854f4135ed8aa8f760c47ef6",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/contextvars-2.4.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "78808596bbab423e6340ec7c7e72e4e2115c1d56bab03575be4a0481c367bbe5",
+        "sha256_in_prefix": "78808596bbab423e6340ec7c7e72e4e2115c1d56bab03575be4a0481c367bbe5",
+        "size_in_bytes": 12
+      },
+      {
+        "_path": "site-packages/contextvars/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "bfbe85c3458cf0383338752d4368c199748e19308e053209a40b33f96a4ac9ab",
+        "sha256_in_prefix": "bfbe85c3458cf0383338752d4368c199748e19308e053209a40b33f96a4ac9ab",
+        "size_in_bytes": 5113
+      },
+      {
+        "_path": "lib/python3.6/site-packages/contextvars/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "332f3720d1b3b6a6b4da6aeb8775001c8ec93aa8b54a6b3c14b793e0f4581bb3",
+  "size": 12403,
+  "subdir": "noarch",
+  "timestamp": 1585075624208,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/contextvars-2.4-py_0.conda",
+  "version": "2.4"
+}

@@ -1,8 +1,7 @@
 {
-  "arch": "x86_64",
   "build": "hc856adb_0",
   "build_number": 0,
-  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
   "constrains": [],
   "depends": [
     "libgcc-ng >=7.3.0",
@@ -1221,38 +1220,39 @@
     "share/man/man3/MPI_Wtick.3",
     "share/man/man3/MPI_Wtime.3"
   ],
-  "fn": "mpich-3.3.2-hc856adb_0.tar.bz2",
+  "fn": "mpich-3.3.2-hc856adb_0.conda",
+  "legacy_bz2_md5": "08c4539f50d920a6d39be5b1c741431e",
   "license": "MPICH",
   "license_family": "Other",
   "link": {
     "source": "/home/buildadm/miniconda/3/amd64/pkgs/mpich-3.3.2-hc856adb_0",
     "type": 1
   },
-  "md5": "770341e8023d3614e7c05cec34368591",
+  "md5": "3ca2b609c8caabd6ebe6122f60069fda",
   "name": "mpich",
-  "package_tarball_full_path": "/home/buildadm/miniconda/3/amd64/pkgs/mpich-3.3.2-hc856adb_0.tar.bz2",
+  "package_tarball_full_path": "/home/buildadm/miniconda/3/amd64/pkgs/mpich-3.3.2-hc856adb_0.conda",
   "paths_data": {
     "paths": [
       {
         "_path": "bin/hydra_nameserver",
         "path_type": "hardlink",
-        "sha256": "c992a26a04eadebc3686b1f83b209fe0443a899425d7c355ef60a382cc63ed00",
-        "sha256_in_prefix": "c992a26a04eadebc3686b1f83b209fe0443a899425d7c355ef60a382cc63ed00",
-        "size_in_bytes": 2203224
+        "sha256": "e70426babff55b54f8a339ae86be8ba22ef9721266169c2301533f01b942916f",
+        "sha256_in_prefix": "e70426babff55b54f8a339ae86be8ba22ef9721266169c2301533f01b942916f",
+        "size_in_bytes": 2203120
       },
       {
         "_path": "bin/hydra_persist",
         "path_type": "hardlink",
-        "sha256": "ad1b0b08a8115c40cde02e0e8f49a92b27cc37aeba27678e07cefae865636460",
-        "sha256_in_prefix": "ad1b0b08a8115c40cde02e0e8f49a92b27cc37aeba27678e07cefae865636460",
-        "size_in_bytes": 2197568
+        "sha256": "09d19e7bcf927016df516a2386d68c5478ac7baa922999a71a63372bb41e284a",
+        "sha256_in_prefix": "09d19e7bcf927016df516a2386d68c5478ac7baa922999a71a63372bb41e284a",
+        "size_in_bytes": 2197464
       },
       {
         "_path": "bin/hydra_pmi_proxy",
         "path_type": "hardlink",
-        "sha256": "a1082fdfe148373b44ae4e5e108baaa4db4f58abddfe5dce50a4702ec6f67188",
-        "sha256_in_prefix": "a1082fdfe148373b44ae4e5e108baaa4db4f58abddfe5dce50a4702ec6f67188",
-        "size_in_bytes": 2636488
+        "sha256": "178ff7aabe437e4359fea72cb131348a936fdc8d642ec2ca1e1138474390f36a",
+        "sha256_in_prefix": "178ff7aabe437e4359fea72cb131348a936fdc8d642ec2ca1e1138474390f36a",
+        "size_in_bytes": 2636392
       },
       {
         "_path": "bin/mpic++",
@@ -1272,9 +1272,9 @@
       {
         "_path": "bin/mpichversion",
         "path_type": "hardlink",
-        "sha256": "c86ef0af0814f4210591cfdb2e16be0de1c5bec1659c1da97edae1b45db5dc1d",
-        "sha256_in_prefix": "c86ef0af0814f4210591cfdb2e16be0de1c5bec1659c1da97edae1b45db5dc1d",
-        "size_in_bytes": 20600
+        "sha256": "a3a04ab79d7b637a21734e071373079e4fd828114a924df165e2465520d9af45",
+        "sha256_in_prefix": "a3a04ab79d7b637a21734e071373079e4fd828114a924df165e2465520d9af45",
+        "size_in_bytes": 20584
       },
       {
         "_path": "bin/mpicxx",
@@ -1288,17 +1288,17 @@
       {
         "_path": "bin/mpiexec",
         "path_type": "softlink",
-        "sha256": "b806f4d320d6420e1660afd84344a529cd459fd0e9888ad57beafebc6865687c",
-        "size_in_bytes": 3117152
+        "sha256": "97fa9261e99edbb9616949529a746493eb6e96ab2e6c7a0f4f54a2faf1d7e30c",
+        "size_in_bytes": 3117048
       },
       {
         "_path": "bin/mpiexec.hydra",
         "file_mode": "binary",
         "path_type": "hardlink",
-        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/mpich-mpi_1573662435882/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
-        "sha256": "b806f4d320d6420e1660afd84344a529cd459fd0e9888ad57beafebc6865687c",
-        "sha256_in_prefix": "65cdc09dd36499d9ef8070090b30de08060e0dcc50f5b1eb07415fb22797bb3a",
-        "size_in_bytes": 3117152
+        "prefix_placeholder": "/tmp/build/80754af9/mpich-mpi_1575396103289/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "97fa9261e99edbb9616949529a746493eb6e96ab2e6c7a0f4f54a2faf1d7e30c",
+        "sha256_in_prefix": "732946b2c87595179cb45cefc692fd9bdaf958abc291d3e822cd33682e771835",
+        "size_in_bytes": 3117048
       },
       {
         "_path": "bin/mpif77",
@@ -1324,15 +1324,15 @@
       {
         "_path": "bin/mpirun",
         "path_type": "softlink",
-        "sha256": "b806f4d320d6420e1660afd84344a529cd459fd0e9888ad57beafebc6865687c",
-        "size_in_bytes": 3117152
+        "sha256": "97fa9261e99edbb9616949529a746493eb6e96ab2e6c7a0f4f54a2faf1d7e30c",
+        "size_in_bytes": 3117048
       },
       {
         "_path": "bin/mpivars",
         "path_type": "hardlink",
-        "sha256": "500d795899715e5eed7df20cc30766800e0bf7f26ad58fff9034008ae0a2e81e",
-        "sha256_in_prefix": "500d795899715e5eed7df20cc30766800e0bf7f26ad58fff9034008ae0a2e81e",
-        "size_in_bytes": 34584
+        "sha256": "ea6167eb8f56cf369b98d5b341a6aba31c62da855d545ce40bcd4f22050e3487",
+        "sha256_in_prefix": "ea6167eb8f56cf369b98d5b341a6aba31c62da855d545ce40bcd4f22050e3487",
+        "size_in_bytes": 34568
       },
       {
         "_path": "bin/parkill",
@@ -1407,119 +1407,119 @@
       {
         "_path": "lib/libfmpich.so",
         "path_type": "softlink",
-        "sha256": "31da2c5970e9ea6d530a50ad4d500648ca0cdab235fcd3b8553492a77a70e821",
+        "sha256": "b34be821b5b6eb0993981e3d1db1a15fe31547900f27649b1136f9cf2e366738",
         "size_in_bytes": 401024
       },
       {
         "_path": "lib/libmpi.a",
         "file_mode": "binary",
         "path_type": "hardlink",
-        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/mpich-mpi_1573662435882/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
-        "sha256": "44889882a6d8a5c72f9c2cc65b106660ff86dbadff9fa2b619f5feeac00b1253",
-        "sha256_in_prefix": "179b8109787fe1e3369ed8d2650646a93f8f98dfd5359d017892ba043fb82474",
-        "size_in_bytes": 7589508
+        "prefix_placeholder": "/tmp/build/80754af9/mpich-mpi_1575396103289/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "288bcb99b69e9d1a4bf1d250c6021f382cd34c9efa6e5e20168b6679793ea223",
+        "sha256_in_prefix": "6abd5b8006f8c650878311b76a72596707ca07393b3fc8a051f0c1672ae32ab3",
+        "size_in_bytes": 7589988
       },
       {
         "_path": "lib/libmpi.so",
         "path_type": "softlink",
-        "sha256": "68868aa70099c6f3bc5445cd1cce59a9d0ecdbc3a66ea09236b58ffc68748b26",
+        "sha256": "83e37428cd711909d35f359e64f47753583b00535b5584bf1c9f2510dcb336e2",
         "size_in_bytes": 3376736
       },
       {
         "_path": "lib/libmpi.so.12",
         "path_type": "softlink",
-        "sha256": "68868aa70099c6f3bc5445cd1cce59a9d0ecdbc3a66ea09236b58ffc68748b26",
+        "sha256": "83e37428cd711909d35f359e64f47753583b00535b5584bf1c9f2510dcb336e2",
         "size_in_bytes": 3376736
       },
       {
         "_path": "lib/libmpi.so.12.1.8",
         "file_mode": "binary",
         "path_type": "hardlink",
-        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/mpich-mpi_1573662435882/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
-        "sha256": "68868aa70099c6f3bc5445cd1cce59a9d0ecdbc3a66ea09236b58ffc68748b26",
-        "sha256_in_prefix": "c998c7fd36d7ff7a1fc64c565c60ad2e70af689ff93bcb36c415d2034fbdbac3",
+        "prefix_placeholder": "/tmp/build/80754af9/mpich-mpi_1575396103289/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "83e37428cd711909d35f359e64f47753583b00535b5584bf1c9f2510dcb336e2",
+        "sha256_in_prefix": "d63235dba918e7c8765a7e03049b3b892a0ecdeec09e3d63758220c58368edf9",
         "size_in_bytes": 3376736
       },
       {
         "_path": "lib/libmpich.so",
         "path_type": "softlink",
-        "sha256": "68868aa70099c6f3bc5445cd1cce59a9d0ecdbc3a66ea09236b58ffc68748b26",
+        "sha256": "83e37428cd711909d35f359e64f47753583b00535b5584bf1c9f2510dcb336e2",
         "size_in_bytes": 3376736
       },
       {
         "_path": "lib/libmpichcxx.so",
         "path_type": "softlink",
-        "sha256": "67dd5e9e86779498ebcb85a0796e91d3886774e967e390977c617f59f10e2311",
+        "sha256": "2b41bf1a15f1f59c9a00e614367969c9f2bb6d43b138590aa820197467f7c87a",
         "size_in_bytes": 166896
       },
       {
         "_path": "lib/libmpichf90.so",
         "path_type": "softlink",
-        "sha256": "31da2c5970e9ea6d530a50ad4d500648ca0cdab235fcd3b8553492a77a70e821",
+        "sha256": "b34be821b5b6eb0993981e3d1db1a15fe31547900f27649b1136f9cf2e366738",
         "size_in_bytes": 401024
       },
       {
         "_path": "lib/libmpicxx.a",
         "path_type": "hardlink",
-        "sha256": "3258cff6c98daa480c5a6b886fd84a89c7bf9b7e4f2c2205d7d77a56b7b6bcc1",
-        "sha256_in_prefix": "3258cff6c98daa480c5a6b886fd84a89c7bf9b7e4f2c2205d7d77a56b7b6bcc1",
+        "sha256": "97e81c89e5443c4d8a796a213639cb8a7028240b8b057cc86df564529b67467a",
+        "sha256_in_prefix": "97e81c89e5443c4d8a796a213639cb8a7028240b8b057cc86df564529b67467a",
         "size_in_bytes": 263980
       },
       {
         "_path": "lib/libmpicxx.so",
         "path_type": "softlink",
-        "sha256": "67dd5e9e86779498ebcb85a0796e91d3886774e967e390977c617f59f10e2311",
+        "sha256": "2b41bf1a15f1f59c9a00e614367969c9f2bb6d43b138590aa820197467f7c87a",
         "size_in_bytes": 166896
       },
       {
         "_path": "lib/libmpicxx.so.12",
         "path_type": "softlink",
-        "sha256": "67dd5e9e86779498ebcb85a0796e91d3886774e967e390977c617f59f10e2311",
+        "sha256": "2b41bf1a15f1f59c9a00e614367969c9f2bb6d43b138590aa820197467f7c87a",
         "size_in_bytes": 166896
       },
       {
         "_path": "lib/libmpicxx.so.12.1.8",
         "path_type": "hardlink",
-        "sha256": "67dd5e9e86779498ebcb85a0796e91d3886774e967e390977c617f59f10e2311",
-        "sha256_in_prefix": "67dd5e9e86779498ebcb85a0796e91d3886774e967e390977c617f59f10e2311",
+        "sha256": "2b41bf1a15f1f59c9a00e614367969c9f2bb6d43b138590aa820197467f7c87a",
+        "sha256_in_prefix": "2b41bf1a15f1f59c9a00e614367969c9f2bb6d43b138590aa820197467f7c87a",
         "size_in_bytes": 166896
       },
       {
         "_path": "lib/libmpifort.a",
         "path_type": "hardlink",
-        "sha256": "15cfc0b56f883f08d8eb87b933e6d4cc256154d06c729a0d01083a65ce54461d",
-        "sha256_in_prefix": "15cfc0b56f883f08d8eb87b933e6d4cc256154d06c729a0d01083a65ce54461d",
-        "size_in_bytes": 866390
+        "sha256": "277835fa2946c9f13107b5c0e63ae1c2614ab86bb5dcf9c11a7ff2d2eba33164",
+        "sha256_in_prefix": "277835fa2946c9f13107b5c0e63ae1c2614ab86bb5dcf9c11a7ff2d2eba33164",
+        "size_in_bytes": 866550
       },
       {
         "_path": "lib/libmpifort.so",
         "path_type": "softlink",
-        "sha256": "31da2c5970e9ea6d530a50ad4d500648ca0cdab235fcd3b8553492a77a70e821",
+        "sha256": "b34be821b5b6eb0993981e3d1db1a15fe31547900f27649b1136f9cf2e366738",
         "size_in_bytes": 401024
       },
       {
         "_path": "lib/libmpifort.so.12",
         "path_type": "softlink",
-        "sha256": "31da2c5970e9ea6d530a50ad4d500648ca0cdab235fcd3b8553492a77a70e821",
+        "sha256": "b34be821b5b6eb0993981e3d1db1a15fe31547900f27649b1136f9cf2e366738",
         "size_in_bytes": 401024
       },
       {
         "_path": "lib/libmpifort.so.12.1.8",
         "path_type": "hardlink",
-        "sha256": "31da2c5970e9ea6d530a50ad4d500648ca0cdab235fcd3b8553492a77a70e821",
-        "sha256_in_prefix": "31da2c5970e9ea6d530a50ad4d500648ca0cdab235fcd3b8553492a77a70e821",
+        "sha256": "b34be821b5b6eb0993981e3d1db1a15fe31547900f27649b1136f9cf2e366738",
+        "sha256_in_prefix": "b34be821b5b6eb0993981e3d1db1a15fe31547900f27649b1136f9cf2e366738",
         "size_in_bytes": 401024
       },
       {
         "_path": "lib/libmpl.so",
         "path_type": "softlink",
-        "sha256": "68868aa70099c6f3bc5445cd1cce59a9d0ecdbc3a66ea09236b58ffc68748b26",
+        "sha256": "83e37428cd711909d35f359e64f47753583b00535b5584bf1c9f2510dcb336e2",
         "size_in_bytes": 3376736
       },
       {
         "_path": "lib/libopa.so",
         "path_type": "softlink",
-        "sha256": "68868aa70099c6f3bc5445cd1cce59a9d0ecdbc3a66ea09236b58ffc68748b26",
+        "sha256": "83e37428cd711909d35f359e64f47753583b00535b5584bf1c9f2510dcb336e2",
         "size_in_bytes": 3376736
       },
       {
@@ -9684,13 +9684,12 @@
     ],
     "paths_version": 1
   },
-  "platform": "linux",
-  "requested_spec": "conda-forge/linux-64::mpich==3.3.2=hc856adb_0",
-  "sha256": "def8ccf02763e42b4b50eaf1d12bd5713b274f1c46c98a59364db94bee60921d",
-  "size": 6721565,
+  "requested_spec": "None",
+  "sha256": "62adbd580e9b7956d5292abb3afacaff8fe8714a2e93c49fd0efacbcfea2f4c7",
+  "size": 4027940,
   "subdir": "linux-64",
-  "timestamp": 1573663017361,
+  "timestamp": 1575396464358,
   "track_features": "",
-  "url": "https://conda.anaconda.org/conda-forge/linux-64/mpich-3.3.2-hc856adb_0.tar.bz2",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/mpich-3.3.2-hc856adb_0.conda",
   "version": "3.3.2"
 }

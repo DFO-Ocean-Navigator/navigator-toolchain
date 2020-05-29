@@ -35,7 +35,7 @@ exec_prefix="${prefix}"
 exec_prefix_real=${prefix_real}
 includedir=$(echo "${prefix}/include" | sed "s#$prefix#$prefix_real#")
 libdir=$(echo "${exec_prefix}/lib" | sed "s#$prefix#$prefix_real#")
-CFLAGS=$(echo "-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O3 -ffunction-sections -pipe  -fdebug-prefix-map=/tmp/build/80754af9/python_1565725737370/work=/usr/local/src/conda/python-3.7.4 -fdebug-prefix-map=/home/buildadm/miniconda/3/amd64=/usr/local/src/conda-prefix -fuse-linker-plugin -ffat-lto-objects -flto-partition=none -flto" | sed "s#$prefix#$prefix_real#")
+CFLAGS=$(echo "-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O3 -ffunction-sections -pipe -isystem /home/buildadm/miniconda/3/amd64/include -fdebug-prefix-map=/tmp/build/80754af9/python_1588882889832/work=/usr/local/src/conda/python-3.7.7 -fdebug-prefix-map=/home/buildadm/miniconda/3/amd64=/usr/local/src/conda-prefix -fuse-linker-plugin -ffat-lto-objects -flto-partition=none -flto" | sed "s#$prefix#$prefix_real#")
 VERSION="3.7"
 LIBM="-lm"
 LIBC=""

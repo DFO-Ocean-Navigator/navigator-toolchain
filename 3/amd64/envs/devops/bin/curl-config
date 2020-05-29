@@ -76,7 +76,7 @@ while test $# -gt 0; do
         ;;
 
     --cc)
-        echo "/tmp/build/80754af9/curl_split_recipe_1580837088907/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc"
+        echo "/tmp/build/80754af9/curl_split_recipe_1584460717882/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc"
         ;;
 
     --prefix)
@@ -96,7 +96,7 @@ while test $# -gt 0; do
         ;;
 
     --version)
-        echo libcurl 7.68.0
+        echo libcurl 7.69.1
         exit 0
         ;;
 
@@ -108,11 +108,11 @@ while test $# -gt 0; do
         # dash as that's used for things like version 1.2.3-CVS
         cpatch=`echo $checkfor | cut -d. -f3 | cut -d- -f1`
 
-        vmajor=`echo 7.68.0 | cut -d. -f1`
-        vminor=`echo 7.68.0 | cut -d. -f2`
+        vmajor=`echo 7.69.1 | cut -d. -f1`
+        vminor=`echo 7.69.1 | cut -d. -f2`
         # when extracting the patch part we strip off everything after a
         # dash as that's used for things like version 1.2.3-CVS
-        vpatch=`echo 7.68.0 | cut -d. -f3 | cut -d- -f1`
+        vpatch=`echo 7.69.1 | cut -d. -f3 | cut -d- -f1`
 
         if test "$vmajor" -gt "$cmajor"; then
             exit 0;
@@ -128,12 +128,12 @@ while test $# -gt 0; do
             fi
         fi
 
-        echo "requested version $checkfor is newer than existing 7.68.0"
+        echo "requested version $checkfor is newer than existing 7.69.1"
         exit 1
         ;;
 
     --vernum)
-        echo 074400
+        echo 074501
         exit 0
         ;;
 
@@ -180,7 +180,7 @@ while test $# -gt 0; do
         ;;
 
     --configure)
-        echo " '--prefix=/home/buildadm/miniconda/3/amd64/envs/devops' '--host=x86_64-conda_cos6-linux-gnu' '--disable-ldap' '--with-ca-bundle=/home/buildadm/miniconda/3/amd64/envs/devops/ssl/cacert.pem' '--with-ssl=/home/buildadm/miniconda/3/amd64/envs/devops' '--with-zlib=/home/buildadm/miniconda/3/amd64/envs/devops' '--with-gssapi=/home/buildadm/miniconda/3/amd64/envs/devops' '--with-libssh2=/home/buildadm/miniconda/3/amd64/envs/devops' 'host_alias=x86_64-conda_cos6-linux-gnu' 'CC=/tmp/build/80754af9/curl_split_recipe_1580837088907/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc' 'CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/buildadm/miniconda/3/amd64/envs/devops/include -fdebug-prefix-map=/tmp/build/80754af9/curl_split_recipe_1580837088907/work=/usr/local/src/conda/curl_split_recipe-7.68.0 -fdebug-prefix-map=/home/buildadm/miniconda/3/amd64/envs/devops=/usr/local/src/conda-prefix' 'LDFLAGS=-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/buildadm/miniconda/3/amd64/envs/devops/lib -Wl,-rpath-link,/home/buildadm/miniconda/3/amd64/envs/devops/lib -L/home/buildadm/miniconda/3/amd64/envs/devops/lib -Wl,-rpath-link,/home/buildadm/miniconda/3/amd64/envs/devops/lib' 'CPPFLAGS=-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/buildadm/miniconda/3/amd64/envs/devops/include' 'CPP=/tmp/build/80754af9/curl_split_recipe_1580837088907/_build_env/bin/x86_64-conda_cos6-linux-gnu-cpp'"
+        echo " '--prefix=/home/buildadm/miniconda/3/amd64/envs/devops' '--host=x86_64-conda_cos6-linux-gnu' '--disable-ldap' '--with-ca-bundle=/home/buildadm/miniconda/3/amd64/envs/devops/ssl/cacert.pem' '--with-ssl=/home/buildadm/miniconda/3/amd64/envs/devops' '--with-zlib=/home/buildadm/miniconda/3/amd64/envs/devops' '--with-gssapi=/home/buildadm/miniconda/3/amd64/envs/devops' '--with-libssh2=/home/buildadm/miniconda/3/amd64/envs/devops' 'host_alias=x86_64-conda_cos6-linux-gnu' 'CC=/tmp/build/80754af9/curl_split_recipe_1584460717882/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc' 'CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/buildadm/miniconda/3/amd64/envs/devops/include -fdebug-prefix-map=/tmp/build/80754af9/curl_split_recipe_1584460717882/work=/usr/local/src/conda/curl_split_recipe-7.69.1 -fdebug-prefix-map=/home/buildadm/miniconda/3/amd64/envs/devops=/usr/local/src/conda-prefix' 'LDFLAGS=-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/buildadm/miniconda/3/amd64/envs/devops/lib -Wl,-rpath-link,/home/buildadm/miniconda/3/amd64/envs/devops/lib -L/home/buildadm/miniconda/3/amd64/envs/devops/lib -Wl,-rpath-link,/home/buildadm/miniconda/3/amd64/envs/devops/lib' 'CPPFLAGS=-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/buildadm/miniconda/3/amd64/envs/devops/include' 'CPP=/tmp/build/80754af9/curl_split_recipe_1584460717882/_build_env/bin/x86_64-conda_cos6-linux-gnu-cpp'"
         ;;
 
     *)

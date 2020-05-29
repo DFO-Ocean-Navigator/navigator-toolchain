@@ -9,12 +9,12 @@ set(CMAKE_IMPORT_FILE_VERSION 1)
 set_property(TARGET openjp2 APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
 set_target_properties(openjp2 PROPERTIES
   IMPORTED_LINK_INTERFACE_LIBRARIES_NOCONFIG "m;-lpthread"
-  IMPORTED_LOCATION_NOCONFIG "${_IMPORT_PREFIX}/lib/libopenjp2.so.2.3.1"
+  IMPORTED_LOCATION_NOCONFIG "${_IMPORT_PREFIX}/lib/libopenjp2.so.2.3.0"
   IMPORTED_SONAME_NOCONFIG "libopenjp2.so.7"
   )
 
 list(APPEND _IMPORT_CHECK_TARGETS openjp2 )
-list(APPEND _IMPORT_CHECK_FILES_FOR_openjp2 "${_IMPORT_PREFIX}/lib/libopenjp2.so.2.3.1" )
+list(APPEND _IMPORT_CHECK_FILES_FOR_openjp2 "${_IMPORT_PREFIX}/lib/libopenjp2.so.2.3.0" )
 
 # Import target "openjp2_static" for configuration ""
 set_property(TARGET openjp2_static APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)

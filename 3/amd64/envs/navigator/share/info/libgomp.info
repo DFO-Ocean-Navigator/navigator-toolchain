@@ -1,7 +1,7 @@
 This is libgomp.info, produced by makeinfo version 4.13 from
-/opt/conda/conda-bld/compilers_linux-64_1534514838838/work/.build/x86_64-conda_cos6-linux-gnu/src/gcc/libgomp/libgomp.texi.
+/home/nwani/m3/conda-bld/compilers_linux-64_1560109574129/work/.build/x86_64-conda_cos6-linux-gnu/src/gcc/libgomp/libgomp.texi.
 
-Copyright (C) 2006-2018 Free Software Foundation, Inc.
+Copyright (C) 2006-2019 Free Software Foundation, Inc.
 
    Permission is granted to copy, distribute and/or modify this document
 under the terms of the GNU Free Documentation License, Version 1.3 or
@@ -34,7 +34,7 @@ C/C++ and Fortran.
    Published by the Free Software Foundation 51 Franklin Street, Fifth
 Floor Boston, MA 02110-1301 USA
 
-   Copyright (C) 2006-2018 Free Software Foundation, Inc.
+   Copyright (C) 2006-2019 Free Software Foundation, Inc.
 
    Permission is granted to copy, distribute and/or modify this document
 under the terms of the GNU Free Documentation License, Version 1.3 or
@@ -62,9 +62,9 @@ Introduction
 
 This manual documents the usage of libgomp, the GNU Offloading and
 Multi Processing Runtime Library.  This includes the GNU implementation
-of the OpenMP (http://www.openmp.org) Application Programming Interface
-(API) for multi-platform shared-memory parallel programming in C/C++
-and Fortran, and the GNU implementation of the OpenACC
+of the OpenMP (https://www.openmp.org) Application Programming
+Interface (API) for multi-platform shared-memory parallel programming
+in C/C++ and Fortran, and the GNU implementation of the OpenACC
 (https://www.openacc.org) Application Programming Interface (API) for
 offloading of code to accelerator devices in C/C++ and Fortran.
 
@@ -76,10 +76,12 @@ name changed to GNU Offloading and Multi Processing Runtime Library.
 * Menu:
 
 * Enabling OpenMP::            How to enable OpenMP for your applications.
-* Runtime Library Routines::   The OpenMP runtime application programming
+* OpenMP Runtime Library Routines: Runtime Library Routines.
+                               The OpenMP runtime application programming
                                interface.
-* Environment Variables::      Influencing runtime behavior with environment
-                               variables.
+* OpenMP Environment Variables: Environment Variables.
+                               Influencing OpenMP runtime behavior with
+                               environment variables.
 * Enabling OpenACC::           How to enable OpenACC for your
                                applications.
 * OpenACC Runtime Library Routines:: The OpenACC runtime application
@@ -118,13 +120,13 @@ Routines::).
 
    A complete description of all OpenMP directives accepted may be
 found in the OpenMP Application Program Interface
-(http://www.openmp.org) manual, version 4.5.
+(https://www.openmp.org) manual, version 4.5.
 
 
 File: libgomp.info,  Node: Runtime Library Routines,  Next: Environment Variables,  Prev: Enabling OpenMP,  Up: Top
 
-2 Runtime Library Routines
-**************************
+2 OpenMP Runtime Library Routines
+*********************************
 
 The runtime routines described here are defined by Section 3 of the
 OpenMP specification in version 4.5.  The routines are structured in
@@ -204,7 +206,7 @@ _See also_:
      omp_set_max_active_levels::
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 3.2.20.
+     OpenMP specification v4.5 (https://www.openmp.org), Section 3.2.20.
 
 
 File: libgomp.info,  Node: omp_get_ancestor_thread_num,  Next: omp_get_cancellation,  Prev: omp_get_active_level,  Up: Runtime Library Routines
@@ -230,7 +232,7 @@ _See also_:
      omp_get_team_size::
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 3.2.18.
+     OpenMP specification v4.5 (https://www.openmp.org), Section 3.2.18.
 
 
 File: libgomp.info,  Node: omp_get_cancellation,  Next: omp_get_default_device,  Prev: omp_get_ancestor_thread_num,  Up: Runtime Library Routines
@@ -254,7 +256,7 @@ _See also_:
      *note OMP_CANCELLATION::
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 3.2.9.
+     OpenMP specification v4.5 (https://www.openmp.org), Section 3.2.9.
 
 
 File: libgomp.info,  Node: omp_get_default_device,  Next: omp_get_dynamic,  Prev: omp_get_cancellation,  Up: Runtime Library Routines
@@ -275,7 +277,7 @@ _See also_:
      *note OMP_DEFAULT_DEVICE::, *note omp_set_default_device::
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 3.2.30.
+     OpenMP specification v4.5 (https://www.openmp.org), Section 3.2.30.
 
 
 File: libgomp.info,  Node: omp_get_dynamic,  Next: omp_get_level,  Prev: omp_get_default_device,  Up: Runtime Library Routines
@@ -302,7 +304,7 @@ _See also_:
      *note omp_set_dynamic::, *note OMP_DYNAMIC::
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 3.2.8.
+     OpenMP specification v4.5 (https://www.openmp.org), Section 3.2.8.
 
 
 File: libgomp.info,  Node: omp_get_level,  Next: omp_get_max_active_levels,  Prev: omp_get_dynamic,  Up: Runtime Library Routines
@@ -324,7 +326,7 @@ _See also_:
      *note omp_get_active_level::
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 3.2.17.
+     OpenMP specification v4.5 (https://www.openmp.org), Section 3.2.17.
 
 
 File: libgomp.info,  Node: omp_get_max_active_levels,  Next: omp_get_max_task_priority,  Prev: omp_get_level,  Up: Runtime Library Routines
@@ -346,7 +348,7 @@ _See also_:
      *note omp_set_max_active_levels::, *note omp_get_active_level::
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 3.2.16.
+     OpenMP specification v4.5 (https://www.openmp.org), Section 3.2.16.
 
 
 File: libgomp.info,  Node: omp_get_max_task_priority,  Next: omp_get_max_threads,  Prev: omp_get_max_active_levels,  Up: Runtime Library Routines
@@ -366,7 +368,7 @@ _Fortran_:
      _Interface_:  `integer function omp_get_max_task_priority()'
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 3.2.29.
+     OpenMP specification v4.5 (https://www.openmp.org), Section 3.2.29.
 
 
 File: libgomp.info,  Node: omp_get_max_threads,  Next: omp_get_nested,  Prev: omp_get_max_task_priority,  Up: Runtime Library Routines
@@ -389,7 +391,7 @@ _See also_:
      omp_get_thread_limit::
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 3.2.3.
+     OpenMP specification v4.5 (https://www.openmp.org), Section 3.2.3.
 
 
 File: libgomp.info,  Node: omp_get_nested,  Next: omp_get_num_devices,  Prev: omp_get_max_threads,  Up: Runtime Library Routines
@@ -417,7 +419,7 @@ _See also_:
      *note omp_set_nested::, *note OMP_NESTED::
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 3.2.11.
+     OpenMP specification v4.5 (https://www.openmp.org), Section 3.2.11.
 
 
 File: libgomp.info,  Node: omp_get_num_devices,  Next: omp_get_num_procs,  Prev: omp_get_nested,  Up: Runtime Library Routines
@@ -435,7 +437,7 @@ _Fortran_:
      _Interface_:  `integer function omp_get_num_devices()'
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 3.2.31.
+     OpenMP specification v4.5 (https://www.openmp.org), Section 3.2.31.
 
 
 File: libgomp.info,  Node: omp_get_num_procs,  Next: omp_get_num_teams,  Prev: omp_get_num_devices,  Up: Runtime Library Routines
@@ -453,7 +455,7 @@ _Fortran_:
      _Interface_:  `integer function omp_get_num_procs()'
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 3.2.5.
+     OpenMP specification v4.5 (https://www.openmp.org), Section 3.2.5.
 
 
 File: libgomp.info,  Node: omp_get_num_teams,  Next: omp_get_num_threads,  Prev: omp_get_num_procs,  Up: Runtime Library Routines
@@ -471,7 +473,7 @@ _Fortran_:
      _Interface_:  `integer function omp_get_num_teams()'
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 3.2.32.
+     OpenMP specification v4.5 (https://www.openmp.org), Section 3.2.32.
 
 
 File: libgomp.info,  Node: omp_get_num_threads,  Next: omp_get_proc_bind,  Prev: omp_get_num_teams,  Up: Runtime Library Routines
@@ -501,7 +503,7 @@ _See also_:
      OMP_NUM_THREADS::
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 3.2.2.
+     OpenMP specification v4.5 (https://www.openmp.org), Section 3.2.2.
 
 
 File: libgomp.info,  Node: omp_get_proc_bind,  Next: omp_get_schedule,  Prev: omp_get_num_threads,  Up: Runtime Library Routines
@@ -528,7 +530,7 @@ _See also_:
      GOMP_CPU_AFFINITY::,
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 3.2.22.
+     OpenMP specification v4.5 (https://www.openmp.org), Section 3.2.22.
 
 
 File: libgomp.info,  Node: omp_get_schedule,  Next: omp_get_team_num,  Prev: omp_get_proc_bind,  Up: Runtime Library Routines
@@ -555,7 +557,7 @@ _See also_:
      *note omp_set_schedule::, *note OMP_SCHEDULE::
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 3.2.13.
+     OpenMP specification v4.5 (https://www.openmp.org), Section 3.2.13.
 
 
 File: libgomp.info,  Node: omp_get_team_num,  Next: omp_get_team_size,  Prev: omp_get_schedule,  Up: Runtime Library Routines
@@ -573,7 +575,7 @@ _Fortran_:
      _Interface_:  `integer function omp_get_team_num()'
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 3.2.33.
+     OpenMP specification v4.5 (https://www.openmp.org), Section 3.2.33.
 
 
 File: libgomp.info,  Node: omp_get_team_size,  Next: omp_get_thread_limit,  Prev: omp_get_team_num,  Up: Runtime Library Routines
@@ -600,7 +602,7 @@ _See also_:
      omp_get_ancestor_thread_num::
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 3.2.19.
+     OpenMP specification v4.5 (https://www.openmp.org), Section 3.2.19.
 
 
 File: libgomp.info,  Node: omp_get_thread_limit,  Next: omp_get_thread_num,  Prev: omp_get_team_size,  Up: Runtime Library Routines
@@ -621,7 +623,7 @@ _See also_:
      *note omp_get_max_threads::, *note OMP_THREAD_LIMIT::
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 3.2.14.
+     OpenMP specification v4.5 (https://www.openmp.org), Section 3.2.14.
 
 
 File: libgomp.info,  Node: omp_get_thread_num,  Next: omp_in_parallel,  Prev: omp_get_thread_limit,  Up: Runtime Library Routines
@@ -646,7 +648,7 @@ _See also_:
      *note omp_get_num_threads::, *note omp_get_ancestor_thread_num::
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 3.2.4.
+     OpenMP specification v4.5 (https://www.openmp.org), Section 3.2.4.
 
 
 File: libgomp.info,  Node: omp_in_parallel,  Next: omp_in_final,  Prev: omp_get_thread_num,  Up: Runtime Library Routines
@@ -666,7 +668,7 @@ _Fortran_:
      _Interface_:  `logical function omp_in_parallel()'
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 3.2.6.
+     OpenMP specification v4.5 (https://www.openmp.org), Section 3.2.6.
 
 
 File: libgomp.info,  Node: omp_in_final,  Next: omp_is_initial_device,  Prev: omp_in_parallel,  Up: Runtime Library Routines
@@ -686,7 +688,7 @@ _Fortran_:
      _Interface_:  `logical function omp_in_final()'
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 3.2.21.
+     OpenMP specification v4.5 (https://www.openmp.org), Section 3.2.21.
 
 
 File: libgomp.info,  Node: omp_is_initial_device,  Next: omp_set_default_device,  Prev: omp_in_final,  Up: Runtime Library Routines
@@ -706,7 +708,7 @@ _Fortran_:
      _Interface_:  `logical function omp_is_initial_device()'
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 3.2.34.
+     OpenMP specification v4.5 (https://www.openmp.org), Section 3.2.34.
 
 
 File: libgomp.info,  Node: omp_set_default_device,  Next: omp_set_dynamic,  Prev: omp_is_initial_device,  Up: Runtime Library Routines
@@ -729,7 +731,7 @@ _See also_:
      *note OMP_DEFAULT_DEVICE::, *note omp_get_default_device::
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 3.2.29.
+     OpenMP specification v4.5 (https://www.openmp.org), Section 3.2.29.
 
 
 File: libgomp.info,  Node: omp_set_dynamic,  Next: omp_set_max_active_levels,  Prev: omp_set_default_device,  Up: Runtime Library Routines
@@ -754,7 +756,7 @@ _See also_:
      *note OMP_DYNAMIC::, *note omp_get_dynamic::
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 3.2.7.
+     OpenMP specification v4.5 (https://www.openmp.org), Section 3.2.7.
 
 
 File: libgomp.info,  Node: omp_set_max_active_levels,  Next: omp_set_nested,  Prev: omp_set_dynamic,  Up: Runtime Library Routines
@@ -777,7 +779,7 @@ _See also_:
      *note omp_get_max_active_levels::, *note omp_get_active_level::
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 3.2.15.
+     OpenMP specification v4.5 (https://www.openmp.org), Section 3.2.15.
 
 
 File: libgomp.info,  Node: omp_set_nested,  Next: omp_set_num_threads,  Prev: omp_set_max_active_levels,  Up: Runtime Library Routines
@@ -802,7 +804,7 @@ _See also_:
      *note OMP_NESTED::, *note omp_get_nested::
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 3.2.10.
+     OpenMP specification v4.5 (https://www.openmp.org), Section 3.2.10.
 
 
 File: libgomp.info,  Node: omp_set_num_threads,  Next: omp_set_schedule,  Prev: omp_set_nested,  Up: Runtime Library Routines
@@ -827,7 +829,7 @@ _See also_:
      omp_get_max_threads::
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 3.2.1.
+     OpenMP specification v4.5 (https://www.openmp.org), Section 3.2.1.
 
 
 File: libgomp.info,  Node: omp_set_schedule,  Next: omp_init_lock,  Prev: omp_set_num_threads,  Up: Runtime Library Routines
@@ -856,7 +858,7 @@ _See also_:
      *note omp_get_schedule:: *note OMP_SCHEDULE::
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 3.2.12.
+     OpenMP specification v4.5 (https://www.openmp.org), Section 3.2.12.
 
 
 File: libgomp.info,  Node: omp_init_lock,  Next: omp_set_lock,  Prev: omp_set_schedule,  Up: Runtime Library Routines
@@ -879,7 +881,7 @@ _See also_:
      *note omp_destroy_lock::
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 3.3.1.
+     OpenMP specification v4.5 (https://www.openmp.org), Section 3.3.1.
 
 
 File: libgomp.info,  Node: omp_set_lock,  Next: omp_test_lock,  Prev: omp_init_lock,  Up: Runtime Library Routines
@@ -905,7 +907,7 @@ _See also_:
      omp_unset_lock::
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 3.3.4.
+     OpenMP specification v4.5 (https://www.openmp.org), Section 3.3.4.
 
 
 File: libgomp.info,  Node: omp_test_lock,  Next: omp_unset_lock,  Prev: omp_set_lock,  Up: Runtime Library Routines
@@ -931,7 +933,7 @@ _See also_:
      *note omp_init_lock::, *note omp_set_lock::, *note omp_set_lock::
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 3.3.6.
+     OpenMP specification v4.5 (https://www.openmp.org), Section 3.3.6.
 
 
 File: libgomp.info,  Node: omp_unset_lock,  Next: omp_destroy_lock,  Prev: omp_test_lock,  Up: Runtime Library Routines
@@ -958,7 +960,7 @@ _See also_:
      *note omp_set_lock::, *note omp_test_lock::
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 3.3.5.
+     OpenMP specification v4.5 (https://www.openmp.org), Section 3.3.5.
 
 
 File: libgomp.info,  Node: omp_destroy_lock,  Next: omp_init_nest_lock,  Prev: omp_unset_lock,  Up: Runtime Library Routines
@@ -981,7 +983,7 @@ _See also_:
      *note omp_init_lock::
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 3.3.3.
+     OpenMP specification v4.5 (https://www.openmp.org), Section 3.3.3.
 
 
 File: libgomp.info,  Node: omp_init_nest_lock,  Next: omp_set_nest_lock,  Prev: omp_destroy_lock,  Up: Runtime Library Routines
@@ -1004,7 +1006,7 @@ _See also_:
      *note omp_destroy_nest_lock::
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 3.3.1.
+     OpenMP specification v4.5 (https://www.openmp.org), Section 3.3.1.
 
 
 File: libgomp.info,  Node: omp_set_nest_lock,  Next: omp_test_nest_lock,  Prev: omp_init_nest_lock,  Up: Runtime Library Routines
@@ -1030,7 +1032,7 @@ _See also_:
      *note omp_init_nest_lock::, *note omp_unset_nest_lock::
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 3.3.4.
+     OpenMP specification v4.5 (https://www.openmp.org), Section 3.3.4.
 
 
 File: libgomp.info,  Node: omp_test_nest_lock,  Next: omp_unset_nest_lock,  Prev: omp_set_nest_lock,  Up: Runtime Library Routines
@@ -1057,7 +1059,7 @@ _See also_:
      *note omp_init_lock::, *note omp_set_lock::, *note omp_set_lock::
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 3.3.6.
+     OpenMP specification v4.5 (https://www.openmp.org), Section 3.3.6.
 
 
 File: libgomp.info,  Node: omp_unset_nest_lock,  Next: omp_destroy_nest_lock,  Prev: omp_test_nest_lock,  Up: Runtime Library Routines
@@ -1085,7 +1087,7 @@ _See also_:
      *note omp_set_nest_lock::
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 3.3.5.
+     OpenMP specification v4.5 (https://www.openmp.org), Section 3.3.5.
 
 
 File: libgomp.info,  Node: omp_destroy_nest_lock,  Next: omp_get_wtick,  Prev: omp_unset_nest_lock,  Up: Runtime Library Routines
@@ -1109,7 +1111,7 @@ _See also_:
      *note omp_init_lock::
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 3.3.3.
+     OpenMP specification v4.5 (https://www.openmp.org), Section 3.3.3.
 
 
 File: libgomp.info,  Node: omp_get_wtick,  Next: omp_get_wtime,  Prev: omp_destroy_nest_lock,  Up: Runtime Library Routines
@@ -1131,7 +1133,7 @@ _See also_:
      *note omp_get_wtime::
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 3.4.2.
+     OpenMP specification v4.5 (https://www.openmp.org), Section 3.4.2.
 
 
 File: libgomp.info,  Node: omp_get_wtime,  Prev: omp_get_wtick,  Up: Runtime Library Routines
@@ -1156,13 +1158,13 @@ _See also_:
      *note omp_get_wtick::
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 3.4.1.
+     OpenMP specification v4.5 (https://www.openmp.org), Section 3.4.1.
 
 
 File: libgomp.info,  Node: Environment Variables,  Next: Enabling OpenACC,  Prev: Runtime Library Routines,  Up: Top
 
-3 Environment Variables
-***********************
+3 OpenMP Environment Variables
+******************************
 
 The environment variables which beginning with `OMP_' are defined by
 section 4 of the OpenMP specification in version 4.5, while those
@@ -1205,7 +1207,7 @@ _See also_:
      *note omp_get_cancellation::
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 4.11
+     OpenMP specification v4.5 (https://www.openmp.org), Section 4.11
 
 
 File: libgomp.info,  Node: OMP_DISPLAY_ENV,  Next: OMP_DEFAULT_DEVICE,  Prev: OMP_CANCELLATION,  Up: Environment Variables
@@ -1221,7 +1223,7 @@ _Description_:
      or set to `FALSE', this information will not be shown.
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 4.12
+     OpenMP specification v4.5 (https://www.openmp.org), Section 4.12
 
 
 File: libgomp.info,  Node: OMP_DEFAULT_DEVICE,  Next: OMP_DYNAMIC,  Prev: OMP_DISPLAY_ENV,  Up: Environment Variables
@@ -1240,7 +1242,7 @@ _See also_:
      *note omp_get_default_device::, *note omp_set_default_device::,
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 4.13
+     OpenMP specification v4.5 (https://www.openmp.org), Section 4.13
 
 
 File: libgomp.info,  Node: OMP_DYNAMIC,  Next: OMP_MAX_ACTIVE_LEVELS,  Prev: OMP_DEFAULT_DEVICE,  Up: Environment Variables
@@ -1258,7 +1260,7 @@ _See also_:
      *note omp_set_dynamic::
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 4.3
+     OpenMP specification v4.5 (https://www.openmp.org), Section 4.3
 
 
 File: libgomp.info,  Node: OMP_MAX_ACTIVE_LEVELS,  Next: OMP_MAX_TASK_PRIORITY,  Prev: OMP_DYNAMIC,  Up: Environment Variables
@@ -1275,7 +1277,7 @@ _See also_:
      *note omp_set_max_active_levels::
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 4.9
+     OpenMP specification v4.5 (https://www.openmp.org), Section 4.9
 
 
 File: libgomp.info,  Node: OMP_MAX_TASK_PRIORITY,  Next: OMP_NESTED,  Prev: OMP_MAX_ACTIVE_LEVELS,  Up: Environment Variables
@@ -1294,7 +1296,7 @@ _See also_:
      *note omp_get_max_task_priority::
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 4.14
+     OpenMP specification v4.5 (https://www.openmp.org), Section 4.14
 
 
 File: libgomp.info,  Node: OMP_NESTED,  Next: OMP_NUM_THREADS,  Prev: OMP_MAX_TASK_PRIORITY,  Up: Environment Variables
@@ -1312,7 +1314,7 @@ _See also_:
      *note omp_set_nested::
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 4.6
+     OpenMP specification v4.5 (https://www.openmp.org), Section 4.6
 
 
 File: libgomp.info,  Node: OMP_NUM_THREADS,  Next: OMP_PROC_BIND,  Prev: OMP_NESTED,  Up: Environment Variables
@@ -1331,7 +1333,7 @@ _See also_:
      *note omp_set_num_threads::
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 4.2
+     OpenMP specification v4.5 (https://www.openmp.org), Section 4.2
 
 
 File: libgomp.info,  Node: OMP_PROC_BIND,  Next: OMP_PLACES,  Prev: OMP_NUM_THREADS,  Up: Environment Variables
@@ -1358,7 +1360,7 @@ _See also_:
      omp_get_proc_bind::
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 4.4
+     OpenMP specification v4.5 (https://www.openmp.org), Section 4.4
 
 
 File: libgomp.info,  Node: OMP_PLACES,  Next: OMP_STACKSIZE,  Prev: OMP_PROC_BIND,  Up: Environment Variables
@@ -1400,7 +1402,7 @@ _See also_:
      omp_get_proc_bind::, *note OMP_DISPLAY_ENV::
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 4.5
+     OpenMP specification v4.5 (https://www.openmp.org), Section 4.5
 
 
 File: libgomp.info,  Node: OMP_STACKSIZE,  Next: OMP_SCHEDULE,  Prev: OMP_PLACES,  Up: Environment Variables
@@ -1419,7 +1421,7 @@ _Description_:
      system dependent.
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 4.7
+     OpenMP specification v4.5 (https://www.openmp.org), Section 4.7
 
 
 File: libgomp.info,  Node: OMP_SCHEDULE,  Next: OMP_THREAD_LIMIT,  Prev: OMP_STACKSIZE,  Up: Environment Variables
@@ -1438,7 +1440,7 @@ _See also_:
      *note omp_set_schedule::
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Sections
+     OpenMP specification v4.5 (https://www.openmp.org), Sections
      2.7.1.1 and 4.1
 
 
@@ -1456,7 +1458,7 @@ _See also_:
      *note OMP_NUM_THREADS::, *note omp_get_thread_limit::
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 4.10
+     OpenMP specification v4.5 (https://www.openmp.org), Section 4.10
 
 
 File: libgomp.info,  Node: OMP_WAIT_POLICY,  Next: GOMP_CPU_AFFINITY,  Prev: OMP_THREAD_LIMIT,  Up: Environment Variables
@@ -1475,7 +1477,7 @@ _See also_:
      *note GOMP_SPINCOUNT::
 
 _Reference_:
-     OpenMP specification v4.5 (http://www.openmp.org/), Section 4.8
+     OpenMP specification v4.5 (https://www.openmp.org), Section 4.8
 
 
 File: libgomp.info,  Node: GOMP_CPU_AFFINITY,  Next: GOMP_DEBUG,  Prev: OMP_WAIT_POLICY,  Up: Environment Variables
@@ -2483,7 +2485,7 @@ _Description_
      same as used by the CUDA Runtime or Driver API's.
 
 _C/C++_:
-     _Prototype_:  `acc_get_current_cuda_context(void);'
+     _Prototype_:  `void *acc_get_current_cuda_context(void);'
 
 _Reference_:
      OpenACC specification v2.0 (https://www.openacc.org), section
@@ -2496,11 +2498,12 @@ File: libgomp.info,  Node: acc_get_cuda_stream,  Next: acc_set_cuda_stream,  Pre
 ====================================================
 
 _Description_
-     This function returns the CUDA stream handle. This handle is the
-     same as used by the CUDA Runtime or Driver API's.
+     This function returns the CUDA stream handle for the queue ASYNC.
+     This handle is the same as used by the CUDA Runtime or Driver
+     API's.
 
 _C/C++_:
-     _Prototype_:  `acc_get_cuda_stream(void);'
+     _Prototype_:  `void *acc_get_cuda_stream(int async);'
 
 _Reference_:
      OpenACC specification v2.0 (https://www.openacc.org), section
@@ -2514,10 +2517,15 @@ File: libgomp.info,  Node: acc_set_cuda_stream,  Prev: acc_get_cuda_stream,  Up:
 
 _Description_
      This function associates the stream handle specified by STREAM with
-     the asynchronous value specified by ASYNC.
+     the queue ASYNC.
+
+     This cannot be used to change the stream handle associated with
+     `acc_async_sync'.
+
+     The return value is not specified.
 
 _C/C++_:
-     _Prototype_:  `acc_set_cuda_stream(int async void *stream);'
+     _Prototype_:  `int acc_set_cuda_stream(int async, void *stream);'
 
 _Reference_:
      OpenACC specification v2.0 (https://www.openacc.org), section
@@ -4452,136 +4460,136 @@ Library Index
 
 
 Tag Table:
-Node: Top2195
-Node: Enabling OpenMP4601
-Node: Runtime Library Routines5388
-Node: omp_get_active_level8451
-Node: omp_get_ancestor_thread_num9149
-Node: omp_get_cancellation10076
-Node: omp_get_default_device10888
-Node: omp_get_dynamic11562
-Node: omp_get_level12435
-Node: omp_get_max_active_levels13053
-Node: omp_get_max_task_priority13756
-Node: omp_get_max_threads14374
-Node: omp_get_nested15129
-Node: omp_get_num_devices16041
-Node: omp_get_num_procs16560
-Node: omp_get_num_teams17097
-Node: omp_get_num_threads17611
-Node: omp_get_proc_bind18698
-Node: omp_get_schedule19616
-Node: omp_get_team_num20565
-Node: omp_get_team_size21062
-Node: omp_get_thread_limit22019
-Node: omp_get_thread_num22636
-Node: omp_in_parallel23505
-Node: omp_in_final24152
-Node: omp_is_initial_device24824
-Node: omp_set_default_device25515
-Node: omp_set_dynamic26303
-Node: omp_set_max_active_levels27186
-Node: omp_set_nested27960
-Node: omp_set_num_threads28849
-Node: omp_set_schedule29714
-Node: omp_init_lock30790
-Node: omp_set_lock31440
-Node: omp_test_lock32292
-Node: omp_unset_lock33265
-Node: omp_destroy_lock34193
-Node: omp_init_nest_lock34867
-Node: omp_set_nest_lock35599
-Node: omp_test_nest_lock36516
-Node: omp_unset_nest_lock37546
-Node: omp_destroy_nest_lock38558
-Node: omp_get_wtick39306
-Node: omp_get_wtime39896
-Node: Environment Variables40670
-Node: OMP_CANCELLATION42225
-Node: OMP_DISPLAY_ENV42758
-Node: OMP_DEFAULT_DEVICE43461
-Node: OMP_DYNAMIC44241
-Node: OMP_MAX_ACTIVE_LEVELS44837
-Node: OMP_MAX_TASK_PRIORITY45487
-Node: OMP_NESTED46147
-Node: OMP_NUM_THREADS46752
-Node: OMP_PROC_BIND47441
-Node: OMP_PLACES48633
-Node: OMP_STACKSIZE50810
-Node: OMP_SCHEDULE51634
-Node: OMP_THREAD_LIMIT52332
-Node: OMP_WAIT_POLICY52932
-Node: GOMP_CPU_AFFINITY53624
-Node: GOMP_DEBUG55355
-Node: GOMP_STACKSIZE55862
-Node: GOMP_SPINCOUNT56691
-Node: GOMP_RTEMS_THREAD_POOLS57900
-Node: Enabling OpenACC60081
-Node: OpenACC Runtime Library Routines61075
-Node: acc_get_num_devices64869
-Node: acc_set_device_type65592
-Node: acc_get_device_type66353
-Node: acc_set_device_num67065
-Node: acc_get_device_num67864
-Node: acc_async_test68657
-Node: acc_async_test_all69642
-Node: acc_wait70537
-Node: acc_wait_all71397
-Node: acc_wait_all_async72156
-Node: acc_wait_async72905
-Node: acc_init73609
-Node: acc_shutdown74252
-Node: acc_on_device74917
-Node: acc_malloc75915
-Node: acc_free76412
-Node: acc_copyin76838
-Node: acc_present_or_copyin77939
-Node: acc_create79549
-Node: acc_present_or_create80695
-Node: acc_copyout82313
-Node: acc_delete83328
-Node: acc_update_device84295
-Node: acc_update_self85399
-Node: acc_map_data86495
-Node: acc_unmap_data87178
-Node: acc_deviceptr87697
-Node: acc_hostptr88266
-Node: acc_is_present88829
-Node: acc_memcpy_to_device90343
-Node: acc_memcpy_from_device91004
-Node: acc_get_current_cuda_device91686
-Node: acc_get_current_cuda_context92281
-Node: acc_get_cuda_stream92873
-Node: acc_set_cuda_stream93427
-Node: OpenACC Environment Variables93958
-Node: ACC_DEVICE_TYPE94417
-Node: ACC_DEVICE_NUM94653
-Node: GCC_ACC_NOTIFY94910
-Node: CUDA Streams Usage95133
-Ref: CUDA Streams Usage-Footnote-197033
-Node: OpenACC Library Interoperability97142
-Ref: OpenACC Library Interoperability-Footnote-1103488
-Ref: OpenACC Library Interoperability-Footnote-2103740
-Node: The libgomp ABI103948
-Node: Implementing MASTER construct104804
-Node: Implementing CRITICAL construct105218
-Node: Implementing ATOMIC construct105957
-Node: Implementing FLUSH construct106438
-Node: Implementing BARRIER construct106709
-Node: Implementing THREADPRIVATE construct106978
-Node: Implementing PRIVATE clause107630
-Node: Implementing FIRSTPRIVATE LASTPRIVATE COPYIN and COPYPRIVATE clauses108211
-Node: Implementing REDUCTION clause109535
-Node: Implementing PARALLEL construct110092
-Node: Implementing FOR construct111349
-Node: Implementing ORDERED construct113347
-Node: Implementing SECTIONS construct113653
-Node: Implementing SINGLE construct114419
-Node: Implementing OpenACC's PARALLEL construct115131
-Node: Reporting Bugs115389
-Node: Copying115751
-Node: GNU Free Documentation License153316
-Node: Funding178458
-Node: Library Index180983
+Node: Top2199
+Node: Enabling OpenMP4729
+Node: Runtime Library Routines5517
+Node: omp_get_active_level8594
+Node: omp_get_ancestor_thread_num9292
+Node: omp_get_cancellation10219
+Node: omp_get_default_device11031
+Node: omp_get_dynamic11705
+Node: omp_get_level12578
+Node: omp_get_max_active_levels13196
+Node: omp_get_max_task_priority13899
+Node: omp_get_max_threads14517
+Node: omp_get_nested15272
+Node: omp_get_num_devices16184
+Node: omp_get_num_procs16703
+Node: omp_get_num_teams17240
+Node: omp_get_num_threads17754
+Node: omp_get_proc_bind18841
+Node: omp_get_schedule19759
+Node: omp_get_team_num20708
+Node: omp_get_team_size21205
+Node: omp_get_thread_limit22162
+Node: omp_get_thread_num22779
+Node: omp_in_parallel23648
+Node: omp_in_final24295
+Node: omp_is_initial_device24967
+Node: omp_set_default_device25658
+Node: omp_set_dynamic26446
+Node: omp_set_max_active_levels27329
+Node: omp_set_nested28103
+Node: omp_set_num_threads28992
+Node: omp_set_schedule29857
+Node: omp_init_lock30933
+Node: omp_set_lock31583
+Node: omp_test_lock32435
+Node: omp_unset_lock33408
+Node: omp_destroy_lock34336
+Node: omp_init_nest_lock35010
+Node: omp_set_nest_lock35742
+Node: omp_test_nest_lock36659
+Node: omp_unset_nest_lock37689
+Node: omp_destroy_nest_lock38701
+Node: omp_get_wtick39449
+Node: omp_get_wtime40039
+Node: Environment Variables40813
+Node: OMP_CANCELLATION42382
+Node: OMP_DISPLAY_ENV42915
+Node: OMP_DEFAULT_DEVICE43618
+Node: OMP_DYNAMIC44398
+Node: OMP_MAX_ACTIVE_LEVELS44994
+Node: OMP_MAX_TASK_PRIORITY45644
+Node: OMP_NESTED46304
+Node: OMP_NUM_THREADS46909
+Node: OMP_PROC_BIND47598
+Node: OMP_PLACES48790
+Node: OMP_STACKSIZE50967
+Node: OMP_SCHEDULE51791
+Node: OMP_THREAD_LIMIT52489
+Node: OMP_WAIT_POLICY53089
+Node: GOMP_CPU_AFFINITY53781
+Node: GOMP_DEBUG55512
+Node: GOMP_STACKSIZE56019
+Node: GOMP_SPINCOUNT56848
+Node: GOMP_RTEMS_THREAD_POOLS58057
+Node: Enabling OpenACC60238
+Node: OpenACC Runtime Library Routines61232
+Node: acc_get_num_devices65026
+Node: acc_set_device_type65749
+Node: acc_get_device_type66510
+Node: acc_set_device_num67222
+Node: acc_get_device_num68021
+Node: acc_async_test68814
+Node: acc_async_test_all69799
+Node: acc_wait70694
+Node: acc_wait_all71554
+Node: acc_wait_all_async72313
+Node: acc_wait_async73062
+Node: acc_init73766
+Node: acc_shutdown74409
+Node: acc_on_device75074
+Node: acc_malloc76072
+Node: acc_free76569
+Node: acc_copyin76995
+Node: acc_present_or_copyin78096
+Node: acc_create79706
+Node: acc_present_or_create80852
+Node: acc_copyout82470
+Node: acc_delete83485
+Node: acc_update_device84452
+Node: acc_update_self85556
+Node: acc_map_data86652
+Node: acc_unmap_data87335
+Node: acc_deviceptr87854
+Node: acc_hostptr88423
+Node: acc_is_present88986
+Node: acc_memcpy_to_device90500
+Node: acc_memcpy_from_device91161
+Node: acc_get_current_cuda_device91843
+Node: acc_get_current_cuda_context92438
+Node: acc_get_cuda_stream93036
+Node: acc_set_cuda_stream93626
+Node: OpenACC Environment Variables94270
+Node: ACC_DEVICE_TYPE94729
+Node: ACC_DEVICE_NUM94965
+Node: GCC_ACC_NOTIFY95222
+Node: CUDA Streams Usage95445
+Ref: CUDA Streams Usage-Footnote-197345
+Node: OpenACC Library Interoperability97454
+Ref: OpenACC Library Interoperability-Footnote-1103800
+Ref: OpenACC Library Interoperability-Footnote-2104052
+Node: The libgomp ABI104260
+Node: Implementing MASTER construct105116
+Node: Implementing CRITICAL construct105530
+Node: Implementing ATOMIC construct106269
+Node: Implementing FLUSH construct106750
+Node: Implementing BARRIER construct107021
+Node: Implementing THREADPRIVATE construct107290
+Node: Implementing PRIVATE clause107942
+Node: Implementing FIRSTPRIVATE LASTPRIVATE COPYIN and COPYPRIVATE clauses108523
+Node: Implementing REDUCTION clause109847
+Node: Implementing PARALLEL construct110404
+Node: Implementing FOR construct111661
+Node: Implementing ORDERED construct113659
+Node: Implementing SECTIONS construct113965
+Node: Implementing SINGLE construct114731
+Node: Implementing OpenACC's PARALLEL construct115443
+Node: Reporting Bugs115701
+Node: Copying116063
+Node: GNU Free Documentation License153628
+Node: Funding178770
+Node: Library Index181295
 
 End Tag Table

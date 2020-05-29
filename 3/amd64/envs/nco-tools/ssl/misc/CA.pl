@@ -1,4 +1,4 @@
-#!/usr/bin/env perl
+#!/home/buildadm/miniconda/3/amd64/envs/nco-tools/bin/perl
 # Copyright 2000-2018 The OpenSSL Project Authors. All Rights Reserved.
 #
 # Licensed under the OpenSSL license (the "License").  You may not use

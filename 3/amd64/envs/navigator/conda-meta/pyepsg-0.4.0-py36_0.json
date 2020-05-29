@@ -1,0 +1,109 @@
+{
+  "build": "py36_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.6,<3.7.0a0",
+    "requests"
+  ],
+  "extracted_package_dir": "/home/buildadm/miniconda/3/amd64/pkgs/pyepsg-0.4.0-py36_0",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/__pycache__/pyepsg.cpython-36.pyc",
+    "lib/python3.6/site-packages/pyepsg-0.4.0.dist-info/COPYING",
+    "lib/python3.6/site-packages/pyepsg-0.4.0.dist-info/COPYING.LESSER",
+    "lib/python3.6/site-packages/pyepsg-0.4.0.dist-info/INSTALLER",
+    "lib/python3.6/site-packages/pyepsg-0.4.0.dist-info/METADATA",
+    "lib/python3.6/site-packages/pyepsg-0.4.0.dist-info/RECORD",
+    "lib/python3.6/site-packages/pyepsg-0.4.0.dist-info/WHEEL",
+    "lib/python3.6/site-packages/pyepsg-0.4.0.dist-info/top_level.txt",
+    "lib/python3.6/site-packages/pyepsg.py"
+  ],
+  "fn": "pyepsg-0.4.0-py36_0.conda",
+  "legacy_bz2_md5": "d545f2922878ade8a696ce1e21ba9c02",
+  "license": "LGPL-3.0",
+  "link": {
+    "source": "/home/buildadm/miniconda/3/amd64/pkgs/pyepsg-0.4.0-py36_0",
+    "type": 1
+  },
+  "md5": "a78a7fd74535ea47b8e7d9ba9d99a7bd",
+  "name": "pyepsg",
+  "package_tarball_full_path": "/home/buildadm/miniconda/3/amd64/pkgs/pyepsg-0.4.0-py36_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.6/site-packages/__pycache__/pyepsg.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "215be2668215aa737bf95e7f9c92f98a03f97ddf134c6f0c469b5894b14ae1ae",
+        "sha256_in_prefix": "215be2668215aa737bf95e7f9c92f98a03f97ddf134c6f0c469b5894b14ae1ae",
+        "size_in_bytes": 10187
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pyepsg-0.4.0.dist-info/COPYING",
+        "path_type": "hardlink",
+        "sha256": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+        "sha256_in_prefix": "8ceb4b9ee5adedde47b31e975c1d90c73ad27b6b165a1dcd80c7c545eb65b903",
+        "size_in_bytes": 35147
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pyepsg-0.4.0.dist-info/COPYING.LESSER",
+        "path_type": "hardlink",
+        "sha256": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768",
+        "sha256_in_prefix": "da7eabb7bafdf7d3ae5e9f223aa5bdc1eece45ac569dc21b3b037520b4464768",
+        "size_in_bytes": 7651
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pyepsg-0.4.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "sha256_in_prefix": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pyepsg-0.4.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "c3cf3bd661a292e5dcd75374f9bc66ce712d50c825a0c5c900736f4f303a844b",
+        "sha256_in_prefix": "c3cf3bd661a292e5dcd75374f9bc66ce712d50c825a0c5c900736f4f303a844b",
+        "size_in_bytes": 1632
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pyepsg-0.4.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "78394e7114afd9b58ba252b54d05f6c372fb56d599377915bbb2b6e9f41da20f",
+        "sha256_in_prefix": "78394e7114afd9b58ba252b54d05f6c372fb56d599377915bbb2b6e9f41da20f",
+        "size_in_bytes": 672
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pyepsg-0.4.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "3134fc9ed7b45ca7af13dc8997e4f0a14283c3f8b7e068802ff23115f4ba92bf",
+        "sha256_in_prefix": "3134fc9ed7b45ca7af13dc8997e4f0a14283c3f8b7e068802ff23115f4ba92bf",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pyepsg-0.4.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "bfe4b963e4d3dced52006a835d500b7e5fb420c44faa4e5a02aaabb6b540aa72",
+        "sha256_in_prefix": "bfe4b963e4d3dced52006a835d500b7e5fb420c44faa4e5a02aaabb6b540aa72",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pyepsg.py",
+        "path_type": "hardlink",
+        "sha256": "dcdee775312af042f9eea644049355219b9a8460b05fd055a3cc9e375e1c518c",
+        "sha256_in_prefix": "dcdee775312af042f9eea644049355219b9a8460b05fd055a3cc9e375e1c518c",
+        "size_in_bytes": 9102
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "3ad4c615ff5e3a5e676d4b9936fbf205bb2fc86f9c8574115d426831be654c8e",
+  "size": 26778,
+  "subdir": "linux-64",
+  "timestamp": 1545147063759,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/pyepsg-0.4.0-py36_0.conda",
+  "version": "0.4.0"
+}

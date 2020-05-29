@@ -28,10 +28,10 @@ MODLIBS=           $(LOCALMODLIBS) $(BASEMODLIBS)
 
 # === Variables set by configure
 VERSION=	3.7
-srcdir=		/tmp/build/80754af9/python_1565725737370/work
-VPATH=		/tmp/build/80754af9/python_1565725737370/work
-abs_srcdir=	/tmp/build/80754af9/python_1565725737370/work
-abs_builddir=	/tmp/build/80754af9/python_1565725737370/work/build-static
+srcdir=		/tmp/build/80754af9/python_1588882889832/work
+VPATH=		/tmp/build/80754af9/python_1588882889832/work
+abs_srcdir=	/tmp/build/80754af9/python_1588882889832/work
+abs_builddir=	/tmp/build/80754af9/python_1588882889832/work/build-static
 
 
 CC=		x86_64-conda_cos6-linux-gnu-gcc -pthread
@@ -81,7 +81,7 @@ MAKESETUP=      $(srcdir)/Modules/makesetup
 OPT=		-DNDEBUG -fwrapv -O2 -Wall
 BASECFLAGS=	 -Wno-unused-result -Wsign-compare
 BASECPPFLAGS=	-IObjects -IInclude -IPython
-CONFIGURE_CFLAGS=	-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe  -fdebug-prefix-map=/tmp/build/80754af9/python_1565725737370/work=/usr/local/src/conda/python-3.7.4 -fdebug-prefix-map=/home/buildadm/miniconda/3/amd64=/usr/local/src/conda-prefix    
+CONFIGURE_CFLAGS=	-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/buildadm/miniconda/3/amd64/include -fdebug-prefix-map=/tmp/build/80754af9/python_1588882889832/work=/usr/local/src/conda/python-3.7.7 -fdebug-prefix-map=/home/buildadm/miniconda/3/amd64=/usr/local/src/conda-prefix    
 # CFLAGS_NODIST is used for building the interpreter and stdlib C extensions.
 # Use it when a compiler flag should _not_ be part of the distutils CFLAGS
 # once Python is installed (Issue #21121).
@@ -90,7 +90,7 @@ CONFIGURE_CFLAGS_NODIST=     -g -std=c99 -Wextra -Wno-unused-result -Wno-unused-
 # Use it when a linker flag should _not_ be part of the distutils LDFLAGS
 # once Python is installed (bpo-35257)
 CONFIGURE_LDFLAGS_NODIST=     -g
-CONFIGURE_CPPFLAGS=	-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -I/home/buildadm/miniconda/3/amd64/include -I/home/buildadm/miniconda/3/amd64/include
+CONFIGURE_CPPFLAGS=	-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/buildadm/miniconda/3/amd64/include -I/home/buildadm/miniconda/3/amd64/include
 CONFIGURE_LDFLAGS=	-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/buildadm/miniconda/3/amd64/lib -Wl,-rpath-link,/home/buildadm/miniconda/3/amd64/lib -L/home/buildadm/miniconda/3/amd64/lib
 # Avoid assigning CFLAGS, LDFLAGS, etc. so users can use them on the
 # command line to append to these values without stomping the pre-set
@@ -205,7 +205,7 @@ EXEMODE=	755
 FILEMODE=	644
 
 # configure script arguments
-CONFIG_ARGS=	 '--prefix=/home/buildadm/miniconda/3/amd64' '--build=x86_64-conda_cos6-linux-gnu' '--host=x86_64-conda_cos6-linux-gnu' '--enable-ipv6' '--with-ensurepip=no' '--with-computed-gotos' '--with-system-ffi' '--enable-loadable-sqlite-extensions' '--with-tcltk-includes=-I/home/buildadm/miniconda/3/amd64/include' '--with-tcltk-libs=-L/home/buildadm/miniconda/3/amd64/lib -ltcl8.6 -ltk8.6' '--enable-optimizations' '--with-lto' '-oldincludedir=/tmp/build/80754af9/python_1565725737370/_build_env/x86_64-conda_cos6-linux-gnu/sysroot/usr/include' '--disable-shared' 'build_alias=x86_64-conda_cos6-linux-gnu' 'host_alias=x86_64-conda_cos6-linux-gnu' 'CC=x86_64-conda_cos6-linux-gnu-gcc' 'CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe  -fdebug-prefix-map=/tmp/build/80754af9/python_1565725737370/work=/usr/local/src/conda/python-3.7.4 -fdebug-prefix-map=/home/buildadm/miniconda/3/amd64=/usr/local/src/conda-prefix    ' 'LDFLAGS=-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/buildadm/miniconda/3/amd64/lib -Wl,-rpath-link,/home/buildadm/miniconda/3/amd64/lib -L/home/buildadm/miniconda/3/amd64/lib' 'CPPFLAGS=-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -I/home/buildadm/miniconda/3/amd64/include -I/home/buildadm/miniconda/3/amd64/include' 'CPP=/tmp/build/80754af9/python_1565725737370/_build_env/bin/x86_64-conda_cos6-linux-gnu-cpp' 'PKG_CONFIG_PATH=/home/buildadm/miniconda/3/amd64/lib/pkgconfig'
+CONFIG_ARGS=	 '--prefix=/home/buildadm/miniconda/3/amd64' '--build=x86_64-conda_cos6-linux-gnu' '--host=x86_64-conda_cos6-linux-gnu' '--enable-ipv6' '--with-ensurepip=no' '--with-computed-gotos' '--with-system-ffi' '--enable-loadable-sqlite-extensions' '--with-tcltk-includes=-I/home/buildadm/miniconda/3/amd64/include' '--with-tcltk-libs=-L/home/buildadm/miniconda/3/amd64/lib -ltcl8.6 -ltk8.6' '--enable-optimizations' '--with-lto' '-oldincludedir=/tmp/build/80754af9/python_1588882889832/_build_env/x86_64-conda_cos6-linux-gnu/sysroot/usr/include' '--disable-shared' 'PROFILE_TASK=-m test --pgo' 'build_alias=x86_64-conda_cos6-linux-gnu' 'host_alias=x86_64-conda_cos6-linux-gnu' 'CC=x86_64-conda_cos6-linux-gnu-gcc' 'CFLAGS=-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/buildadm/miniconda/3/amd64/include -fdebug-prefix-map=/tmp/build/80754af9/python_1588882889832/work=/usr/local/src/conda/python-3.7.7 -fdebug-prefix-map=/home/buildadm/miniconda/3/amd64=/usr/local/src/conda-prefix    ' 'LDFLAGS=-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/buildadm/miniconda/3/amd64/lib -Wl,-rpath-link,/home/buildadm/miniconda/3/amd64/lib -L/home/buildadm/miniconda/3/amd64/lib' 'CPPFLAGS=-DNDEBUG -D_FORTIFY_SOURCE=2 -O2 -isystem /home/buildadm/miniconda/3/amd64/include -I/home/buildadm/miniconda/3/amd64/include' 'CPP=/tmp/build/80754af9/python_1588882889832/_build_env/bin/x86_64-conda_cos6-linux-gnu-cpp' 'PKG_CONFIG_PATH=/home/buildadm/miniconda/3/amd64/lib/pkgconfig'
 
 
 # Subdirectories with code
@@ -334,8 +334,9 @@ PGOBJS=		\
 		Parser/pgenmain.o
 
 PARSER_HEADERS= \
-		$(srcdir)/Parser/parser.h \
+		$(srcdir)/Include/grammar.h \
 		$(srcdir)/Include/parsetok.h \
+		$(srcdir)/Parser/parser.h \
 		$(srcdir)/Parser/tokenizer.h
 
 PGENOBJS=	$(POBJS) $(PGOBJS)
@@ -869,7 +870,7 @@ regen-opcode:
 		$(srcdir)/Include/opcode.h.new
 	$(UPDATE_FILE) $(srcdir)/Include/opcode.h $(srcdir)/Include/opcode.h.new
 
-Python/compile.o Python/symtable.o Python/ast_unparse.o Python/ast.o: $(srcdir)/Include/graminit.h $(srcdir)/Include/Python-ast.h
+Python/compile.o Python/symtable.o Python/ast_unparse.o Python/ast.o Python/future.o Parser/parsetok.o: $(srcdir)/Include/graminit.h $(srcdir)/Include/Python-ast.h
 
 Python/getplatform.o: $(srcdir)/Python/getplatform.c
 		$(CC) -c $(PY_CORE_CFLAGS) -DPLATFORM='"$(MACHDEP)"' -o $@ $(srcdir)/Python/getplatform.c
@@ -964,11 +965,11 @@ PYTHON_HEADERS= \
 		$(srcdir)/Include/accu.h \
 		$(srcdir)/Include/asdl.h \
 		$(srcdir)/Include/ast.h \
-		$(srcdir)/Include/bltinmodule.h \
 		$(srcdir)/Include/bitset.h \
+		$(srcdir)/Include/bltinmodule.h \
 		$(srcdir)/Include/boolobject.h \
-		$(srcdir)/Include/bytes_methods.h \
 		$(srcdir)/Include/bytearrayobject.h \
+		$(srcdir)/Include/bytes_methods.h \
 		$(srcdir)/Include/bytesobject.h \
 		$(srcdir)/Include/cellobject.h \
 		$(srcdir)/Include/ceval.h \
@@ -977,6 +978,7 @@ PYTHON_HEADERS= \
 		$(srcdir)/Include/codecs.h \
 		$(srcdir)/Include/compile.h \
 		$(srcdir)/Include/complexobject.h \
+		$(srcdir)/Include/context.h \
 		$(srcdir)/Include/descrobject.h \
 		$(srcdir)/Include/dictobject.h \
 		$(srcdir)/Include/dtoa.h \
@@ -1006,6 +1008,7 @@ PYTHON_HEADERS= \
 		$(srcdir)/Include/node.h \
 		$(srcdir)/Include/object.h \
 		$(srcdir)/Include/objimpl.h \
+		$(srcdir)/Include/odictobject.h \
 		$(srcdir)/Include/opcode.h \
 		$(srcdir)/Include/osdefs.h \
 		$(srcdir)/Include/osmodule.h \
@@ -1022,15 +1025,15 @@ PYTHON_HEADERS= \
 		$(srcdir)/Include/pyfpe.h \
 		$(srcdir)/Include/pyhash.h \
 		$(srcdir)/Include/pylifecycle.h \
-		$(srcdir)/Include/pymath.h \
+		$(srcdir)/Include/pymacconfig.h \
 		$(srcdir)/Include/pymacro.h \
+		$(srcdir)/Include/pymath.h \
 		$(srcdir)/Include/pymem.h \
 		$(srcdir)/Include/pyport.h \
 		$(srcdir)/Include/pystate.h \
-		$(srcdir)/Include/context.h \
 		$(srcdir)/Include/pystrcmp.h \
-		$(srcdir)/Include/pystrtod.h \
 		$(srcdir)/Include/pystrhex.h \
+		$(srcdir)/Include/pystrtod.h \
 		$(srcdir)/Include/pythonrun.h \
 		$(srcdir)/Include/pythread.h \
 		$(srcdir)/Include/pytime.h \
@@ -1041,6 +1044,7 @@ PYTHON_HEADERS= \
 		$(srcdir)/Include/structseq.h \
 		$(srcdir)/Include/symtable.h \
 		$(srcdir)/Include/sysmodule.h \
+		$(srcdir)/Include/token.h \
 		$(srcdir)/Include/traceback.h \
 		$(srcdir)/Include/tupleobject.h \
 		$(srcdir)/Include/ucnhash.h \
@@ -1070,6 +1074,11 @@ TESTRUNNER=	$(TESTPYTHON) $(srcdir)/Tools/scripts/run_tests.py
 TESTTIMEOUT=	1200
 
 .PHONY: test testall testuniversal buildbottest pythoninfo
+
+# Remove "test_python_*" directories of previous failed test jobs.
+# Pass TESTOPTS options because it can contain --tempdir option.
+cleantest: build_all
+	$(TESTRUNNER) $(TESTOPTS) --cleanup
 
 # Run a basic set of regression tests.
 # This excludes some tests that are particularly resource-intensive.
@@ -1673,6 +1682,7 @@ tags::
 	ctags -w $(srcdir)/Include/*.h $(srcdir)/Include/internal/*.h
 	for i in $(SRCDIRS); do ctags -f tags -w -a $(srcdir)/$$i/*.[ch]; done
 	ctags -f tags -w -a $(srcdir)/Modules/_ctypes/*.[ch]
+	find $(srcdir)/Lib -type f -name "*.py" -not -name "test_*.py" -not -path "*/test/*" -not -path "*/tests/*" -not -path "*/*_test/*" | ctags -f tags -w -a -L -
 	LC_ALL=C sort -o tags tags
 
 # Create a tags file for GNU Emacs
@@ -1680,6 +1690,8 @@ TAGS::
 	cd $(srcdir); \
 	etags Include/*.h Include/internal/*.h; \
 	for i in $(SRCDIRS); do etags -a $$i/*.[ch]; done
+	etags -a $(srcdir)/Modules/_ctypes/*.[ch]
+	find $(srcdir)/Lib -type f -name "*.py" -not -name "test_*.py" -not -path "*/test/*" -not -path "*/tests/*" -not -path "*/*_test/*" | etags - -a
 
 # Sanitation targets -- clean leaves libraries, executables and tags
 # files, which clobber removes as well

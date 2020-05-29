@@ -1,0 +1,101 @@
+{
+  "build": "py36_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/home/buildadm/miniconda/3/amd64/pkgs/typing_extensions-3.7.4.1-py36_0",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/__pycache__/typing_extensions.cpython-36.pyc",
+    "lib/python3.6/site-packages/typing_extensions-3.7.4.1.dist-info/INSTALLER",
+    "lib/python3.6/site-packages/typing_extensions-3.7.4.1.dist-info/LICENSE",
+    "lib/python3.6/site-packages/typing_extensions-3.7.4.1.dist-info/METADATA",
+    "lib/python3.6/site-packages/typing_extensions-3.7.4.1.dist-info/RECORD",
+    "lib/python3.6/site-packages/typing_extensions-3.7.4.1.dist-info/WHEEL",
+    "lib/python3.6/site-packages/typing_extensions-3.7.4.1.dist-info/top_level.txt",
+    "lib/python3.6/site-packages/typing_extensions.py"
+  ],
+  "fn": "typing_extensions-3.7.4.1-py36_0.conda",
+  "legacy_bz2_md5": "ac15a7158422906ac809783480a65f4c",
+  "license": "PSF",
+  "license_family": "PSF",
+  "link": {
+    "source": "/home/buildadm/miniconda/3/amd64/pkgs/typing_extensions-3.7.4.1-py36_0",
+    "type": 1
+  },
+  "md5": "3b8444747d9974ed0c30825dd4dfa6f8",
+  "name": "typing_extensions",
+  "package_tarball_full_path": "/home/buildadm/miniconda/3/amd64/pkgs/typing_extensions-3.7.4.1-py36_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.6/site-packages/__pycache__/typing_extensions.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "989a7d497a3f35ae8a4cbf42befabfef1dd5a8fe2977ddec353679d5b96ed189",
+        "sha256_in_prefix": "989a7d497a3f35ae8a4cbf42befabfef1dd5a8fe2977ddec353679d5b96ed189",
+        "size_in_bytes": 62643
+      },
+      {
+        "_path": "lib/python3.6/site-packages/typing_extensions-3.7.4.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "lib/python3.6/site-packages/typing_extensions-3.7.4.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "ff17ce94e102024deb68773eb1cc74ca76da4e658f373531f0ac22d68a6bb1ad",
+        "sha256_in_prefix": "ff17ce94e102024deb68773eb1cc74ca76da4e658f373531f0ac22d68a6bb1ad",
+        "size_in_bytes": 12755
+      },
+      {
+        "_path": "lib/python3.6/site-packages/typing_extensions-3.7.4.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "b2fa64aaf13baf5b76457dba358a04b2b7534332a685e988555bb3ed78cd85c1",
+        "sha256_in_prefix": "b2fa64aaf13baf5b76457dba358a04b2b7534332a685e988555bb3ed78cd85c1",
+        "size_in_bytes": 1920
+      },
+      {
+        "_path": "lib/python3.6/site-packages/typing_extensions-3.7.4.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "d7dd68615d2a1e79e266a3e923cdacf01cb808a2de90c3eb478aa9c2344415da",
+        "sha256_in_prefix": "d7dd68615d2a1e79e266a3e923cdacf01cb808a2de90c3eb478aa9c2344415da",
+        "size_in_bytes": 679
+      },
+      {
+        "_path": "lib/python3.6/site-packages/typing_extensions-3.7.4.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "c537ee604fb6bc7b56839909c697460c57f8aa97bc1a1f0ce7795c02def60261",
+        "sha256_in_prefix": "c537ee604fb6bc7b56839909c697460c57f8aa97bc1a1f0ce7795c02def60261",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "lib/python3.6/site-packages/typing_extensions-3.7.4.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "8640e6937566adf5cf383fbe8d2e1a2930aeea4159a3e9154f570815fab5794f",
+        "sha256_in_prefix": "8640e6937566adf5cf383fbe8d2e1a2930aeea4159a3e9154f570815fab5794f",
+        "size_in_bytes": 18
+      },
+      {
+        "_path": "lib/python3.6/site-packages/typing_extensions.py",
+        "path_type": "hardlink",
+        "sha256": "73d1af9c78b6f56a09164eef0a37ed069959859e54e11708ba37fac47d0116b8",
+        "sha256_in_prefix": "73d1af9c78b6f56a09164eef0a37ed069959859e54e11708ba37fac47d0116b8",
+        "size_in_bytes": 75264
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a46cf14ab08190b421a46efc2242ab3da9dee64ecb263525950a35df2c0b2e20",
+  "size": 40500,
+  "subdir": "linux-64",
+  "timestamp": 1573975250663,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/typing_extensions-3.7.4.1-py36_0.conda",
+  "version": "3.7.4.1"
+}

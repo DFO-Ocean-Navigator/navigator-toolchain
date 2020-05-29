@@ -25,6 +25,8 @@
 
 G_BEGIN_DECLS
 
+typedef struct _GstGLAsyncDebug GstGLAsyncDebug;
+
 typedef gchar * (*GstGLAsyncDebugLogGetMessage) (gpointer user_data);
 
 /**

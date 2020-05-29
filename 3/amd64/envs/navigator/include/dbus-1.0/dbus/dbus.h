@@ -4,7 +4,7 @@
  * Copyright (C) 2002, 2003  Red Hat Inc.
  *
  * Licensed under the Academic Free License version 2.1
- * 
+ *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation; either version 2 of the License, or
@@ -14,7 +14,7 @@
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
- * 
+ *
  * You should have received a copy of the GNU General Public License
  * along with this program; if not, write to the Free Software
  * Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301  USA
@@ -91,8 +91,8 @@
  * This manual also contains docs for @ref DBusInternals "D-Bus internals",
  * so you can use it to get oriented to the D-Bus source code if you're
  * interested in patching the code. You should also read the
- * file HACKING which comes with the source code if you plan to contribute to
- * D-Bus.
+ * file CONTRIBUTING.md which comes with the source code if you plan to
+ * contribute to D-Bus.
  *
  * As you read the code, you can identify internal D-Bus functions
  * because they start with an underscore ('_') character. Also, any

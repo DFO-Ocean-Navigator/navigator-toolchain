@@ -9,9 +9,8 @@ typelibdir=${libdir}/girepository-1.0
 
 Name: GStreamer Base Utils Library
 Description: General utility functions
-Requires: gstreamer-1.0 gstreamer-audio-1.0 gstreamer-base-1.0 gstreamer-video-1.0
-Requires.private: gstreamer-tag-1.0
-Version: 1.14.5
+Requires: gstreamer-1.0
+Version: 1.14.0
 Libs: -L${libdir} -lgstpbutils-1.0
 Cflags: -I${includedir}
 

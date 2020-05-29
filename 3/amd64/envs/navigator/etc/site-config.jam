@@ -1,0 +1,4 @@
+import os ;
+local CXXFLAGS = [ os.environ CXXFLAGS ] ;
+local LDFLAGS = [ os.environ LDFLAGS ] ;
+using gcc : custom : x86_64-conda_cos6-linux-gnu-c++ : <compileflags>-I/home/buildadm/miniconda/3/amd64/envs/navigator/include $(CXXFLAGS) -Wno-deprecated-declarations <linkflags>-L/home/buildadm/miniconda/3/amd64/envs/navigator/lib $(LDFLAGS) ;

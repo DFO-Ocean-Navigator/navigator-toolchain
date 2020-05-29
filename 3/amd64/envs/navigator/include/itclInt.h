@@ -415,7 +415,6 @@ typedef struct ItclMemberCode {
         Tcl_ObjCmdProc *objCmd; /* (objc,objv) C implementation */
     } cfunc;
     ClientData clientData;      /* client data for C implementations */
-    int refCount;
 } ItclMemberCode;
 
 /*
@@ -688,9 +687,6 @@ MODULE_SCOPE void ItclReleaseIMF(ClientData imPtr);
 
 MODULE_SCOPE void ItclPreserveClass(ItclClass *iclsPtr);
 MODULE_SCOPE void ItclReleaseClass(ClientData iclsPtr);
-
-MODULE_SCOPE void ItclPreserveMemberCode(ItclMemberCode *mcodePtr);
-MODULE_SCOPE void ItclReleaseMemberCode(ItclMemberCode *mcodePtr);
 
 MODULE_SCOPE void ItclPreserveObject(ItclObject *ioPtr);
 MODULE_SCOPE void ItclReleaseObject(ClientData ioPtr);

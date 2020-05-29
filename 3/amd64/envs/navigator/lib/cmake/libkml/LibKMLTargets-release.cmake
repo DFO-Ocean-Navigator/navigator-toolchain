@@ -8,7 +8,7 @@ set(CMAKE_IMPORT_FILE_VERSION 1)
 # Import target "kmlbase" for configuration "Release"
 set_property(TARGET kmlbase APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(kmlbase PROPERTIES
-  IMPORTED_LINK_INTERFACE_LIBRARIES_RELEASE "/home/buildadm/miniconda/3/amd64/envs/navigator/lib/libexpat.so;/home/conda/feedstock_root/build_artifacts/libkml_1543237805195/_build_env/lib/libz.so;/home/buildadm/miniconda/3/amd64/envs/navigator/lib/libminizip.so;/home/buildadm/miniconda/3/amd64/envs/navigator/lib/liburiparser.so;/home/buildadm/miniconda/3/amd64/envs/navigator/lib/libexpat.so"
+  IMPORTED_LINK_INTERFACE_LIBRARIES_RELEASE "/home/buildadm/miniconda/3/amd64/envs/navigator/lib/libexpat.so;/home/buildadm/miniconda/3/amd64/envs/navigator/lib/libz.so;/home/buildadm/miniconda/3/amd64/envs/navigator/lib/libminizip.so;/home/buildadm/miniconda/3/amd64/envs/navigator/lib/liburiparser.so;/home/buildadm/miniconda/3/amd64/envs/navigator/lib/libexpat.so"
   IMPORTED_LOCATION_RELEASE "/home/buildadm/miniconda/3/amd64/envs/navigator/lib/libkmlbase.so.1.3.0"
   IMPORTED_SONAME_RELEASE "libkmlbase.so.1"
   )

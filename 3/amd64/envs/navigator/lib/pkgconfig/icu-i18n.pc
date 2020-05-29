@@ -5,7 +5,7 @@
 # CFLAGS contains only anything end users should set
 CFLAGS = 
 # CXXFLAGS contains only anything end users should set
-CXXFLAGS =  --std=c++0x
+CXXFLAGS = 
 # DEFS only contains those UCONFIG_CPPFLAGS which are not auto-set by platform.h
 DEFS = 
 prefix = /home/buildadm/miniconda/3/amd64/envs/navigator

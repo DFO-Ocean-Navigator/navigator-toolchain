@@ -1,0 +1,94 @@
+{
+  "build": "py36_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.6,<3.7.0a0",
+    "six"
+  ],
+  "extracted_package_dir": "/home/buildadm/miniconda/3/amd64/pkgs/configobj-5.0.6-py36_1",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/__pycache__/_version.cpython-36.pyc",
+    "lib/python3.6/site-packages/__pycache__/configobj.cpython-36.pyc",
+    "lib/python3.6/site-packages/__pycache__/validate.cpython-36.pyc",
+    "lib/python3.6/site-packages/_version.py",
+    "lib/python3.6/site-packages/configobj-5.0.6-py3.6.egg-info",
+    "lib/python3.6/site-packages/configobj.py",
+    "lib/python3.6/site-packages/validate.py"
+  ],
+  "fn": "configobj-5.0.6-py36_1.conda",
+  "legacy_bz2_md5": "16cd9cb4fd917307ec673758efd07eb9",
+  "license": "BSD License",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/buildadm/miniconda/3/amd64/pkgs/configobj-5.0.6-py36_1",
+    "type": 1
+  },
+  "md5": "28baba0c250aa08b67429f0e43bbe376",
+  "name": "configobj",
+  "package_tarball_full_path": "/home/buildadm/miniconda/3/amd64/pkgs/configobj-5.0.6-py36_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.6/site-packages/__pycache__/_version.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "ca48e94b2027b6a912a0f4f27ecf9c65b4dbbad416478c5c41da019a98c61bf6",
+        "sha256_in_prefix": "ca48e94b2027b6a912a0f4f27ecf9c65b4dbbad416478c5c41da019a98c61bf6",
+        "size_in_bytes": 143
+      },
+      {
+        "_path": "lib/python3.6/site-packages/__pycache__/configobj.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "6fa2dcb76444722fa0e13bb1840504433fd71c1ffd2ce642d82357339f73f11e",
+        "sha256_in_prefix": "6fa2dcb76444722fa0e13bb1840504433fd71c1ffd2ce642d82357339f73f11e",
+        "size_in_bytes": 59199
+      },
+      {
+        "_path": "lib/python3.6/site-packages/__pycache__/validate.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "0772e214b85d22a4a251c83d52814c1cb3e6396e48d9b1905e97389473638663",
+        "sha256_in_prefix": "0772e214b85d22a4a251c83d52814c1cb3e6396e48d9b1905e97389473638663",
+        "size_in_bytes": 44392
+      },
+      {
+        "_path": "lib/python3.6/site-packages/_version.py",
+        "path_type": "hardlink",
+        "sha256": "2a9eec47870e0d13e2ee50600eefaad1b755848f72d922793b44b20e9509b971",
+        "sha256_in_prefix": "2a9eec47870e0d13e2ee50600eefaad1b755848f72d922793b44b20e9509b971",
+        "size_in_bytes": 21
+      },
+      {
+        "_path": "lib/python3.6/site-packages/configobj-5.0.6-py3.6.egg-info",
+        "path_type": "hardlink",
+        "sha256": "082a24bdca77f3477c9b8e779357a85208d6013856f634c67afb17822b1c90fb",
+        "sha256_in_prefix": "082a24bdca77f3477c9b8e779357a85208d6013856f634c67afb17822b1c90fb",
+        "size_in_bytes": 3026
+      },
+      {
+        "_path": "lib/python3.6/site-packages/configobj.py",
+        "path_type": "hardlink",
+        "sha256": "cc0036f344b5292e8d0655812ba2a837f4368245b52d5db05e0a9c531a34ee15",
+        "sha256_in_prefix": "cc0036f344b5292e8d0655812ba2a837f4368245b52d5db05e0a9c531a34ee15",
+        "size_in_bytes": 89627
+      },
+      {
+        "_path": "lib/python3.6/site-packages/validate.py",
+        "path_type": "hardlink",
+        "sha256": "54ffdb3ec781fc8dcdc7a3b38c60dfb1e8a4f4e2092d2bb23de6ea95bb934130",
+        "sha256_in_prefix": "54ffdb3ec781fc8dcdc7a3b38c60dfb1e8a4f4e2092d2bb23de6ea95bb934130",
+        "size_in_bytes": 47237
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "0cab4785f555d04e8457ee042a78de6e18e4aea15aa57c20ff3fe51381aa708f",
+  "size": 54613,
+  "subdir": "linux-64",
+  "timestamp": 1536253465708,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/configobj-5.0.6-py36_1.conda",
+  "version": "5.0.6"
+}

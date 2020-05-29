@@ -33,7 +33,7 @@ supported_features="SSL IPv6 UnixSockets libz AsynchDNS GSS-API SPNEGO Kerberos 
 Name: libcurl
 URL: https://curl.haxx.se/
 Description: Library to transfer files with ftp, http, etc.
-Version: 7.67.0
+Version: 7.69.1
 Libs: -L${libdir} -lcurl
-Libs.private: -lssh2 -lssh2 -lssl -lcrypto -lssl -lcrypto -L/home/buildadm/miniconda/3/amd64/envs/index-tool/lib -Wl,--enable-new-dtags -Wl,-rpath -Wl,/home/buildadm/miniconda/3/amd64/envs/index-tool/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,-rpath,/home/buildadm/miniconda/3/amd64/envs/index-tool/lib -L/home/buildadm/miniconda/3/amd64/envs/index-tool/lib -L/home/buildadm/miniconda/3/amd64/envs/index-tool/lib -Wl,--disable-new-dtags -lgssapi_krb5 -lkrb5 -lk5crypto -lcom_err -lz -lrt
+Libs.private: -lssh2 -lssh2 -lssl -lcrypto -lssl -lcrypto -L/home/buildadm/miniconda/3/amd64/envs/index-tool/lib -Wl,--enable-new-dtags -Wl,-rpath -Wl,/home/buildadm/miniconda/3/amd64/envs/index-tool/lib -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,-rpath,/home/buildadm/miniconda/3/amd64/envs/index-tool/lib -Wl,-rpath-link,/home/buildadm/miniconda/3/amd64/envs/index-tool/lib -L/home/buildadm/miniconda/3/amd64/envs/index-tool/lib -L/home/buildadm/miniconda/3/amd64/envs/index-tool/lib -Wl,--disable-new-dtags -lgssapi_krb5 -lkrb5 -lk5crypto -lcom_err -lz -lrt
 Cflags: -I${includedir} 

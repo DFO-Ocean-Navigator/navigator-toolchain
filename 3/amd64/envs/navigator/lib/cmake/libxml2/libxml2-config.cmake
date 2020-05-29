@@ -42,7 +42,7 @@ if(1)
   list(APPEND LIBXML2_INCLUDE_DIRS ${ZLIB_INCLUDE_DIRS})
 endif()
 
-list(APPEND LIBXML2_LIBRARIES -L/home/buildadm/miniconda/3/amd64/envs/navigator/lib -licui18n -licuuc -licudata -L/home/buildadm/miniconda/3/amd64/envs/navigator/lib -liconv -lm  )
+list(APPEND LIBXML2_LIBRARIES  -L/home/buildadm/miniconda/3/amd64/envs/navigator/lib -lm  )
 
 # whether libxml2 has dso support
 set(LIBXML2_MODULES 1)

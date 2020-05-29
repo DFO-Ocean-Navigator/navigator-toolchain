@@ -11,7 +11,7 @@ Name: GStreamer Audio library
 Description: Audio helper functions and base classes
 Requires: gstreamer-1.0 gstreamer-base-1.0
 Requires.private: 
-Version: 1.14.5
+Version: 1.14.0
 Libs: -L${libdir} -lgstaudio-1.0
 Cflags: -I${includedir}
 

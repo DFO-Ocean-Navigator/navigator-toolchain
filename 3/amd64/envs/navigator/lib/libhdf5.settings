@@ -4,10 +4,10 @@
 General Information:
 -------------------
                    HDF5 Version: 1.10.4
-                  Configured on: Sat Mar 23 13:56:45 UTC 2019
-                  Configured by: conda@5c309a39b065
+                  Configured on: Wed Dec 19 18:26:52 UTC 2018
+                  Configured by: root@3dad7c19-81ba-4672-4f33-547177f88490
                     Host system: x86_64-conda_cos6-linux-gnu
-              Uname information: Linux 5c309a39b065 4.15.0-1037-azure #39~16.04.1-Ubuntu SMP Tue Jan 15 17:20:47 UTC 2019 x86_64 x86_64 x86_64 GNU/Linux
+              Uname information: Linux 3dad7c19-81ba-4672-4f33-547177f88490 4.4.0-62-generic #83-Ubuntu SMP Wed Jan 18 14:10:15 UTC 2017 x86_64 x86_64 x86_64 GNU/Linux
                        Byte sex: little-endian
              Installation point: /home/buildadm/miniconda/3/amd64/envs/navigator
 
@@ -27,14 +27,14 @@ Linking Options:
                      H5_LDFLAGS: 
                      AM_LDFLAGS:  -L/home/buildadm/miniconda/3/amd64/envs/navigator/lib
                 Extra libraries: -lrt -lpthread -lz -ldl -lm 
-                       Archiver: /home/conda/feedstock_root/build_artifacts/hdf5_1553349286702/_build_env/bin/x86_64-conda_cos6-linux-gnu-ar
+                       Archiver: /tmp/build/80754af9/hdf5_1545243905949/_build_env/bin/x86_64-conda_cos6-linux-gnu-ar
                        AR_FLAGS: cr
-                         Ranlib: /home/conda/feedstock_root/build_artifacts/hdf5_1553349286702/_build_env/bin/x86_64-conda_cos6-linux-gnu-ranlib
+                         Ranlib: /tmp/build/80754af9/hdf5_1545243905949/_build_env/bin/x86_64-conda_cos6-linux-gnu-ranlib
 
 Languages:
 ----------
                               C: yes
-                     C Compiler: /home/conda/feedstock_root/build_artifacts/hdf5_1553349286702/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc
+                     C Compiler: /tmp/build/80754af9/hdf5_1545243905949/_build_env/bin/x86_64-conda_cos6-linux-gnu-cc
                        CPPFLAGS: -DNDEBUG -D_FORTIFY_SOURCE=2 -O2
                     H5_CPPFLAGS: -D_GNU_SOURCE -D_POSIX_C_SOURCE=200112L   -DNDEBUG -UH5_DEBUG_API
                     AM_CPPFLAGS:  -I/home/buildadm/miniconda/3/amd64/envs/navigator/include
@@ -46,7 +46,7 @@ Languages:
 
 
                         Fortran: yes
-               Fortran Compiler: /home/conda/feedstock_root/build_artifacts/hdf5_1553349286702/_build_env/bin/x86_64-conda_cos6-linux-gnu-gfortran
+               Fortran Compiler: /tmp/build/80754af9/hdf5_1545243905949/_build_env/bin/x86_64-conda_cos6-linux-gnu-gfortran
                   Fortran Flags: 
                H5 Fortran Flags:  -pedantic -Wall -Wextra -Wunderflow -Wimplicit-interface -Wsurprising -Wno-c-binding-type  -s -O2
                AM Fortran Flags: 
@@ -54,7 +54,7 @@ Languages:
          Static Fortran Library: yes
 
                             C++: yes
-                   C++ Compiler: /home/conda/feedstock_root/build_artifacts/hdf5_1553349286702/_build_env/bin/x86_64-conda_cos6-linux-gnu-c++
+                   C++ Compiler: /tmp/build/80754af9/hdf5_1545243905949/_build_env/bin/x86_64-conda_cos6-linux-gnu-c++
                       C++ Flags: -fvisibility-inlines-hidden -std=c++17 -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -pipe -I/home/buildadm/miniconda/3/amd64/envs/navigator/include -fdebug-prefix-map=${SRC_DIR}=/usr/local/src/conda/${PKG_NAME}-${PKG_VERSION} -fdebug-prefix-map=${PREFIX}=/usr/local/src/conda-prefix
                    H5 C++ Flags:   -pedantic -Wall -W -Wundef -Wshadow -Wpointer-arith -Wcast-qual -Wcast-align -Wwrite-strings -Wconversion -Wredundant-decls -Winline -Wsign-promo -Woverloaded-virtual -Wold-style-cast -Weffc++ -Wreorder -Wnon-virtual-dtor -Wctor-dtor-privacy -Wabi -finline-functions -s -O
                    AM C++ Flags: 

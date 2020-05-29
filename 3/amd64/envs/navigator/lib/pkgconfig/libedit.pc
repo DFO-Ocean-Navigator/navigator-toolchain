@@ -7,6 +7,7 @@ Name: libedit
 Description: command line editor library provides generic line editing, history, and tokenization functions.
 Version: 3.1
 Requires:
-Libs: -L${libdir} -ledit -ltinfo 
+Libs: -L${libdir} -ledit
+Libs.private: -ltinfo 
 Cflags: -I${includedir} -I${includedir}/editline
 

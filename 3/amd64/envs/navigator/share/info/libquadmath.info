@@ -1,7 +1,7 @@
 This is libquadmath.info, produced by makeinfo version 4.13 from
-/opt/conda/conda-bld/compilers_linux-64_1534514838838/work/.build/x86_64-conda_cos6-linux-gnu/src/gcc/libquadmath/libquadmath.texi.
+/home/nwani/m3/conda-bld/compilers_linux-64_1560109574129/work/.build/x86_64-conda_cos6-linux-gnu/src/gcc/libquadmath/libquadmath.texi.
 
-Copyright (C) 2010-2018 Free Software Foundation, Inc.
+Copyright (C) 2010-2019 Free Software Foundation, Inc.
 
      Permission is granted to copy, distribute and/or modify this
      document under the terms of the GNU Free Documentation License,
@@ -24,7 +24,7 @@ END-INFO-DIR-ENTRY
    Published by the Free Software Foundation 51 Franklin Street, Fifth
 Floor Boston, MA 02110-1301 USA
 
-   Copyright (C) 2010-2018 Free Software Foundation, Inc.
+   Copyright (C) 2010-2019 Free Software Foundation, Inc.
 
      Permission is granted to copy, distribute and/or modify this
      document under the terms of the GNU Free Documentation License,
@@ -156,6 +156,8 @@ The following mathematical functions are available:
 
 `erfcq': complementary error function
 
+`exp2q': base 2 exponential function
+
 `expq': exponential function
 
 `expm1q': exponential minus 1 function
@@ -185,6 +187,8 @@ The following mathematical functions are available:
 `isinfq': check for infinity
 
 `isnanq': check for not a number
+
+`issignalingq': check for signaling not a number
 
 `j0q': Bessel function of the first kind, first order
 
@@ -914,13 +918,13 @@ reported via `https://gcc.gnu.org/bugs/'.
 
 
 Tag Table:
-Node: Top1749
-Node: Typedef and constants2483
-Node: Math Library Routines3923
-Node: I/O Library Routines7763
-Node: strtoflt1288088
-Node: quadmath_snprintf8846
-Node: GNU Free Documentation License11054
-Node: Reporting Bugs36220
+Node: Top1753
+Node: Typedef and constants2487
+Node: Math Library Routines3927
+Node: I/O Library Routines7855
+Node: strtoflt1288180
+Node: quadmath_snprintf8938
+Node: GNU Free Documentation License11146
+Node: Reporting Bugs36312
 
 End Tag Table

@@ -60,7 +60,7 @@ while test $# -gt 0; do
 	;;
 
     --version)
-	echo 1.1.32
+	echo 1.1.33
 	exit 0
 	;;
 
@@ -89,7 +89,7 @@ while test $# -gt 0; do
     shift
 done
 
-the_libs="-L${libdir} -lxslt -L/home/buildadm/miniconda/3/amd64/envs/navigator/lib -lxml2 -L/home/buildadm/miniconda/3/amd64/envs/navigator/lib -lz -L/home/buildadm/miniconda/3/amd64/envs/navigator/lib -llzma -L/home/buildadm/miniconda/3/amd64/envs/navigator/lib -liconv -L/home/buildadm/miniconda/3/amd64/envs/navigator/lib -licui18n -licuuc -licudata -lm -ldl -lm  -lrt"
+the_libs="-L${libdir} -lxslt -L/home/buildadm/miniconda/3/amd64/envs/navigator/lib -lxml2 -L/home/buildadm/miniconda/3/amd64/envs/navigator/lib -L/home/buildadm/miniconda/3/amd64/envs/navigator/lib -L/home/buildadm/miniconda/3/amd64/envs/navigator/lib -L/home/buildadm/miniconda/3/amd64/envs/navigator/lib -licui18n -licuuc -licudata -lm -ldl -lm  -lrt"
 if test "$includedir" != "/usr/include"; then
     the_flags="$the_flags -I$includedir `/home/buildadm/miniconda/3/amd64/envs/navigator/bin/xml2-config --cflags`"
 else

@@ -87,7 +87,8 @@
 /* Define to 1 if you have the <zlib.h> header file. */
 #define H4_HAVE_ZLIB_H 1
 
-/* Define to the sub-directory where libtool stores uninstalled libraries. */
+/* Define to the sub-directory in which libtool stores uninstalled libraries.
+   */
 #define H4_LT_OBJDIR ".libs/"
 
 /* Define if deprecated public API symbols are disabled */

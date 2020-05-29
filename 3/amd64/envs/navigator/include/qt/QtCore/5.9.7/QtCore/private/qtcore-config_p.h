@@ -3,7 +3,7 @@
 #define QT_FEATURE_dlopen 1
 #define QT_FEATURE_doubleconversion 1
 #define QT_FEATURE_glib 1
-#define QT_FEATURE_posix_libiconv -1
+#define QT_FEATURE_posix_libiconv 1
 #define QT_FEATURE_gnu_libiconv -1
 #define QT_FEATURE_icu 1
 #define QT_FEATURE_iconv -1

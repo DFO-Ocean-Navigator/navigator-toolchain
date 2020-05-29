@@ -1,4 +1,4 @@
-/* Generated automatically from /tmp/build/80754af9/python_1546130271559/work/Modules/config.c.in by makesetup. */
+/* Generated automatically from /tmp/build/80754af9/python_1585002248360/work/Modules/config.c.in by makesetup. */
 /* -*- C -*- ***********************************************
 Copyright (c) 2000, BeOpen.com.
 Copyright (c) 1995-2000, Corporation for National Research Initiatives.
