@@ -72,3 +72,12 @@
 +defaults/linux-64::wget-1.20.1-h20c2e04_0
 +defaults/linux-64::zlib-1.2.11-h7b6447c_3
 # neutered specs: ['_libgcc_mutex', 'ca-certificates', 'libstdcxx-ng', 'libgcc-ng', 'bzip2', 'expat', 'libiconv', 'ncurses', 'openssl', 'pcre', 'perl', 'tar', 'zlib', 'libedit', 'libssh2', 'popt', 'tk', 'wget', 'krb5', 'rsync', 'libcurl', 'git']
+==> 2020-05-29 17:37:03 <==
+# cmd: /home/buildadm/miniconda/3/amd64/bin/conda install -c conda-forge git-lfs
+# conda version: 4.8.3
+-defaults/linux-64::ca-certificates-2020.1.1-0
+-defaults/linux-64::openssl-1.1.1g-h7b6447c_0
++conda-forge/linux-64::ca-certificates-2020.4.5.1-hecc5488_0
++conda-forge/linux-64::git-lfs-2.11.0-0
++conda-forge/linux-64::openssl-1.1.1g-h516909a_0
+# update specs: ['git-lfs']

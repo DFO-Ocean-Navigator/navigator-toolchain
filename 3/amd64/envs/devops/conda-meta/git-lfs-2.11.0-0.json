@@ -1,0 +1,42 @@
+{
+  "build": "0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/home/buildadm/miniconda/3/amd64/pkgs/git-lfs-2.11.0-0",
+  "features": "",
+  "files": [
+    "bin/git-lfs"
+  ],
+  "fn": "git-lfs-2.11.0-0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/buildadm/miniconda/3/amd64/pkgs/git-lfs-2.11.0-0",
+    "type": 1
+  },
+  "md5": "69bf853ecb1826bf329ba7be62043514",
+  "name": "git-lfs",
+  "package_tarball_full_path": "/home/buildadm/miniconda/3/amd64/pkgs/git-lfs-2.11.0-0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/git-lfs",
+        "path_type": "hardlink",
+        "sha256": "f48f45cf8ca600cdde4a8f27b16faf761e2ab944eaf1b0d9a38f66e9979b7df0",
+        "sha256_in_prefix": "f48f45cf8ca600cdde4a8f27b16faf761e2ab944eaf1b0d9a38f66e9979b7df0",
+        "size_in_bytes": 11833344
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "git-lfs",
+  "sha256": "0d4e157256c5079de0d98718d25e5d24c368d9e2c876bfd9c528f2502bf0fe1a",
+  "size": 4258244,
+  "subdir": "linux-64",
+  "timestamp": 1589010638745,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/git-lfs-2.11.0-0.tar.bz2",
+  "version": "2.11.0"
+}
