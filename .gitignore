@@ -1,2 +1,2 @@
-pkgs/
-__pycache__/
+pkgs/**
+__pycache__/**
