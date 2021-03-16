@@ -1,7 +1,7 @@
-set -gx CONDA_EXE "/home/buildadm/miniconda/3/amd64/bin/conda"
-set _CONDA_ROOT "/home/buildadm/miniconda/3/amd64"
-set _CONDA_EXE "/home/buildadm/miniconda/3/amd64/bin/conda"
-set -gx CONDA_PYTHON_EXE "/home/buildadm/miniconda/3/amd64/bin/python"
+set -gx CONDA_EXE "/home/buildadm/tools/miniconda/3/amd64/bin/conda"
+set _CONDA_ROOT "/home/buildadm/tools/miniconda/3/amd64"
+set _CONDA_EXE "/home/buildadm/tools/miniconda/3/amd64/bin/conda"
+set -gx CONDA_PYTHON_EXE "/home/buildadm/tools/miniconda/3/amd64/bin/python"
 # Copyright (C) 2012 Anaconda, Inc
 # SPDX-License-Identifier: BSD-3-Clause
 #

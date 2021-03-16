@@ -1,4 +1,4 @@
-#!/home/buildadm/miniconda/3/amd64/bin/python
+#!/home/buildadm/tools/miniconda/3/amd64/bin/python
 
 # -*- coding: utf-8 -*-
 import re

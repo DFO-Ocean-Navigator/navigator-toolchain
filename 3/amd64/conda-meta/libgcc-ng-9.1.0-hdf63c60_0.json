@@ -6,7 +6,7 @@
   "depends": [
     "_libgcc_mutex * main"
   ],
-  "extracted_package_dir": "/home/buildadm/miniconda/3/amd64/pkgs/libgcc-ng-9.1.0-hdf63c60_0",
+  "extracted_package_dir": "/home/buildadm/tools/miniconda/3/amd64/pkgs/libgcc-ng-9.1.0-hdf63c60_0",
   "features": "",
   "files": [
     "lib/libasan.so",
@@ -68,12 +68,12 @@
   "legacy_bz2_size": 8496776,
   "license": "GPL",
   "link": {
-    "source": "/home/buildadm/miniconda/3/amd64/pkgs/libgcc-ng-9.1.0-hdf63c60_0",
+    "source": "/home/buildadm/tools/miniconda/3/amd64/pkgs/libgcc-ng-9.1.0-hdf63c60_0",
     "type": 1
   },
   "md5": "80a23105874059534307086faae566c5",
   "name": "libgcc-ng",
-  "package_tarball_full_path": "/home/buildadm/miniconda/3/amd64/pkgs/libgcc-ng-9.1.0-hdf63c60_0.conda",
+  "package_tarball_full_path": "/home/buildadm/tools/miniconda/3/amd64/pkgs/libgcc-ng-9.1.0-hdf63c60_0.conda",
   "paths_data": {
     "paths": [],
     "paths_version": 1

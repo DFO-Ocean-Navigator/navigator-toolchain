@@ -1,7 +1,7 @@
-setenv CONDA_EXE "/home/buildadm/miniconda/3/amd64/bin/conda"
-setenv _CONDA_ROOT "/home/buildadm/miniconda/3/amd64"
-setenv _CONDA_EXE "/home/buildadm/miniconda/3/amd64/bin/conda"
-setenv CONDA_PYTHON_EXE "/home/buildadm/miniconda/3/amd64/bin/python"
+setenv CONDA_EXE "/home/buildadm/tools/miniconda/3/amd64/bin/conda"
+setenv _CONDA_ROOT "/home/buildadm/tools/miniconda/3/amd64"
+setenv _CONDA_EXE "/home/buildadm/tools/miniconda/3/amd64/bin/conda"
+setenv CONDA_PYTHON_EXE "/home/buildadm/tools/miniconda/3/amd64/bin/python"
 echo "Copyright (C) 2012 Anaconda, Inc" > /dev/null
 echo "SPDX-License-Identifier: BSD-3-Clause" > /dev/null
 
