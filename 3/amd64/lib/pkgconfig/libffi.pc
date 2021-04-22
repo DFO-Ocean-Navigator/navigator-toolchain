@@ -1,8 +1,8 @@
-prefix=/home/buildadm/tools/miniconda/3/amd64
+prefix=/home/ubuntu/tools/miniconda/3/amd64
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 toolexeclibdir=${libdir}
-includedir=/home/buildadm/tools/miniconda/3/amd64/include
+includedir=/home/ubuntu/tools/miniconda/3/amd64/include
 
 Name: libffi
 Description: Library supporting Foreign Function Interfaces

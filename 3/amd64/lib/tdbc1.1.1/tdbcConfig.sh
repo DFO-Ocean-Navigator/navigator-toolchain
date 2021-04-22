@@ -24,8 +24,8 @@ TDBC_BUILD_LIB_SPEC="-L/tmp/build/80754af9/tk_1592503156360/work/tcl8.6.10/unix/
 
 # String to pass to the linker to pick up the TDBC library from its installed
 # dir.
-tdbc_LIB_SPEC="-L/home/buildadm/tools/miniconda/3/amd64/lib/tdbc1.1.1 -ltdbc1.1.1"
-TDBC_LIB_SPEC="-L/home/buildadm/tools/miniconda/3/amd64/lib/tdbc1.1.1 -ltdbc1.1.1"
+tdbc_LIB_SPEC="-L/home/ubuntu/tools/miniconda/3/amd64/lib/tdbc1.1.1 -ltdbc1.1.1"
+TDBC_LIB_SPEC="-L/home/ubuntu/tools/miniconda/3/amd64/lib/tdbc1.1.1 -ltdbc1.1.1"
 
 # Name of the TBDC stub library
 tdbc_STUB_LIB_FILE="libtdbcstub1.1.1.a"
@@ -38,16 +38,16 @@ TDBC_BUILD_STUB_LIB_SPEC="-L/tmp/build/80754af9/tk_1592503156360/work/tcl8.6.10/
 
 # String to pass to the linker to pick up the TDBC stub library from its
 # installed directory
-tdbc_STUB_LIB_SPEC="-L/home/buildadm/tools/miniconda/3/amd64/lib/tdbc1.1.1 -ltdbcstub1.1.1"
-TDBC_STUB_LIB_SPEC="-L/home/buildadm/tools/miniconda/3/amd64/lib/tdbc1.1.1 -ltdbcstub1.1.1"
+tdbc_STUB_LIB_SPEC="-L/home/ubuntu/tools/miniconda/3/amd64/lib/tdbc1.1.1 -ltdbcstub1.1.1"
+TDBC_STUB_LIB_SPEC="-L/home/ubuntu/tools/miniconda/3/amd64/lib/tdbc1.1.1 -ltdbcstub1.1.1"
 
 # Path name of the TDBC stub library in its build directory
 tdbc_BUILD_STUB_LIB_PATH="/tmp/build/80754af9/tk_1592503156360/work/tcl8.6.10/unix/pkgs/tdbc1.1.1/libtdbcstub1.1.1.a"
 TDBC_BUILD_STUB_LIB_PATH="/tmp/build/80754af9/tk_1592503156360/work/tcl8.6.10/unix/pkgs/tdbc1.1.1/libtdbcstub1.1.1.a"
 
 # Path name of the TDBC stub library in its installed directory
-tdbc_STUB_LIB_PATH="/home/buildadm/tools/miniconda/3/amd64/lib/tdbc1.1.1/libtdbcstub1.1.1.a"
-TDBC_STUB_LIB_PATH="/home/buildadm/tools/miniconda/3/amd64/lib/tdbc1.1.1/libtdbcstub1.1.1.a"
+tdbc_STUB_LIB_PATH="/home/ubuntu/tools/miniconda/3/amd64/lib/tdbc1.1.1/libtdbcstub1.1.1.a"
+TDBC_STUB_LIB_PATH="/home/ubuntu/tools/miniconda/3/amd64/lib/tdbc1.1.1/libtdbcstub1.1.1.a"
 
 # Location of the top-level source directories from which TDBC was built.
 # This is the directory that contains doc/, generic/ and so on.  If TDBC
@@ -59,8 +59,8 @@ TDBC_SRC_DIR="/tmp/build/80754af9/tk_1592503156360/work/tcl8.6.10/pkgs/tdbc1.1.1
 
 # String to pass to the compiler so that an extension can find installed TDBC
 # headers
-tdbc_INCLUDE_SPEC="-I/home/buildadm/tools/miniconda/3/amd64/include"
-TDBC_INCLUDE_SPEC="-I/home/buildadm/tools/miniconda/3/amd64/include"
+tdbc_INCLUDE_SPEC="-I/home/ubuntu/tools/miniconda/3/amd64/include"
+TDBC_INCLUDE_SPEC="-I/home/ubuntu/tools/miniconda/3/amd64/include"
 
 # String to pass to the compiler so that an extension can find TDBC headers
 # in the source directory
@@ -68,8 +68,8 @@ tdbc_BUILD_INCLUDE_SPEC="-I/tmp/build/80754af9/tk_1592503156360/work/tcl8.6.10/p
 TDBC_BUILD_INCLUDE_SPEC="-I/tmp/build/80754af9/tk_1592503156360/work/tcl8.6.10/pkgs/tdbc1.1.1/generic"
 
 # Path name where .tcl files in the tdbc package appear at run time.
-tdbc_LIBRARY_PATH="/home/buildadm/tools/miniconda/3/amd64/lib/tdbc1.1.1"
-TDBC_LIBRARY_PATH="/home/buildadm/tools/miniconda/3/amd64/lib/tdbc1.1.1"
+tdbc_LIBRARY_PATH="/home/ubuntu/tools/miniconda/3/amd64/lib/tdbc1.1.1"
+TDBC_LIBRARY_PATH="/home/ubuntu/tools/miniconda/3/amd64/lib/tdbc1.1.1"
 
 # Path name where .tcl files in the tdbc package appear at build time.
 tdbc_BUILD_LIBRARY_PATH="/tmp/build/80754af9/tk_1592503156360/work/tcl8.6.10/pkgs/tdbc1.1.1/library"

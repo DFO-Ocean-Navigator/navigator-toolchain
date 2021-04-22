@@ -7,7 +7,7 @@
     "libgcc-ng >=7.3.0",
     "ncurses >=6.1,<7.0a0"
   ],
-  "extracted_package_dir": "/home/buildadm/tools/miniconda/3/amd64/pkgs/readline-8.0-h7b6447c_0",
+  "extracted_package_dir": "/home/ubuntu/tools/miniconda/3/amd64/pkgs/readline-8.0-h7b6447c_0",
   "features": "",
   "files": [
     "include/readline/chardefs.h",
@@ -57,12 +57,12 @@
   "legacy_bz2_size": 437901,
   "license": "GPL-3.0",
   "link": {
-    "source": "/home/buildadm/tools/miniconda/3/amd64/pkgs/readline-8.0-h7b6447c_0",
+    "source": "/home/ubuntu/tools/miniconda/3/amd64/pkgs/readline-8.0-h7b6447c_0",
     "type": 1
   },
   "md5": "a0872d6b7b037b1e073c962140ae72aa",
   "name": "readline",
-  "package_tarball_full_path": "/home/buildadm/tools/miniconda/3/amd64/pkgs/readline-8.0-h7b6447c_0.conda",
+  "package_tarball_full_path": "/home/ubuntu/tools/miniconda/3/amd64/pkgs/readline-8.0-h7b6447c_0.conda",
   "paths_data": {
     "paths": [
       {
@@ -71,7 +71,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
         "sha256": "46940eaecbdf1a510e6921af42f81f490e0e8fa18e30a17bd6dbeb8eb789e09b",
-        "sha256_in_prefix": "392ddb8ff16a7df047cb1d7d3f65d07722ab343bec21f1bce13263ce2a7fe4f3",
+        "sha256_in_prefix": "b1ba28cabcd04547c68ad5bffd6a3f2492a9f891ddbc363e1a0d74a48caddb6f",
         "size_in_bytes": 348
       }
     ],

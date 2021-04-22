@@ -6,7 +6,7 @@
   "depends": [
     "libgcc-ng >=7.3.0"
   ],
-  "extracted_package_dir": "/home/buildadm/tools/miniconda/3/amd64/pkgs/xz-5.2.5-h7b6447c_0",
+  "extracted_package_dir": "/home/ubuntu/tools/miniconda/3/amd64/pkgs/xz-5.2.5-h7b6447c_0",
   "features": "",
   "files": [
     "bin/lzcat",
@@ -134,12 +134,12 @@
   "legacy_bz2_size": 448605,
   "license": "LGPL-2.1 and GPL-2.0",
   "link": {
-    "source": "/home/buildadm/tools/miniconda/3/amd64/pkgs/xz-5.2.5-h7b6447c_0",
+    "source": "/home/ubuntu/tools/miniconda/3/amd64/pkgs/xz-5.2.5-h7b6447c_0",
     "type": 1
   },
   "md5": "73a16ea8ba890175a1ce94a3a87c8f68",
   "name": "xz",
-  "package_tarball_full_path": "/home/buildadm/tools/miniconda/3/amd64/pkgs/xz-5.2.5-h7b6447c_0.conda",
+  "package_tarball_full_path": "/home/ubuntu/tools/miniconda/3/amd64/pkgs/xz-5.2.5-h7b6447c_0.conda",
   "paths_data": {
     "paths": [
       {
@@ -148,7 +148,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/tmp/build/80754af9/xz_1587011666241/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
         "sha256": "6e2fbb61bd2e59a8404ab3da4141677b5e1a0e18dd744e8f1e6bd1585460a9cb",
-        "sha256_in_prefix": "862b0e61942bb81eb34226ecc4162d14ae592638145863870e64714e380016a4",
+        "sha256_in_prefix": "b40b29959d45b380fba5ff991e7965bfbc5932226248a6cbb06543ba8dc09300",
         "size_in_bytes": 21128
       },
       {
@@ -157,7 +157,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/tmp/build/80754af9/xz_1587011666241/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
         "sha256": "954105c3fc425038e272636b5bdda3795c3ef0aebf0c8d8ece4e3fe80241608c",
-        "sha256_in_prefix": "e42d1c0572ac8be5aaf13f8be9c3137816b5b1f25525a8387349788ec7810bc2",
+        "sha256_in_prefix": "a7240d6359ed0e711d0c4f83759de0f1cb3e4ed95ba1550062a813d5df6d37c7",
         "size_in_bytes": 99688
       },
       {
@@ -166,7 +166,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
         "sha256": "96907b904e992a9ad6a8c79ec28a5c80f8fbb6d6d4ceefdd5453e718cb64cbd9",
-        "sha256_in_prefix": "67eeff3de9c1883f7b4d1422581198e9acd4d95aca20bafc60b2e15eaccf2312",
+        "sha256_in_prefix": "fef81abc5a84be608563d67a93c2c182096b663fc47b071ccd8335f86842c85f",
         "size_in_bytes": 508
       }
     ],

@@ -26,8 +26,8 @@ ITCL_BUILD_LIB_SPEC='-L/tmp/build/80754af9/tk_1592503156360/work/tcl8.6.10/unix/
 
 # String to pass to linker to pick up the Itcl library from its
 # installed directory.
-itcl_LIB_SPEC='-L/home/buildadm/tools/miniconda/3/amd64/lib/itcl4.2.0 -litcl4.2.0'
-ITCL_LIB_SPEC='-L/home/buildadm/tools/miniconda/3/amd64/lib/itcl4.2.0 -litcl4.2.0'
+itcl_LIB_SPEC='-L/home/ubuntu/tools/miniconda/3/amd64/lib/itcl4.2.0 -litcl4.2.0'
+ITCL_LIB_SPEC='-L/home/ubuntu/tools/miniconda/3/amd64/lib/itcl4.2.0 -litcl4.2.0'
 
 # The name of the Itcl stub library (a .a file):
 itcl_STUB_LIB_FILE=libitclstub4.2.0.a
@@ -40,8 +40,8 @@ ITCL_BUILD_STUB_LIB_SPEC='-L/tmp/build/80754af9/tk_1592503156360/work/tcl8.6.10/
 
 # String to pass to linker to pick up the Itcl stub library from its
 # installed directory.
-itcl_STUB_LIB_SPEC='-L/home/buildadm/tools/miniconda/3/amd64/lib/itcl4.2.0 -litclstub4.2.0'
-ITCL_STUB_LIB_SPEC='-L/home/buildadm/tools/miniconda/3/amd64/lib/itcl4.2.0 -litclstub4.2.0'
+itcl_STUB_LIB_SPEC='-L/home/ubuntu/tools/miniconda/3/amd64/lib/itcl4.2.0 -litclstub4.2.0'
+ITCL_STUB_LIB_SPEC='-L/home/ubuntu/tools/miniconda/3/amd64/lib/itcl4.2.0 -litclstub4.2.0'
 
 # String to pass to linker to pick up the Itcl stub library from its
 # build directory.
@@ -50,8 +50,8 @@ ITCL_BUILD_STUB_LIB_PATH='/tmp/build/80754af9/tk_1592503156360/work/tcl8.6.10/un
 
 # String to pass to linker to pick up the Itcl stub library from its
 # installed directory.
-itcl_STUB_LIB_PATH='/home/buildadm/tools/miniconda/3/amd64/lib/itcl4.2.0/libitclstub4.2.0.a'
-ITCL_STUB_LIB_PATH='/home/buildadm/tools/miniconda/3/amd64/lib/itcl4.2.0/libitclstub4.2.0.a'
+itcl_STUB_LIB_PATH='/home/ubuntu/tools/miniconda/3/amd64/lib/itcl4.2.0/libitclstub4.2.0.a'
+ITCL_STUB_LIB_PATH='/home/ubuntu/tools/miniconda/3/amd64/lib/itcl4.2.0/libitclstub4.2.0.a'
 
 # Location of the top-level source directories from which [incr Tcl]
 # was built.  This is the directory that contains generic, unix, etc.

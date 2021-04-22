@@ -7,7 +7,7 @@
     "libgcc-ng >=7.3.0",
     "ncurses >=6.2,<7.0a0"
   ],
-  "extracted_package_dir": "/home/buildadm/tools/miniconda/3/amd64/pkgs/libedit-3.1.20191231-h14c3975_1",
+  "extracted_package_dir": "/home/ubuntu/tools/miniconda/3/amd64/pkgs/libedit-3.1.20191231-h14c3975_1",
   "features": "",
   "files": [
     "include/editline/readline.h",
@@ -65,12 +65,12 @@
   "license": "BSD-2-Clause",
   "license_family": "BSD",
   "link": {
-    "source": "/home/buildadm/tools/miniconda/3/amd64/pkgs/libedit-3.1.20191231-h14c3975_1",
+    "source": "/home/ubuntu/tools/miniconda/3/amd64/pkgs/libedit-3.1.20191231-h14c3975_1",
     "type": 1
   },
   "md5": "a900fd130232e0189f071fabbc6025d9",
   "name": "libedit",
-  "package_tarball_full_path": "/home/buildadm/tools/miniconda/3/amd64/pkgs/libedit-3.1.20191231-h14c3975_1.conda",
+  "package_tarball_full_path": "/home/ubuntu/tools/miniconda/3/amd64/pkgs/libedit-3.1.20191231-h14c3975_1.conda",
   "paths_data": {
     "paths": [
       {
@@ -79,7 +79,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
         "sha256": "80fc4c8d51952d7f1ac0dd301a16ad3af7534a1803712ac1c95fe30d78d649dd",
-        "sha256_in_prefix": "c5848780e69abab7080018f7a64b8727c416dc2ae1bfeb785096003107c9bdd1",
+        "sha256_in_prefix": "4a5b8ebdf3e7ab84f11463063ee3fdb0ca0398a81168ef9e40e8034274a3d1a1",
         "size_in_bytes": 362
       }
     ],

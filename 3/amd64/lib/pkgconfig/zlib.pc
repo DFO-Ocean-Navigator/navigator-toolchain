@@ -1,4 +1,4 @@
-prefix=/home/buildadm/tools/miniconda/3/amd64
+prefix=/home/ubuntu/tools/miniconda/3/amd64
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 sharedlibdir=${libdir}

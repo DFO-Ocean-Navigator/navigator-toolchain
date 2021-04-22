@@ -1,0 +1,11 @@
+prefix=/home/ubuntu/tools/miniconda/3/amd64/envs/navigator
+exec_prefix=/home/ubuntu/tools/miniconda/3/amd64/envs/navigator
+libdir=/home/ubuntu/tools/miniconda/3/amd64/envs/navigator/lib
+includedir=/home/ubuntu/tools/miniconda/3/amd64/envs/navigator/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid

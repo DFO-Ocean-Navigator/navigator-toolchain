@@ -5,10 +5,10 @@
 # You can do whatever you want with this file.
 #
 
-prefix=/home/buildadm/tools/miniconda/3/amd64
-exec_prefix=/home/buildadm/tools/miniconda/3/amd64
-libdir=/home/buildadm/tools/miniconda/3/amd64/lib
-includedir=/home/buildadm/tools/miniconda/3/amd64/include
+prefix=/home/ubuntu/tools/miniconda/3/amd64
+exec_prefix=/home/ubuntu/tools/miniconda/3/amd64
+libdir=/home/ubuntu/tools/miniconda/3/amd64/lib
+includedir=/home/ubuntu/tools/miniconda/3/amd64/include
 
 Name: liblzma
 Description: General purpose data compression library

@@ -1,4 +1,4 @@
-prefix=/home/buildadm/tools/miniconda/3/amd64
+prefix=/home/ubuntu/tools/miniconda/3/amd64
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
@@ -6,7 +6,7 @@ enginesdir=${libdir}/engines-1.1
 
 Name: OpenSSL-libcrypto
 Description: OpenSSL cryptography library
-Version: 1.1.1h
+Version: 1.1.1i
 Libs: -L${libdir} -lcrypto
 Libs.private: -ldl -pthread 
 Cflags: -I${includedir}

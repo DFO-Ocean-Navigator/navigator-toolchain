@@ -6,7 +6,7 @@
   "depends": [
     "libgcc-ng >=7.3.0"
   ],
-  "extracted_package_dir": "/home/buildadm/tools/miniconda/3/amd64/pkgs/zlib-1.2.11-h7b6447c_3",
+  "extracted_package_dir": "/home/ubuntu/tools/miniconda/3/amd64/pkgs/zlib-1.2.11-h7b6447c_3",
   "features": "",
   "files": [
     "include/zconf.h",
@@ -23,12 +23,12 @@
   "license": "zlib",
   "license_family": "Other",
   "link": {
-    "source": "/home/buildadm/tools/miniconda/3/amd64/pkgs/zlib-1.2.11-h7b6447c_3",
+    "source": "/home/ubuntu/tools/miniconda/3/amd64/pkgs/zlib-1.2.11-h7b6447c_3",
     "type": 1
   },
   "md5": "50aa4407424985d56ec8ae2f94626aa9",
   "name": "zlib",
-  "package_tarball_full_path": "/home/buildadm/tools/miniconda/3/amd64/pkgs/zlib-1.2.11-h7b6447c_3.conda",
+  "package_tarball_full_path": "/home/ubuntu/tools/miniconda/3/amd64/pkgs/zlib-1.2.11-h7b6447c_3.conda",
   "paths_data": {
     "paths": [
       {
@@ -37,7 +37,7 @@
         "path_type": "hardlink",
         "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
         "sha256": "5613df6f1a56c1c3e0c2aa3da9284b51de9682882a6a9ba7af68a07745cb3aac",
-        "sha256_in_prefix": "c4f3629731b10ab5c4bae4a4eae70cf0dcd45ae80c758fb9c1b8ba529191b9c5",
+        "sha256_in_prefix": "80fb1d981a05c5dbb5b131809e4f5c5d585b9402ac6e45647f0382a4d4c6172b",
         "size_in_bytes": 281
       }
     ],

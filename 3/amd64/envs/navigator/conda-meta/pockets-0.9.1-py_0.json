@@ -1,0 +1,233 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python",
+    "six >=1.5.2"
+  ],
+  "extracted_package_dir": "/home/ubuntu/tools/miniconda/3/amd64/pkgs/pockets-0.9.1-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/pockets-0.9.1.dist-info/AUTHORS",
+    "lib/python3.6/site-packages/pockets-0.9.1.dist-info/INSTALLER",
+    "lib/python3.6/site-packages/pockets-0.9.1.dist-info/LICENSE",
+    "lib/python3.6/site-packages/pockets-0.9.1.dist-info/METADATA",
+    "lib/python3.6/site-packages/pockets-0.9.1.dist-info/RECORD",
+    "lib/python3.6/site-packages/pockets-0.9.1.dist-info/WHEEL",
+    "lib/python3.6/site-packages/pockets-0.9.1.dist-info/top_level.txt",
+    "lib/python3.6/site-packages/pockets-0.9.1.dist-info/zip-safe",
+    "lib/python3.6/site-packages/pockets/__init__.py",
+    "lib/python3.6/site-packages/pockets/_version.py",
+    "lib/python3.6/site-packages/pockets/autolog.py",
+    "lib/python3.6/site-packages/pockets/collections.py",
+    "lib/python3.6/site-packages/pockets/datetime.py",
+    "lib/python3.6/site-packages/pockets/decorators.py",
+    "lib/python3.6/site-packages/pockets/inspect.py",
+    "lib/python3.6/site-packages/pockets/iterators.py",
+    "lib/python3.6/site-packages/pockets/logging.py",
+    "lib/python3.6/site-packages/pockets/string.py",
+    "lib/python3.6/site-packages/pockets/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/pockets/__pycache__/_version.cpython-36.pyc",
+    "lib/python3.6/site-packages/pockets/__pycache__/autolog.cpython-36.pyc",
+    "lib/python3.6/site-packages/pockets/__pycache__/collections.cpython-36.pyc",
+    "lib/python3.6/site-packages/pockets/__pycache__/datetime.cpython-36.pyc",
+    "lib/python3.6/site-packages/pockets/__pycache__/decorators.cpython-36.pyc",
+    "lib/python3.6/site-packages/pockets/__pycache__/inspect.cpython-36.pyc",
+    "lib/python3.6/site-packages/pockets/__pycache__/iterators.cpython-36.pyc",
+    "lib/python3.6/site-packages/pockets/__pycache__/logging.cpython-36.pyc",
+    "lib/python3.6/site-packages/pockets/__pycache__/string.cpython-36.pyc"
+  ],
+  "fn": "pockets-0.9.1-py_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/ubuntu/tools/miniconda/3/amd64/pkgs/pockets-0.9.1-py_0",
+    "type": 1
+  },
+  "md5": "1b52f0c42e8077e5a33e00fe72269364",
+  "name": "pockets",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/ubuntu/tools/miniconda/3/amd64/pkgs/pockets-0.9.1-py_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/pockets-0.9.1.dist-info/AUTHORS",
+        "path_type": "hardlink",
+        "sha256": "ade9d983643571cd8a995996a4c625dd7b383c8cece88f0738a57acfa8b0e72d",
+        "sha256_in_prefix": "ade9d983643571cd8a995996a4c625dd7b383c8cece88f0738a57acfa8b0e72d",
+        "size_in_bytes": 161
+      },
+      {
+        "_path": "site-packages/pockets-0.9.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/pockets-0.9.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "e8030696e89261505afefa314610e368256647330af2188fc29edef012c2c9d5",
+        "sha256_in_prefix": "e8030696e89261505afefa314610e368256647330af2188fc29edef012c2c9d5",
+        "size_in_bytes": 1552
+      },
+      {
+        "_path": "site-packages/pockets-0.9.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "998c5fb0965875ab8bbd55c54db4233e90493baccdea8282c4e8fccff588ce07",
+        "sha256_in_prefix": "998c5fb0965875ab8bbd55c54db4233e90493baccdea8282c4e8fccff588ce07",
+        "size_in_bytes": 4378
+      },
+      {
+        "_path": "site-packages/pockets-0.9.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "9523d34103df06bcf0f1f8b1dc46cedbcc5dfa2ab8ad267f05569124da9ce410",
+        "sha256_in_prefix": "9523d34103df06bcf0f1f8b1dc46cedbcc5dfa2ab8ad267f05569124da9ce410",
+        "size_in_bytes": 1667
+      },
+      {
+        "_path": "site-packages/pockets-0.9.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "f3335865bc10497a01f487d73a33df78dc2f02c00b0237df824dbb16abc259ba",
+        "sha256_in_prefix": "f3335865bc10497a01f487d73a33df78dc2f02c00b0237df824dbb16abc259ba",
+        "size_in_bytes": 110
+      },
+      {
+        "_path": "site-packages/pockets-0.9.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "9006ab240608bfb14a05cf447c20a5cc00aae9eb7bb0ca2bbafeac87256db6d3",
+        "sha256_in_prefix": "9006ab240608bfb14a05cf447c20a5cc00aae9eb7bb0ca2bbafeac87256db6d3",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "site-packages/pockets-0.9.1.dist-info/zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/pockets/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "8dead1ff01700509c8dad2a8d509025f4efbb69b8de5619898fc57a53f7e94cf",
+        "sha256_in_prefix": "8dead1ff01700509c8dad2a8d509025f4efbb69b8de5619898fc57a53f7e94cf",
+        "size_in_bytes": 637
+      },
+      {
+        "_path": "site-packages/pockets/_version.py",
+        "path_type": "hardlink",
+        "sha256": "6af56e61f879d6d1cf79ee907a26e1ae43e5a9e32832b3755affc8df9d0d98f9",
+        "sha256_in_prefix": "6af56e61f879d6d1cf79ee907a26e1ae43e5a9e32832b3755affc8df9d0d98f9",
+        "size_in_bytes": 322
+      },
+      {
+        "_path": "site-packages/pockets/autolog.py",
+        "path_type": "hardlink",
+        "sha256": "24c47d881fa15f3786aee121d89785cfd868471f346a1bf2c1b7e81e98a7f728",
+        "sha256_in_prefix": "24c47d881fa15f3786aee121d89785cfd868471f346a1bf2c1b7e81e98a7f728",
+        "size_in_bytes": 634
+      },
+      {
+        "_path": "site-packages/pockets/collections.py",
+        "path_type": "hardlink",
+        "sha256": "049be4d6246b692baf45d2668764d90529ad2eeaf266bd3f62571a4547101619",
+        "sha256_in_prefix": "049be4d6246b692baf45d2668764d90529ad2eeaf266bd3f62571a4547101619",
+        "size_in_bytes": 13770
+      },
+      {
+        "_path": "site-packages/pockets/datetime.py",
+        "path_type": "hardlink",
+        "sha256": "1d4e1161f1d58db75be1146e9ba2172da21ff78f8e7b38262f43efaca7a245ef",
+        "sha256_in_prefix": "1d4e1161f1d58db75be1146e9ba2172da21ff78f8e7b38262f43efaca7a245ef",
+        "size_in_bytes": 3933
+      },
+      {
+        "_path": "site-packages/pockets/decorators.py",
+        "path_type": "hardlink",
+        "sha256": "7566ea5a8efa70f1e0213a8ac94bbeed2c5ef41f004490ebf2dcb8df01b499a1",
+        "sha256_in_prefix": "7566ea5a8efa70f1e0213a8ac94bbeed2c5ef41f004490ebf2dcb8df01b499a1",
+        "size_in_bytes": 5444
+      },
+      {
+        "_path": "site-packages/pockets/inspect.py",
+        "path_type": "hardlink",
+        "sha256": "152563d403ee9789c94636f423f65ead0d5f27fe8dea3af576d91144e26585a2",
+        "sha256_in_prefix": "152563d403ee9789c94636f423f65ead0d5f27fe8dea3af576d91144e26585a2",
+        "size_in_bytes": 12716
+      },
+      {
+        "_path": "site-packages/pockets/iterators.py",
+        "path_type": "hardlink",
+        "sha256": "67ad24a537ac788b13d6d9aa5742dc1d7789cd5d17882233a32cef04be252fb0",
+        "sha256_in_prefix": "67ad24a537ac788b13d6d9aa5742dc1d7789cd5d17882233a32cef04be252fb0",
+        "size_in_bytes": 8468
+      },
+      {
+        "_path": "site-packages/pockets/logging.py",
+        "path_type": "hardlink",
+        "sha256": "22d80aef579205c1b583b14d3f588b20fe0ac87e254cd54762aa7b1654e89230",
+        "sha256_in_prefix": "22d80aef579205c1b583b14d3f588b20fe0ac87e254cd54762aa7b1654e89230",
+        "size_in_bytes": 11284
+      },
+      {
+        "_path": "site-packages/pockets/string.py",
+        "path_type": "hardlink",
+        "sha256": "223d38824f9499deac315a9fccb73a90d782739ed19d0a0a9fe3d3cfdd985402",
+        "sha256_in_prefix": "223d38824f9499deac315a9fccb73a90d782739ed19d0a0a9fe3d3cfdd985402",
+        "size_in_bytes": 13666
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pockets/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pockets/__pycache__/_version.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pockets/__pycache__/autolog.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pockets/__pycache__/collections.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pockets/__pycache__/datetime.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pockets/__pycache__/decorators.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pockets/__pycache__/inspect.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pockets/__pycache__/iterators.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pockets/__pycache__/logging.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pockets/__pycache__/string.cpython-36.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "conda-forge/noarch::pockets==0.9.1=py_0",
+  "sha256": "65078c436f78e16babac055eb0e5800c7f8453f5b0d45d5d124916ad97e264ca",
+  "size": 24691,
+  "subdir": "noarch",
+  "timestamp": 1572721532592,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/pockets-0.9.1-py_0.tar.bz2",
+  "version": "0.9.1"
+}

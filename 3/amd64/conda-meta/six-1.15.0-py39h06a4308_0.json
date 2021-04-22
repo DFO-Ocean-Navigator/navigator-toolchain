@@ -1,0 +1,47 @@
+{
+  "build": "py39h06a4308_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.9,<3.10.0a0"
+  ],
+  "extracted_package_dir": "/home/ubuntu/tools/miniconda/3/amd64/pkgs/six-1.15.0-py39h06a4308_0",
+  "features": "",
+  "files": [
+    "lib/python3.9/site-packages/__pycache__/six.cpython-39.pyc",
+    "lib/python3.9/site-packages/six-1.15.0.dist-info/INSTALLER",
+    "lib/python3.9/site-packages/six-1.15.0.dist-info/LICENSE",
+    "lib/python3.9/site-packages/six-1.15.0.dist-info/METADATA",
+    "lib/python3.9/site-packages/six-1.15.0.dist-info/RECORD",
+    "lib/python3.9/site-packages/six-1.15.0.dist-info/REQUESTED",
+    "lib/python3.9/site-packages/six-1.15.0.dist-info/WHEEL",
+    "lib/python3.9/site-packages/six-1.15.0.dist-info/direct_url.json",
+    "lib/python3.9/site-packages/six-1.15.0.dist-info/top_level.txt",
+    "lib/python3.9/site-packages/six.py"
+  ],
+  "fn": "six-1.15.0-py39h06a4308_0.conda",
+  "legacy_bz2_md5": "dc3710d703315a9b7a1ca687ba71f187",
+  "legacy_bz2_size": 28081,
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/ubuntu/tools/miniconda/3/amd64/pkgs/six-1.15.0-py39h06a4308_0",
+    "type": 1
+  },
+  "md5": "4e5023c97cb81022bd0da30f1ceb0057",
+  "name": "six",
+  "package_tarball_full_path": "/home/ubuntu/tools/miniconda/3/amd64/pkgs/six-1.15.0-py39h06a4308_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "six==1.15.0=py39h06a4308_0",
+  "sha256": "5a4fe767ecfbdcc9bcb4bd4b79d038e0eb54edf9460527610344cec229b9cdd5",
+  "size": 27686,
+  "subdir": "linux-64",
+  "timestamp": 1605205336128,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/six-1.15.0-py39h06a4308_0.conda",
+  "version": "1.15.0"
+}
